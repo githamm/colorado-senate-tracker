@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorado U.S. Senate Tracker | The Denver Post</title>
+    <link rel="shortcut icon" href="//extras.mnginteractive.com/live/media/favIcon/dpo/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="https://extras.denverpost.com/foundation/js/vendor/modernizr.js"></script>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+    <script src="https://extras.denverpost.com/app/homicide-report/js/leaflet-grouped-layer-control.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1%;
+    }
+
+    .title {
+        font-family: Georgia;
+        font-size: 84px;
+        /*font-size: 4.8rem;*/
+        font-weight: 100;
+        font-variant: small-caps;
+        text-align: center;
+        line-height: 90%;
+    }
+
+    #title-year {
+        font-size: 100px;
+        font-weight: 700;
+        font-style: italic;
+        letter-spacing: -5px;
+        color: #dc381f;
+    }
+
+    .countdown-text {
+        font-size: 14px;
+        color: gray;
+        font-style: italic;
+        text-align: center;
+    }
+
+    #countdown-primary, #countdown-general {
+        color: #dc381f;
+    }
+
+    #intro-text-wrapper {
+        border-bottom: 4px solid black;
+        margin-bottom: 40px;
+    }
+
+    .intro-text {
+        font-family: Georgia;
+        font-size: 20px;
+        line-height: 160%;
+        margin-top: 45px;
+    }
+
+    .issues {
+        font-family: Georgia;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        /*color: #dc381f;*/
+    }
+
+    .headshot {
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .blurb-headshot {
+        padding: 10px;
+        float: right;
+    }
+
+    .blurb-title {
+        font-family: Georgia;
+        font-size: 36px;
+        line-height: 1;
+        margin-bottom: 2px;
+    }
+
+    .blurb-bio {
+        font-family: Georgia;
+        font-size: 16px;
+        line-height: 1.2;
+        font-style: italic;
+        color: gray;
+    }
+
+    .blurb {
+        font-family: Georgia;
+        font-size: 18px;
+    }
+
+    .subtopics {
+        font-family: Georgia;
+        font-size: 24px;
+    }
+
+    #image-wrapper {
+        margin-top: 45px;
+        /*width: 100%;*/
+        /*clear: both;*/
+    }
+
+    .container {
+        position: relative;
+        float: left;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin: 5px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .container:hover .overlay {
+        opacity: 1;
+    }
+
+    .hover-text {
+        color: white;
+        font-family: Georgia;
+        font-size: 15px;
+        line-height: 120%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    @media all and (max-width: 699px) and (min-width: 300px) {
+        .title {
+            font-size: 72px;
+        }
+    }
+
+    </head>
+    </style>
+
+<body>
+    <div class="row">
+        <div class="large-6 large-centered medium-10 medium-centered columns">
+            <h1 class="title">Colorado U.S. Senate Race</h1>
+            <hr>
+            <h2 class="title"><span id="title-year">2020</span></h2>
+            <hr>
+            <p class="countdown-text">There are <span id="countdown-primary"></span> days until the Democratic primary and <span id="countdown-general"></span> days until the general election</p>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div id="image-wrapper" class="large-6 large-centered medium-10 medium-centered columns">
+            <div class="container">
+                <a href="#baer-section"><img class="headshot" src="images/dan-baer-cropped.png">
+                    <div class="overlay">
+                        <div class="hover-text">Dan Baer</div>
+                    </div>
+                </a>
+            </div>
+            <div class="container">
+                <a href="#garcia-section"><img class="headshot" src="images/lorena-garcia-cropped.jpg">
+                    <div class="overlay">
+                        <div class="hover-text">Lorena Garcia</div>
+                    </div>
+                </a>
+            </div>
+            <div class="container">
+                <a href="#hickenlooper-section"><img class="headshot" src="images/john-hickenlooper-cropped.jpg">
+                <div class="overlay">
+                    <div class="hover-text">John Hickenlooper</div>
+                </div></a>
+            </div>
+            <div class="container">
+                <img class="headshot" src="images/mike-johnston-cropped.jpg">
+                <div class="overlay">
+                    <div class="hover-text">Mike Johnston</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="headshot" src="images/alice-madden-cropped.png">
+                <div class="overlay">
+                    <div class="hover-text">Alice Madden</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="headshot" src="images/stephany-rose-spaulding-cropped.jpg">
+                <div class="overlay">
+                    <div class="hover-text">Stephany Rose Spaulding</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="headshot" src="images/john-walsh-cropped.jpg">
+                <div class="overlay">
+                    <div class="hover-text">John Walsh</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="headshot" src="images/michelle-ferrigno-warren-cropped.jpg">
+                <div class="overlay">
+                    <div class="hover-text">Michelle Ferrigno Warren</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="headshot" src="images/angela-williams-cropped.png">
+                <div class="overlay">
+                    <div class="hover-text">Angela Williams</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="headshot" src="images/trish-zornio-cropped.jpg">
+                <div class="overlay">
+                    <div class="hover-text">Trish Zornio</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="intro-text-wrapper" class="large-8 large-centered medium-10 medium-centered columns">
+            <p class="intro-text">Sloop Shiver me timbers fluke Sea Legs skysail jury mast booty list pirate hogshead. Driver rigging crimp topmast line Privateer walk the plank heave to scuppers smartly. Deadlights loot jury mast bilge water blow the man down prow long clothes fluke heave to capstan. Mutiny quarter Gold Road hardtack Pirate Round blow the man down mizzen bowsprit grog reef sails. Line aft scuttle hardtack smartly piracy Jolly Roger reef Sail ho ye. Mizzenmast spirits coffer topmast ahoy Sail ho fire ship black spot jury mast main sheet. Arr belaying pin swing the lead draught handsomely cable plunder Jolly Roger deadlights fluke. Coffer Gold Road square-rigged log heave down deadlights wherry scourge of the seven seas dance the hempen jig Letter of Marque. Lugsail gabion long clothes Chain Shot sheet lateen sail parley Arr avast Buccaneer.</p>
+            <p class="issues"><a href="#">Issues</a> | <a href="#">Campaign finance</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <div id="baer-section" class="large-8 large-centered medium-10 medium-centered columns">
+            <h3 class="blurb-title">Dan Baer</h3>
+            <img class="blurb-headshot" src="images/dan-baer-cropped.png">
+            <p class="blurb-bio">Denver &bull; Former U.S. diplomat &bull; 42 years old &bull; Joined race April 15, 2019</p>
+            <p class="blurb">Sloop Shiver me timbers fluke Sea Legs skysail jury mast booty list pirate hogshead. Driver rigging crimp topmast line Privateer walk the plank heave to scuppers smartly. Deadlights loot jury mast bilge water blow the man down prow long clothes fluke heave to capstan. Mutiny quarter Gold Road hardtack Pirate Round blow the man down mizzen bowsprit grog reef sails. Line aft scuttle hardtack smartly piracy Jolly Roger reef Sail ho ye. Mizzenmast spirits coffer topmast ahoy Sail ho fire ship black spot jury mast main sheet. Arr belaying pin swing the lead draught handsomely cable plunder Jolly Roger deadlights fluke. Coffer Gold Road square-rigged log heave down deadlights wherry scourge of the seven seas dance the hempen jig Letter of Marque. Lugsail gabion long clothes Chain Shot sheet lateen sail parley Arr avast Buccaneer. <em><a href="https://www.denverpost.com/2019/04/15/dan-baer-democratic-challenger-cory-gardner/" target="_blank">Read more</a></em></p>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div id="garcia-section" class="large-8 large-centered medium-10 medium-centered columns">
+            <h3 class="blurb-title">Lorena Garcia</h3>
+            <img class="blurb-headshot" src="images/lorena-garcia-cropped.jpg">
+            <p class="blurb-bio">??? &bull; Nonprofit leader &bull; 36 years old &bull; Joined race Nov. 27, 2018</p>
+                <p class="blurb">Sloop Shiver me timbers fluke Sea Legs skysail jury mast booty list pirate hogshead. Driver rigging crimp topmast line Privateer walk the plank heave to scuppers smartly. Deadlights loot jury mast bilge water blow the man down prow long clothes fluke heave to capstan. Mutiny quarter Gold Road hardtack Pirate Round blow the man down mizzen bowsprit grog reef sails. Line aft scuttle hardtack smartly piracy Jolly Roger reef Sail ho ye. Mizzenmast spirits coffer topmast ahoy Sail ho fire ship black spot jury mast main sheet. Arr belaying pin swing the lead draught handsomely cable plunder Jolly Roger deadlights fluke. Coffer Gold Road square-rigged log heave down deadlights wherry scourge of the seven seas dance the hempen jig Letter of Marque. Lugsail gabion long clothes Chain Shot sheet lateen sail parley Arr avast Buccaneer.</p>
+                <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div id="hickenlooper-section" class="large-8 large-centered medium-10 medium-centered columns">
+            <h3 class="blurb-title">John Hickenlooper</h3>
+            <img class="blurb-headshot" src="images/john-hickenlooper-cropped.jpg">
+            <p class="blurb-bio">Denver &bull; Former Colorado governor and Denver mayor &bull; 67 years old &bull; Joined race Aug. 27, 2019</p>
+                <p class="blurb">Sloop Shiver me timbers fluke Sea Legs skysail jury mast booty list pirate hogshead. Driver rigging crimp topmast line Privateer walk the plank heave to scuppers smartly. Deadlights loot jury mast bilge water blow the man down prow long clothes fluke heave to capstan. Mutiny quarter Gold Road hardtack Pirate Round blow the man down mizzen bowsprit grog reef sails. Line aft scuttle hardtack smartly piracy Jolly Roger reef Sail ho ye. Mizzenmast spirits coffer topmast ahoy Sail ho fire ship black spot jury mast main sheet. Arr belaying pin swing the lead draught handsomely cable plunder Jolly Roger deadlights fluke. Coffer Gold Road square-rigged log heave down deadlights wherry scourge of the seven seas dance the hempen jig Letter of Marque. Lugsail gabion long clothes Chain Shot sheet lateen sail parley Arr avast Buccaneer.</p>
+        </div>
+    </div>
+    <script>
+    var demPrimary = new Date("Jun 30, 2020 00:00:01").getTime();
+    var generalElection = new Date("Nov 3, 2020 00:00:01").getTime();
+    var x = setInterval(function() {
+        var now = new Date().getTime();
+        var t = demPrimary - now;
+        var days = Math.floor(t / (1000 * 60 * 60 * 24));
+        document.getElementById("countdown-primary").innerHTML = days;
+        if (t < 0) {
+            clearInterval(x);
+            document.getElementById("countdown-primary").innerHTML = "0";
+        }
+    }, 1000);
+    var y = setInterval(function() {
+        var now = new Date().getTime();
+        var t = generalElection - now;
+        var days = Math.floor(t / (1000 * 60 * 60 * 24));
+        document.getElementById("countdown-general").innerHTML = days;
+        if (t < 0) {
+            clearInterval(x);
+            document.getElementById("countdown-general").innerHTML = "0";
+        }
+    }, 1000);
+    </script>
+</body>
+
+</html>
