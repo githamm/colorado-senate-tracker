@@ -31,7 +31,7 @@ function init() {
         callback: function(data, tabletop) {
             // Get last row from sheet
             var lastRow = (data.slice(-1)[0]);
-            var date = lastRow.date;
+            var lastDate = lastRow.date;
             var baerRaised = (lastRow.baer_raised).toLocaleString();
             var baerCash = (lastRow.baer_cash).toLocaleString();
             var brayRaised = (lastRow.bray_raised).toLocaleString();
@@ -60,19 +60,19 @@ function init() {
             var zornioCash = (lastRow.zornio_cash).toLocaleString();
             // Bind to html
             /*** UN-COMMENT BELOW WHEN THEY FILE ***/
-            document.getElementById('baer-date').innerHTML = date;
-            document.getElementById('bray-date').innerHTML = date;
-            document.getElementById('garcia-date').innerHTML = date;
-            document.getElementById('gardner-date').innerHTML = date;
-            document.getElementById('hickenlooper-date').innerHTML = date;
-            document.getElementById('johnston-date').innerHTML = date;
-            document.getElementById('madden-date').innerHTML = date;
-            document.getElementById('romanoff-date').innerHTML = date;
-            document.getElementById('spaulding-date').innerHTML = date;
-            document.getElementById('walsh-date').innerHTML = date;
-            document.getElementById('warren-date').innerHTML = date;
-            document.getElementById('williams-date').innerHTML = date;
-            document.getElementById('zornio-date').innerHTML = date;
+            document.getElementById('baer-date').innerHTML = lastDate;
+            document.getElementById('bray-date').innerHTML = lastDate;
+            document.getElementById('garcia-date').innerHTML = lastDate;
+            document.getElementById('gardner-date').innerHTML = lastDate;
+            document.getElementById('hickenlooper-date').innerHTML = lastDate;
+            document.getElementById('johnston-date').innerHTML = lastDate;
+            document.getElementById('madden-date').innerHTML = lastDate;
+            document.getElementById('romanoff-date').innerHTML = lastDate;
+            document.getElementById('spaulding-date').innerHTML = lastDate;
+            document.getElementById('walsh-date').innerHTML = lastDate;
+            document.getElementById('warren-date').innerHTML = lastDate;
+            document.getElementById('williams-date').innerHTML = lastDate;
+            document.getElementById('zornio-date').innerHTML = lastDate;
             document.getElementById('baer-raised').innerHTML = baerRaised;
             document.getElementById('baer-cash').innerHTML = baerCash;
             document.getElementById('bray-raised').innerHTML = brayRaised;
@@ -100,9 +100,9 @@ function init() {
             document.getElementById('zornio-raised').innerHTML = zornioRaised;
             document.getElementById('zornio-cash').innerHTML = zornioCash;
 
-            // Chart starts here
-            var permitChart = c3.generate({
-                bindto: '#money-chart',
+            // Charts
+            var quarterlyMoneyChart = c3.generate({
+                bindto: '#quarterly-money-chart',
                 size: {
                     height: 400
                     //width: 800
@@ -164,10 +164,73 @@ function init() {
                     r: 4
                 }
             });
+            var totalMoneyChart = c3.generate({
+                bindto: '#total-money-chart',
+                size: {
+                    height: 400
+                    //width: 800
+                },
+                data: {
+                    json: data,
+                    keys: {
+                        x: 'date',
+                        value: ['baer_total_raised', 'bray_total_raised', 'garcia_total_raised', 'gardner_total_raised', 'hickenlooper_total_raised', 'johnston_total_raised', 'madden_total_raised', 'romanoff_total_raised', 'spaulding_total_raised', 'walsh_total_raised', 'warren_total_raised', 'williams_total_raised', 'zornio_total_raised']
+                    },
+                    names: {
+                        baer_total_raised: 'Dan Baer',
+                        bray_total_raised: 'Diana Bray',
+                        garcia_total_raised: 'Lorena Garcia',
+                        gardner_total_raised: 'Cory Gardner',
+                        hickenlooper_total_raised: 'John Hicklooper',
+                        johnston_total_raised: 'Mike Johnston',
+                        madden_total_raised: 'Alice Madden',
+                        romanoff_total_raised: 'Andrew Romanoff',
+                        spaulding_total_raised: 'Stephany Rose Spaulding',
+                        walsh_total_raised: 'John Walsh',
+                        warren_total_raised: 'Michelle Ferrigno Warren',
+                        williams_total_raised: 'Angela Williams',
+                        zornio_total_raised: 'Trish Zornio'
+                    },
+                    type: 'line',
+                    // colors: {
+                    //     'pending': 'red',
+                    //     'approved': 'black',
+                    // },
+                },
+                axis: {
+                    x: {
+                        type: 'category',
+                        tick: {
+                            rotate: 0,
+                            multiline: false
+                        }
+                    },
+                    y: {
+                        tick: {
+                            format: d3.format('$,')
+                        },
+                        // label: {
+                        //     text: 'Money raised',
+                        //     position: 'outer-middle'
+                        // }
+                    }
+                },
+                grid: {
+                    x: {
+                        show: true
+                    },
+                    y: {
+                        show: true
+                    }
+                },
+                point: {
+                    r: 4
+                }
+            });
         },
         simpleSheet: true,
         parseNumbers: true
-    })
+    });
 }
 
 window.addEventListener('DOMContentLoaded', init)

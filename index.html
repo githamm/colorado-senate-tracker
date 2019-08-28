@@ -103,6 +103,8 @@
     }
 
     .blurb-headshot {
+        height: 175px;
+        width: 175px;
         padding: 10px;
         float: right;
     }
@@ -381,13 +383,20 @@
             <p class="intro-text">Sloop Shiver me timbers fluke Sea Legs skysail jury mast booty list pirate hogshead. Driver rigging crimp topmast line Privateer walk the plank heave to scuppers smartly. Deadlights loot jury mast bilge water blow the man down prow long clothes fluke heave to capstan. Mutiny quarter Gold Road hardtack Pirate Round blow the man down mizzen bowsprit grog reef sails. Line aft scuttle hardtack smartly piracy Jolly Roger reef Sail ho ye. Mizzenmast spirits coffer topmast ahoy Sail ho fire ship black spot jury mast main sheet. Arr belaying pin swing the lead draught handsomely cable plunder Jolly Roger deadlights fluke. Coffer Gold Road square-rigged log heave down deadlights wherry scourge of the seven seas dance the hempen jig Letter of Marque. Lugsail gabion long clothes Chain Shot sheet lateen sail parley Arr avast Buccaneer.</p>
         </div>
     </div>
-    <div class="row" id="fundraising-chart">
-        <div class="large-8 large-centered medium-10 medium-centered columns">
+    <div class="row" id="fundraising-charts">
+        <div class="large-10 large-centered columns">
             <div class="callout secondary">
                 <p class="chart-title">Fundraising Summary</p>
                 <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <em>Hover over or click chart for details.</em>
-                <div id="money-chart"></div>
-                Source: <a href="https://www.fec.gov/data/elections/senate/CO/2020/" target="_blank">Federal Election Commission</a>
+                <div class="large-6 columns">
+                    <p style="font-weight:bold;text-align:center">Total fundraising</p>
+                    <div id="total-money-chart"></div>
+                </div>
+                <div class="large-6 columns">
+                    <p style="font-weight:bold;text-align:center">Quarterly fundraising</p>
+                    <div id="quarterly-money-chart"></div>
+                </div>
+                <p>Source: <a href="https://www.fec.gov/data/elections/senate/CO/2020/" target="_blank">Federal Election Commission</a> &bull; Kevin Hamm, The Denver Post</p>
             </div>
             <hr>
         </div>
@@ -443,7 +452,7 @@
             <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, felis a tempus iaculis, urna eros mattis ante, quis scelerisque urna nisl id eros. Curabitur vel orci elit. Vivamus vitae nisl mauris. Nunc gravida molestie lorem et fringilla. Vestibulum egestas ante ut ante pellentesque, in bibendum tellus eleifend. Ut non ex ex. Nullam id velit sodales, efficitur orci vitae, volutpat ante. Ut sollicitudin mi sit amet nisl lobortis interdum. Maecenas mi nisl, ullamcorper non odio non, pulvinar placerat orci. Suspendisse feugiat elit eget tortor iaculis aliquet. Praesent non urna et leo varius eleifend non convallis eros.</p>
             <div class="callout secondary">
                 <p><strong>Fundraising as of <span id="gardner-date"></span></strong><br>
-                    <span class="blurb-fundraising">$<span id="gardner-cash"></span> cash on hand &bull; $<span id="gardner-raised"></span> raised during last quarter<br><a href="#fundraising-chart">View chart</a></span></p>
+                    <span class="blurb-fundraising">$<span id="gardner-cash"></span> cash on hand &bull; $<span id="gardner-raised"></span> raised during last quarter<br><a href="#fundraising-charts">View charts</a></span></p>
             </div>
             <hr>
         </div>
@@ -577,7 +586,7 @@
             <hr>
         </div>
     </div>
-    <!-- <div id="money-chart"></div> -->
+    <!-- <div id="quarterly-money-chart"></div> -->
 </body>
 
 </html>
