@@ -83,7 +83,8 @@
         /*color: #dc381f;*/
     }
 
-    .headshot-dem, .headshot-rep {
+    .headshot-dem,
+    .headshot-rep {
         height: 100px;
         width: 100px;
         margin: 5px;
@@ -92,11 +93,13 @@
     }
 
     .headshot-dem {
-        border: 5px solid rgba(0, 0, 140, 1);
+        /*border: 5px solid rgba(0, 0, 140, 1);*/
+        /*border: 5px solid rgba(51,102,153,1);*/
     }
 
     .headshot-rep {
-        border: 5px solid rgba(140, 0, 0, 1);
+        /*border: 5px solid rgba(140, 0, 0, 1);*/
+        /*border: 5px solid rgba(153,51,51,1);*/
     }
 
     .blurb-headshot {
@@ -119,21 +122,83 @@
         color: gray;
     }
 
+    .blurb-bio-dem,
+    .blurb-bio-rep {
+        font-style: normal;
+        font-weight: bold
+    }
+
+    .blurb-bio-rep {
+
+        /*color: rgba(153,51,51,1);*/
+        color: #a33e3e;
+    }
+
+    .blurb-bio-dem {
+        /*color: rgba(51,102,153,1);*/
+        color: #0068a4;
+    }
+
     .blurb {
         font-family: Georgia;
         font-size: 18px;
     }
 
     .blurb-fundraising {
-        font-family: Georgia;
+        /*font-family: Georgia;*/
+        /*font-size: 18px;*/
+        /*font-style: italic;*/
+        /*color: #dc381f;*/
+    }
+
+    .tag-dem,
+    .tag-rep {
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        margin-bottom: 10px;
+    }
+
+    .tag-rep {
+        background-color: #a33e3e;
+    }
+
+    .tag-rep:after {
+        content: "R";
+    }
+
+    .tag-dem {
+        background-color: #0068a4;
+    }
+
+    .tag-dem:after {
+        content: "D";
+    }
+
+    .callout {
+        /*border-bottom: 2px solid black;*/
+        /*margin-bottom: 40px;*/
         font-size: 18px;
-        font-style: italic;
-        color: #dc381f;
+        background-color: #f5f5f5 !important;
     }
 
     .subtopics {
         font-family: Georgia;
         font-size: 24px;
+    }
+
+    .chart-title {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
     }
 
     #image-wrapper {
@@ -147,7 +212,8 @@
         float: left;
     }
 
-    .overlay {
+    .overlay-dem,
+    .overlay-rep {
         position: absolute;
         top: 0;
         bottom: 0;
@@ -159,11 +225,22 @@
         margin: 5px;
         opacity: 0;
         transition: .5s ease;
-        background-color: rgba(0, 0, 0, .5);
+        /*background-color: rgba(0, 0, 0, .5);*/
     }
 
-    .container:hover .overlay {
-        opacity: 1;
+    .overlay-dem {
+        /*background-color: rgba(51,102,153,.7);*/
+        background-color: #0068a4;
+    }
+
+    .overlay-rep {
+        /*background-color: rgba(153,51,51,.7);*/
+        background-color: #a33e3e;
+    }
+
+    .container:hover .overlay-dem,
+    .container:hover .overlay-rep {
+        opacity: .75;
     }
 
     .hover-text {
@@ -178,6 +255,10 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
+    }
+
+    .c3 svg {
+        font-size: 12px;
     }
 
     @media all and (max-width: 699px) and (min-width: 300px) {
@@ -204,91 +285,91 @@
         <div id="image-wrapper" class="large-6 large-centered medium-8 medium-centered columns">
             <div class="container">
                 <a href="#baer-section"><img class="headshot-dem" src="images/dan-baer-cropped.png">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">Dan Baer</div>
                     </div>
                 </a>
             </div>
             <div class="container">
-                <a href="#bray-section"><img class="headshot-dem" src="images/">
-                    <div class="overlay">
+                <a href="#bray-section"><img class="headshot-dem" src="https://via.placeholder.com/150">
+                    <div class="overlay-dem">
                         <div class="hover-text">Diana Bray</div>
                     </div>
                 </a>
             </div>
             <div class="container">
-                <a href="#gardner-section"><img class="headshot-rep" src="images/">
-                    <div class="overlay">
-                        <div class="hover-text">Cory Gardner</div>
-                    </div>
-                </a>
-            </div>
-            <div class="container">
                 <a href="#garcia-section"><img class="headshot-dem" src="images/lorena-garcia-cropped.jpg">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">Lorena Garcia</div>
                     </div>
                 </a>
             </div>
             <div class="container">
+                <a href="#gardner-section"><img class="headshot-rep" src="images/cory-gardner-cropped.jpg">
+                    <div class="overlay-rep">
+                        <div class="hover-text">Cory Gardner</div>
+                    </div>
+                </a>
+            </div>
+            <div class="container">
                 <a href="#hickenlooper-section"><img class="headshot-dem" src="images/john-hickenlooper-cropped.jpg">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">John Hickenlooper</div>
                     </div>
                 </a>
             </div>
             <div class="container">
                 <a href="#johnston-section"><img class="headshot-dem" src="images/mike-johnston-cropped.jpg">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">Mike Johnston</div>
                     </div>
                 </a>
             </div>
             <div class="container">
                 <a href="#madden-section"><img class="headshot-dem" src="images/alice-madden-cropped.png">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">Alice Madden</div>
                     </div>
                 </a>
             </div>
             <div class="container">
-                <a href="#romanoff-section"><img class="headshot-dem" src="images/">
-                    <div class="overlay">
+                <a href="#romanoff-section"><img class="headshot-dem" src="images/andrew-romanoff-cropped.png">
+                    <div class="overlay-dem">
                         <div class="hover-text">Andrew Romanoff</div>
                     </div>
                 </a>
             </div>
             <div class="container">
                 <a href="#spaulding-section"><img class="headshot-dem" src="images/stephany-rose-spaulding-cropped.jpg">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">Stephany Rose Spaulding</div>
                     </div>
                 </a>
             </div>
             <div class="container">
                 <a href="#walsh-section"><img class="headshot-dem" src="images/john-walsh-cropped.jpg">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">John Walsh</div>
                     </div>
                 </a>
             </div>
             <div class="container">
                 <a href="#warren-section"><img class="headshot-dem" src="images/michelle-ferrigno-warren-cropped.jpg">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">Michelle Ferrigno Warren</div>
                     </div>
                 </a>
             </div>
             <div class="container">
                 <a href="#williams-section"><img class="headshot-dem" src="images/angela-williams-cropped.png">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">Angela Williams</div>
                     </div>
                 </a>
             </div>
             <div class="container">
                 <a href="#zornio-section"><img class="headshot-dem" src="images/trish-zornio-cropped.jpg">
-                    <div class="overlay">
+                    <div class="overlay-dem">
                         <div class="hover-text">Trish Zornio</div>
                     </div>
                 </a>
@@ -298,122 +379,205 @@
     <div class="row">
         <div id="intro-text-wrapper" class="large-8 large-centered medium-10 medium-centered columns">
             <p class="intro-text">Sloop Shiver me timbers fluke Sea Legs skysail jury mast booty list pirate hogshead. Driver rigging crimp topmast line Privateer walk the plank heave to scuppers smartly. Deadlights loot jury mast bilge water blow the man down prow long clothes fluke heave to capstan. Mutiny quarter Gold Road hardtack Pirate Round blow the man down mizzen bowsprit grog reef sails. Line aft scuttle hardtack smartly piracy Jolly Roger reef Sail ho ye. Mizzenmast spirits coffer topmast ahoy Sail ho fire ship black spot jury mast main sheet. Arr belaying pin swing the lead draught handsomely cable plunder Jolly Roger deadlights fluke. Coffer Gold Road square-rigged log heave down deadlights wherry scourge of the seven seas dance the hempen jig Letter of Marque. Lugsail gabion long clothes Chain Shot sheet lateen sail parley Arr avast Buccaneer.</p>
-            <p class="issues"><a href="#">Issues</a> | <a href="#">Campaign finance</a></p>
+        </div>
+    </div>
+    <div class="row" id="fundraising-chart">
+        <div class="large-8 large-centered medium-10 medium-centered columns">
+            <div class="callout secondary">
+                <p class="chart-title">Fundraising Summary</p>
+                <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <em>Hover over or click chart for details.</em>
+                <div id="money-chart"></div>
+                Source: <a href="https://www.fec.gov/data/elections/senate/CO/2020/" target="_blank">Federal Election Commission</a>
+            </div>
+            <hr>
         </div>
     </div>
     <div class="row">
         <div id="baer-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Dan Baer</h3>
+            <h3 class="blurb-title">Dan Baer <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/dan-baer-cropped.png">
-            <p class="blurb-bio">Where from??? &bull; Former U.S. diplomat &bull; 42 years old &bull; Joined race April 15, 2019</p>
+            <p class="blurb-bio">Former U.S. diplomat, 42</p>
             <p class="blurb">Baer, 42, is a Harvard and Oxford graduate who was U.S. ambassador to the Organization for Security and Cooperation in Europe between 2013 and 2017 and a deputy assistant secretary of state for four years before that. He served as Colorado’s executive director of higher education last year. “Cory Gardner sits on the Foreign Relations Committee. I think one of the things I offer as a candidate going up against him is that I can go toe-to-toe with Cory Gardner on foreign policy issues,” Baer told the Denver Post on April 15, kicking off his campaign.</p>
-            <p class="blurb"><strong>Fundraising:</strong> <span class="blurb-fundraising">$1 million cash on hand &bull; $1.35 million raised during last quarter (as of June 30, 2019)</span></p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="baer-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="baer-cash"></span> cash on hand &bull; $<span id="baer-raised"></span> raised during last quarter</span></p>
+            </div>
             <hr>
         </div>
     </div>
     <div class="row">
         <div id="bray-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Diana Bray</h3>
-            <img class="blurb-headshot" src="images/">
-            <p class="blurb-bio">Where from??? &bull; Environmental activist &bull; 58 years old &bull; Joined race April 2, 2019</p>
+            <h3 class="blurb-title">Diana Bray <div class="tag-dem"></div>
+            </h3>
+            <img class="blurb-headshot" src="https://via.placeholder.com/150">
+            <p class="blurb-bio">Environmental activist, 58</p>
             <p class="blurb">Bray, 58, is a psychologist and a self-described climate justice advocate who announced her candidacy April 2 with a focus on the environment. “I’m running for US Senate to tackle our climate crisis head on by ensuring a just transition to renewable energy, and an economy that works for everyone,” she said in a kickoff message.</p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="bray-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="bray-cash"></span> cash on hand &bull; $<span id="bray-raised"></span> raised during last quarter</span></p>
+            </div>
             <hr>
         </div>
     </div>
     <div class="row">
         <div id="garcia-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Lorena Garcia</h3>
+            <h3 class="blurb-title">Lorena Garcia <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/lorena-garcia-cropped.jpg">
-            <p class="blurb-bio">Where from??? &bull; Nonprofit leader &bull; 36 years old &bull; Joined race Nov. 27, 2018</p>
+            <p class="blurb-bio">Nonprofit leader, 36</p>
             <p class="blurb">Garcia, 36, was the first candidate to officially announce on Nov. 27, 2018, less than a month after the election. Garcia has spent her professional career working for different charities and is currently the executive director of the Colorado Statewide Parent Coalition. “Throughout my career, I have had direct experience working in the field with people who are impacted by federal policies,” Garcia told The Denver Post. “I’ve sat with them while they cried when things didn’t pass or didn’t work out right. … I believe we can do much better as a country, starting with Colorado.”</p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="garcia-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="garcia-cash"></span> cash on hand &bull; $<span id="garcia-raised"></span> raised during last quarter</span></p>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div id="gardner-section" class="large-8 large-centered medium-10 medium-centered columns">
+            <h3 class="blurb-title">Cory Gardner <div class="tag-rep"></div>
+            </h3>
+            <img class="blurb-headshot" src="images/cory-gardner-cropped.jpg">
+            <p class="blurb-bio">Incumbent U.S. Senator, 45</p>
+            <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, felis a tempus iaculis, urna eros mattis ante, quis scelerisque urna nisl id eros. Curabitur vel orci elit. Vivamus vitae nisl mauris. Nunc gravida molestie lorem et fringilla. Vestibulum egestas ante ut ante pellentesque, in bibendum tellus eleifend. Ut non ex ex. Nullam id velit sodales, efficitur orci vitae, volutpat ante. Ut sollicitudin mi sit amet nisl lobortis interdum. Maecenas mi nisl, ullamcorper non odio non, pulvinar placerat orci. Suspendisse feugiat elit eget tortor iaculis aliquet. Praesent non urna et leo varius eleifend non convallis eros.</p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="gardner-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="gardner-cash"></span> cash on hand &bull; $<span id="gardner-raised"></span> raised during last quarter<br><a href="#fundraising-chart">View chart</a></span></p>
+            </div>
             <hr>
         </div>
     </div>
     <div class="row">
         <div id="hickenlooper-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">John Hickenlooper</h3>
+            <h3 class="blurb-title">John Hickenlooper <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/john-hickenlooper-cropped.jpg">
-            <p class="blurb-bio">Denver &bull; Former Colorado governor and Denver mayor &bull; 67 years old &bull; Joined race Aug. 27, 2019</p>
+            <p class="blurb-bio">Former Colorado governor and Denver mayor, 67</p>
             <p class="blurb">Hickenlooper, 67, dropped out of the presidential race Aug. 15 and said he was considering a Senate run. A week later, he announced he is running for Senate. “I’ve always said Washington was a lousy place for a guy like me who wants to get things done – but this is no time to walk away from the table,” the former governor of Colorado said in his announcement video. “… I’m not done fighting for the people of Colorado.” In that video, filmed at the Denver brewpub he founded, Hickenlooper echoed his presidential pitch to voters, which focused on ending the conflict in Washington. And he promised to work on fighting climate change, prescription drug prices and economic inequity.</p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="hickenlooper-date"></span></strong><br>
+                    <!-- <span class="blurb-fundraising">$<span id="hickenlooper-cash"></span> cash on hand &bull; $<span id="hickenlooper-raised"></span> raised during last quarter</span></p> -->
+                    <span class="blurb-fundraising"><em>Has not yet filed a quarterly report</em></span></p>
+            </div>
             <hr>
         </div>
     </div>
     <div class="row">
         <div id="johnston-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Mike Johnston</h3>
+            <h3 class="blurb-title">Mike Johnston <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/mike-johnston-cropped.jpg">
-            <p class="blurb-bio">Where from??? &bull; Former Colorado state senator &bull; 44 years old &bull; Joined race Jan. 31, 2019</p>
+            <p class="blurb-bio">Former Colorado state senator, 44</p>
             <p class="blurb">Johnston, 44, announced Jan. 31. The former teacher and school principal turned politician is best known for his work on education reform policies, including the state’s teacher evaluation law. This is also why he’s such a polarizing figure in the Democratic Party. During his gubernatorial run, the state’s largest teachers union took the unusual step of financing an attack ad against Johnston. Here’s what he said after announcing his campaign: “When he’s campaigning in Colorado, Cory Gardner claims he’s independent, but when he’s voting in Washington he sticks with Trump 92% of the time. That’s not what Colorado needs. Colorado deserves a Senator with the courage to run toward our toughest problems and the leadership to pass progressive policy on climate, health care, immigration, and gun safety.” Johnston is an early fundraising front-runner after raising $1.8 million in the first three months of 2019.</p>
-            <p class="blurb"><strong>Fundraising:</strong> <span class="blurb-fundraising">$2.6 million cash on hand &bull; $1.6 million raised during last quarter (as of June 30, 2019)</span></p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="johnston-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="johnston-cash"></span> cash on hand &bull; $<span id="johnston-raised"></span> raised during last quarter</span></p>
+            </div>
             <hr>
         </div>
     </div>
     <div class="row">
         <div id="madden-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Alice Madden</h3>
+            <h3 class="blurb-title">Alice Madden <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/alice-madden-cropped.png">
-            <p class="blurb-bio">Where from??? &bull; Former U.S. Energy Department official, former Colorado House majority leader &bull; How old??? &bull; Joined race May 9, 2019</p>
+            <p class="blurb-bio">Former U.S. Energy Department official and former Colorado House majority leader</p>
             <p class="blurb">Madden, a former Colorado House majority leader, announced her candidacy May 9. “I am, as of now, really the leading climate and clean energy champion in this race,” Madden said in an interview then. “And that’s why I got in this race, because I know there wasn’t anybody else, frankly, who could go to Washington and make things happen right away on this issue. It’s what I will lead on, it’s the first thing I’ll attack.” Madden ran for statewide office in 2016, losing a University of Colorado regent race by a narrow margin to Republican Regent Heidi Ganahl.</p>
-            <p class="blurb"><strong>Fundraising:</strong> <span class="blurb-fundraising">$196,862 raised during last quarter &bull; $99,194 cash on hand (as of June 30, 2019)</span></p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="madden-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="madden-cash"></span> cash on hand &bull; $<span id="madden-raised"></span> raised during last quarter</span></p>
+            </div>
             <hr>
         </div>
     </div>
     <div class="row">
         <div id="romanoff-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Andrew Romanoff</h3>
-            <img class="blurb-headshot" src="images/">
-            <p class="blurb-bio">Where from??? &bull; Former Colorado House speaker &bull; 52 years old &bull; Joined race Feb. 7, 2019</p>
+            <h3 class="blurb-title">Andrew Romanoff <div class="tag-dem"></div>
+            </h3>
+            <img class="blurb-headshot" src="images/andrew-romanoff-cropped.png">
+            <p class="blurb-bio">Former Colorado House speaker, 52</p>
             <p class="blurb">Romanoff, 52, announced Feb. 7. The former House speaker took a progressive stance on a variety of issues in his announcement, including Medicare for All, immigration reform and renewable energy. He also mentioned the Green New Deal to replace fossils fuels that’s being pushed by his former aide, U.S. Rep. Joe Neguse, D-Boulder. Romanoff’s re-entry into politics comes after four years leading Mental Health Colorado, an influential advocacy group in the state. He previously lost a U.S. Senate Democratic primary to Michael Bennet, who now holds the seat, and unsuccessfully challenged then-U.S. Rep. Mike Coffman in the 6th Congressional District.</p>
-            <p class="blurb"><strong>Fundraising:</strong> <span class="blurb-fundraising">$730,000 cash on hand &bull; $500,000 raised during last quarter (as of June 30, 2019)</span>
-                <hr>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="romanoff-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="romanoff-cash"></span> cash on hand &bull; $<span id="romanoff-raised"></span> raised during last quarter</span></p>
+            </div>
+            <hr>
         </div>
     </div>
     <div class="row">
         <div id="spaulding-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Stephany Rose Spaulding</h3>
+            <h3 class="blurb-title">Stephany Rose Spaulding <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/stephany-rose-spaulding-cropped.jpg">
-            <p class="blurb-bio">Colorado Springs &bull; Professor and pastor &bull; 40 years old &bull; Joined race April 1, 2019</p>
+            <p class="blurb-bio">Professor and pastor, 40</p>
             <p class="blurb">Spaulding, 40, is a professor of women’s and ethnic studies at the University of Colorado’s Colorado Springs campus and a Baptist pastor. She lost her challenge of Rep. Doug Lamborn, R-Colorado Springs, by 18 percentage points in November. She announced her Senate run April 1. “I am not just for the people, I am of the people,” Spaulding said in a news release. “There are a number of candidates that feel for those who are under attack from this administration, but I am a candidate actually living the impact of dehumanizing policies and morally inept leadership.”</p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="spaulding-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="spaulding-cash"></span> cash on hand &bull; $<span id="spaulding-raised"></span> raised during last quarter</span></p>
+            </div>
             <hr>
         </div>
     </div>
     <div class="row">
         <div id="walsh-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">John Walsh</h3>
+            <h3 class="blurb-title">John Walsh <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/john-walsh-cropped.jpg">
-            <p class="blurb-bio">Where from??? &bull; Former U.S. attorney &bull; 57 years old &bull; Joined race April 16, 2019</p>
+            <p class="blurb-bio">Former U.S. attorney, 57</p>
             <p class="blurb">Walsh, 57, was rumored to be entering the race for weeks before his April 16 announcement. For six years during the Obama administration, he was the top federal prosecutor in Colorado. He gained the immediate endorsement of former U.S. Attorney General Eric Holder, among others. “This state has been so good to me and my family,” he said in a video announcement. “I spent my whole life fighting against institutions and individuals who have tried to get in the way of an open and fair system for all.”</p>
-            <p class="blurb"><strong>Fundraising:</strong> <span class="blurb-fundraising">$777,000 cash on hand (as of June 30, 2019)</span>
-                <hr>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="walsh-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="walsh-cash"></span> cash on hand &bull; $<span id="walsh-raised"></span> raised during last quarter</span></p>
+            </div>
+            <hr>
         </div>
     </div>
     <div class="row">
         <div id="warren-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Michelle Ferrigno Warren</h3>
+            <h3 class="blurb-title">Michelle Ferrigno Warren <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/michelle-ferrigno-warren-cropped.jpg">
-            <p class="blurb-bio">Denver &bull; Advocate and nonprofit leader &bull; 48 years old &bull; Joined race Aug. 6, 2019</p>
+            <p class="blurb-bio">Advocate and nonprofit leader, 48</p>
             <p class="blurb">Warren, 48, filed paperwork Aug. 2 and formally launched her campaign Aug. 6. She is an advocacy and strategic engagement director for the Christian Community Development Association. Warren and her husband founded Open Door Ministries. “Politics has become a game of winning and losing,” she said in an interview. “When politics is just a game of winning and losing, we all lose. We can’t afford to lose anymore.” Warren says she was born into privilege, as well as conservatism, but sought out a different life after college. She taught disadvantaged youth elsewhere in the country before moving back to Colorado and settling in southwest Denver. Her campaign’s mantra is “People over politics.”</p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="warren-date"></span></strong><br>
+                    <!-- <span class="blurb-fundraising">$<span id="warren-cash"></span> cash on hand &bull; $<span id="warren-raised"></span> raised during last quarter</span></p> -->
+                    <span class="blurb-fundraising"><em>Has not yet filed a quarterly report</em></span></p>
+            </div>
             <hr>
         </div>
     </div>
     <div class="row">
         <div id="williams-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Angela Williams</h3>
+            <h3 class="blurb-title">Angela Williams <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/angela-williams-cropped.png">
-            <p class="blurb-bio">Denver &bull; Colorado state senator &bull; How old??? &bull; Joined race July 8, 2019</p>
+            <p class="blurb-bio">Colorado state senator</p>
             <p class="blurb">Williams, a state senator, joined the race July 8. Williams represents northeast Denver in the Colorado Senate, including the area around Denver International Airport. She previously represented much of that area in the Colorado House. She was the first current elected official to join the Democratic race for U.S. Senate. “For me, politics is personal,” Williams said in a statement. “Throughout my career in public service and in the private sector, I’ve been driven by the values of hard work, honesty, and standing up for others. Those are the values I want to take to the United States Senate.”</p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="williams-date"></span></strong><br>
+                    <!-- <span class="blurb-fundraising">$<span id="williams-cash"></span> cash on hand &bull; $<span id="williams-raised"></span> raised during last quarter</span></p> -->
+                    <span class="blurb-fundraising"><em>Has not yet filed a quarterly report</em></span></p>
+            </div>
             <hr>
         </div>
     </div>
     <div class="row">
         <div id="zornio-section" class="large-8 large-centered medium-10 medium-centered columns">
-            <h3 class="blurb-title">Trish Zornio</h3>
+            <h3 class="blurb-title">Trish Zornio <div class="tag-dem"></div>
+            </h3>
             <img class="blurb-headshot" src="images/trish-zornio-cropped.jpg">
-            <p class="blurb-bio">Where from??? &bull; Scientist &bull; 33 years old &bull; Joined race Jan. 19, 2019</p>
+            <p class="blurb-bio">Scientist, 33</p>
             <p class="blurb">Zornio, 33, announced Jan. 19, the same day as the Womxn’s March. Before announcing, Zornio spent more than a year crisscrossing the state to visit with voters in all 64 counties. In her announcement, she said: “I’m running because we need to think forward and solve the problems of tomorrow, not only the problems of yesterday, the way I have done my entire career. Thinking forward means being proactive to meet those challenges before they arise, which will be my commitment as your next senator.”</p>
+            <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="zornio-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="zornio-cash"></span> cash on hand &bull; $<span id="zornio-raised"></span> raised during last quarter</span></p>
+            </div>
             <hr>
         </div>
     </div>
+    <!-- <div id="money-chart"></div> -->
 </body>
 
 </html>
