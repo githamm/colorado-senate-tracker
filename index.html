@@ -215,7 +215,8 @@
     }
 
     .overlay-dem,
-    .overlay-rep {
+    .overlay-rep,
+    .overlay-withdrew {
         position: absolute;
         top: 0;
         bottom: 0;
@@ -240,9 +241,18 @@
         background-color: #a33e3e;
     }
 
+    .overlay-withdrew {
+        background-color: #000;
+        opacity: .8;
+    }
+
     .container:hover .overlay-dem,
     .container:hover .overlay-rep {
         opacity: .75;
+    }
+
+    .container:hover .overlay-withdrew {
+        opacity: 0;
     }
 
     .hover-text {
@@ -322,8 +332,8 @@
             </div>
             <div class="container">
                 <a href="#johnston-section"><img class="headshot-dem" src="images/mike-johnston-cropped.jpg">
-                    <div class="overlay-dem">
-                        <div class="hover-text">Mike Johnston</div>
+                    <div class="overlay-withdrew">
+                        <div class="hover-text">Mike Johnston withdrew Sept. 3</div>
                     </div>
                 </a>
             </div>
