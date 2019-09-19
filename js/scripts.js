@@ -22,7 +22,7 @@ var y = setInterval(function() {
     }
 }, 1000);
 
-/*** MAIN PAGE FUNDRAISING TOTALS ***/
+/*** MAIN PAGE FUNDRAISING TOTALS CHART ***/
 var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
 
 function init() {
