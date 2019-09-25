@@ -93,11 +93,27 @@
         color: #990012;
         font-weight: normal;
     }
+
+    .chart-title {
+        font-size: 1.5rem;
+        text-align: center
+    }
     </style>
 </head>
 
 <body>
-    <div id="donation-type"></div>
+    <div class="row">
+        <div class="large-12 columns">
+            <div class="large-6 columns">
+                <h3 class="chart-title">Primary</h3>
+                <div id="donations-primary"></div>
+            </div>
+            <div class="large-6 columns">
+                <h3 class="chart-title">General</h3>
+                <div id="donations-general"></div>
+            </div>
+        </div>
+    </div>
     <div id="best-grants-table-container">
         <div class="row">
             <div class="large-12 columns">
@@ -151,44 +167,106 @@
         </div>
         <script>
         /*** CHARTS ***/
-        var barDonationType = c3.generate({
-            bindto: '#donation-type',
-            size: {
-                height: 400
-                //width: 800
-            },
+        // var barDonationType = c3.generate({
+        //     bindto: '#donation-type',
+        //     size: {
+        //         height: 400
+        //         //width: 800
+        //     },
+        //     data: {
+        //         columns: [
+        //             ['Campaign committee', 2000, 0],
+        //             ['Individual', 500, 1000]
+        //         ],
+        //         type: 'bar',
+        //         groups: [
+        //             ['Campaign committee', 'Individual']
+        //         ]
+
+        //         // colors: {
+        //         //     'pending': 'red',
+        //         //     'approved': 'black',
+        //         // },
+        //     },
+        //     axis: {
+        //         x: {
+        //             type: 'category',
+        //             tick: {
+        //                 rotate: 0,
+        //                 multiline: false
+        //             }
+        //         },
+        //         y: {
+        //             tick: {
+        //                 format: d3.format('$,')
+        //             },
+        //             // label: {
+        //             //     text: 'Money raised',
+        //             //     position: 'outer-middle'
+        //             // }
+        //         }
+        //     },
+        //     grid: {
+        //         x: {
+        //             show: true
+        //         },
+        //         y: {
+        //             show: true
+        //         }
+        //     },
+        //     point: {
+        //         r: 4
+        //     }
+        // });
+
+        var donationsPrimary = c3.generate({
+            bindto: '#donations-primary',
             data: {
+                x: 'x',
                 columns: [
-                    ['data1', -30, 200, 200, 400, -150, 250],
-                    ['data2', 130, 100, -100, 200, -150, 50],
-                    ['data3', -230, 200, 200, -300, 250, 250]
+                    ['x', 'Q1 2019', 'Q2 2019', 'Total'],
+                    ['Campaign committee', 2000, 0, 2000],
+                    ['Individual', 921763.86, 885872.01, 1807635.87],
+                    ['Organization', 3907.7, 14890.88, 18798.58],
+                    ['Other committee', 0, 83961.67, 83961.67],
+                    ['Political action committee', 675416.92, 680165.79, 1355582.71],
+                    ['Political party committee', 0, 44600, 44600]
                 ],
+                // types: {
+                //     'Campaign committee': 'area-line',
+                //     'Individual': 'area-line',
+                //     'Organization': 'area-line',
+                //     'Other committee': 'area-line',
+                //     'Political action committee': 'area-line',
+                //     'Political party committee': 'area-line'
+                // },
                 type: 'bar',
                 groups: [
-                    ['data1', 'data2']
-                ]
-
-                // colors: {
-                //     'pending': 'red',
-                //     'approved': 'black',
-                // },
+                    ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
+                ],
+                colors: {
+                    'Campaign committee': '#003f5c',
+                    'Individual': '#444e86',
+                    'Organization': '#955196',
+                    'Other committee': '#dd5182',
+                    'Political action committee': '#ff6e54',
+                    'Political party committee': '#ffa600'
+                }
             },
             axis: {
                 x: {
-                    type: 'category',
-                    tick: {
-                        rotate: 0,
-                        multiline: false
-                    }
+                    type: 'category'
                 },
                 y: {
                     tick: {
-                        format: d3.format('$,')
+                        format: d3.format('$,'),
+                        values: [1000000, 3000000, 5000000]
                     },
-                    // label: {
-                    //     text: 'Money raised',
-                    //     position: 'outer-middle'
-                    // }
+                    max: 5000000,
+                    label: {
+                        text: 'Money raised',
+                        position: 'outer-middle'
+                    }
                 }
             },
             grid: {
@@ -198,11 +276,90 @@
                 y: {
                     show: true
                 }
-            },
-            point: {
-                r: 4
             }
         });
+
+        var donationsGeneral = c3.generate({
+            bindto: '#donations-general',
+            data: {
+                x: 'x',
+                columns: [
+                    ['x', 'Q1 2019', 'Q2 2019'],
+                    ['Campaign committee', 2000, 2000],
+                    ['Individual', 353601.71, 680220.71],
+                    ['Organization', 5500, 7700],
+                    ['Other committee', 0, 37865.1],
+                    ['Political action committee', 362546.26, 716329.62],
+                    ['Political party committee', 0, 0]
+                ],
+                // types: {
+                //     'Campaign committee': 'area-line',
+                //     'Individual': 'area-line',
+                //     'Organization': 'area-line',
+                //     'Other committee': 'area-line',
+                //     'Political action committee': 'area-line',
+                //     'Political party committee': 'area-line'
+                // },
+                type: 'bar',
+                groups: [
+                    ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
+                ],
+                colors: {
+                    'Campaign committee': '#003f5c',
+                    'Individual': '#444e86',
+                    'Organization': '#955196',
+                    'Other committee': '#dd5182',
+                    'Political action committee': '#ff6e54',
+                    'Political party committee': '#ffa600'
+                }
+            },
+            axis: {
+                x: {
+                    type: 'category'
+                },
+                y: {
+                    tick: {
+                        format: d3.format('$,'),
+                        values: [1000000, 3000000, 5000000]
+                    },
+                    max: 5000000,
+                    //min: 0,
+                    label: {
+                        text: 'Money raised',
+                        position: 'outer-middle'
+                    }
+                }
+            },
+            grid: {
+                x: {
+                    show: true
+                },
+                y: {
+                    show: true
+                }
+            }
+        });
+
+        // var chart = c3.generate({
+        //     bindto: '#donation-type',
+        //     data: {
+        //         columns: [
+        //             ['Campaign committee', 2000],
+        //             ['Individual', 353601.71],
+        //             ['Organization', 5500],
+        //             ['Other committee', 0],
+        //             ['Political action committee', 362546.26],
+        //             ['Political party committee', 0]
+        //         ],
+        //         type: 'donut',
+        //         onclick: function(d, i) { console.log("onclick", d, i); },
+        //         onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+        //         onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+        //     },
+        //     donut: {
+        //         title: "Iris Petal Width"
+        //     }
+        // });
 
 
 
