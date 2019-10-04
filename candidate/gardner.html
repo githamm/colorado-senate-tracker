@@ -104,6 +104,12 @@
 <body>
     <div class="row">
         <div class="large-12 columns">
+            <h2 class="table-title">Cory Gardner</h2>
+            <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
             <div class="large-6 columns">
                 <h3 class="chart-title">Primary</h3>
                 <div id="donations-primary"></div>
@@ -117,7 +123,7 @@
     <div id="best-grants-table-container">
         <div class="row">
             <div class="large-12 columns">
-                <h2 class="table-title">Cory Gardner</h2>
+                <h2 class="table-title">Search Cory Gardner's campaign contributions</h2>
                 <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <strong>Source: Federal Election Commission</strong></em></p>
                 <p style="color:#990012;font-style:italic;text-align:center">Click column headers to sort data; use dropdown menus to filter data</p>
             </div>
@@ -130,8 +136,11 @@
                 <div class="large-3 medium-3 columns">
                     <span id="filter-2" style="font-weight: bold;"></span>
                 </div>
-                <div class="large-3 medium-3 end columns">
+                <div class="large-3 medium-3 columns">
                     <span id="filter-3" style="font-weight: bold;"></span>
+                </div>
+                <div class="large-3 medium-3 end columns">
+                    <span id="filter-4" style="font-weight: bold;"></span>
                 </div>
             </div>
             <div class="row">
@@ -141,8 +150,6 @@
                             <tr>
                                 <th></th>
                                 <th data-priority="1">Name</th>
-                                <th data-priority="2">Year</th>
-                                <th>Quarter</th>
                                 <th>Type</th>
                                 <th>Donor name</th>
                                 <th>City</th>
@@ -153,6 +160,8 @@
                                 <th>Receipt type</th>
                                 <th>Amount</th>
                                 <th>YTD total</th>
+                                <th>Year</th>
+                                <th>Quarter</th>
                                 <th>Election type</th>
                                 <th>PDF link</th>
                             </tr>
@@ -407,25 +416,17 @@
                         visible: false
                     },
                     {
-                        data: 'report_year',
-                        visible: false
-                    },
-                    {
-                        data: 'report_type',
-                        visible: true
-                    },
-                    {
                         data: 'entity_type_desc',
                         visible: false
                     },
                     {
                         data: 'contributor_name',
-                        render: function(data, type, row) {
-                            if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
-                                return '*'
-                            } else return data
+                        // render: function(data, type, row) {
+                        //     if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
+                        //         return '*'
+                        //     } else return data
 
-                        }
+                        // }
                     },
                     {
                         data: 'contributor_city',
@@ -442,19 +443,37 @@
                     { data: 'contributor_employer' },
                     {
                         data: 'contributor_occupation',
-                        render: function(data, type, row) {
-                            if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
-                                return '*'
-                            } else return data
+                        // render: function(data, type, row) {
+                        //     if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
+                        //         return '*'
+                        //     } else return data
 
-                        }
+                        // }
                     },
                     {
                         data: 'receipt_type_full',
                         visible: false
                     },
-                    { data: 'contribution_receipt_amount' },
-                    { data: 'contributor_aggregate_ytd' },
+                    {
+                        data: 'contribution_receipt_amount',
+                        render: function(data, type, row) {
+                            return '<a href="' + row.pdf_url + '" target="_blank">$' + data.toLocaleString() + '</a>'
+                        }
+                    },
+                    {
+                        data: 'contributor_aggregate_ytd',
+                        render: function(data, type, row) {
+                            return '$' + data.toLocaleString()
+                        }
+                    },
+                    {
+                        data: 'report_year',
+                        visible: true
+                    },
+                    {
+                        data: 'report_type',
+                        visible: true
+                    },
                     { data: 'fec_election_type_desc' },
                     {
                         data: 'pdf_url',
@@ -464,20 +483,25 @@
 
                 initComplete: function() {
                     yadcf.init(bestGrantsTable, [{
-                            column_number: 4,
+                            column_number: 2,
                             filter_container_id: 'filter-1',
                             filter_default_label: 'Filter by donor type',
                             //data: donorTypes
                         },
                         {
-                            column_number: 5,
+                            column_number: 3,
                             filter_container_id: 'filter-2',
                             filter_default_label: 'Filter by donor name'
                         },
                         {
-                            column_number: 9,
+                            column_number: 7,
                             filter_container_id: 'filter-3',
                             filter_default_label: 'Filter by donor employer'
+                        },
+                        {
+                            column_number: 5,
+                            filter_container_id: 'filter-4',
+                            filter_default_label: 'Filter by donor state'
                         },
                     ], {
                         cumulative_filtering: true,
