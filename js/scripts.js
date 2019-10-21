@@ -81,8 +81,8 @@ function init() {
             document.getElementById('garcia-cash').innerHTML = garciaCash;
             document.getElementById('gardner-raised').innerHTML = gardnerRaised;
             document.getElementById('gardner-cash').innerHTML = gardnerCash;
-            // document.getElementById('hickenlooper-raised').innerHTML = hickenlooperRaised;
-            // document.getElementById('hickenlooper-cash').innerHTML = hickenlooperCash;
+            document.getElementById('hickenlooper-raised').innerHTML = hickenlooperRaised;
+            document.getElementById('hickenlooper-cash').innerHTML = hickenlooperCash;
             document.getElementById('johnston-raised').innerHTML = johnstonRaised;
             document.getElementById('johnston-cash').innerHTML = johnstonCash;
             document.getElementById('madden-raised').innerHTML = maddenRaised;
@@ -93,10 +93,10 @@ function init() {
             document.getElementById('spaulding-cash').innerHTML = spauldingCash;
             document.getElementById('walsh-raised').innerHTML = walshRaised;
             document.getElementById('walsh-cash').innerHTML = walshCash;
-            // document.getElementById('warren-raised').innerHTML = warrenRaised;
-            // document.getElementById('warren-cash').innerHTML = warrenCash;
-            // document.getElementById('williams-raised').innerHTML = williamsRaised;
-            // document.getElementById('williams-cash').innerHTML = williamsCash;
+            document.getElementById('warren-raised').innerHTML = warrenRaised;
+            document.getElementById('warren-cash').innerHTML = warrenCash;
+            document.getElementById('williams-raised').innerHTML = williamsRaised;
+            document.getElementById('williams-cash').innerHTML = williamsCash;
             document.getElementById('zornio-raised').innerHTML = zornioRaised;
             document.getElementById('zornio-cash').innerHTML = zornioCash;
 
@@ -114,16 +114,16 @@ function init() {
                         value: ['baer_raised', 'bray_raised', 'garcia_raised', 'gardner_raised', 'hickenlooper_raised', 'johnston_raised', 'madden_raised', 'romanoff_raised', 'spaulding_raised', 'walsh_raised', 'warren_raised', 'williams_raised', 'zornio_raised']
                     },
                     names: {
-                        baer_raised: 'Dan Baer',
+                        baer_raised: 'Dan Baer*',
                         bray_raised: 'Diana Bray',
                         garcia_raised: 'Lorena Garcia',
                         gardner_raised: 'Cory Gardner',
                         hickenlooper_raised: 'John Hicklooper',
-                        johnston_raised: 'Mike Johnston',
-                        madden_raised: 'Alice Madden',
+                        johnston_raised: 'Mike Johnston*',
+                        madden_raised: 'Alice Madden*',
                         romanoff_raised: 'Andrew Romanoff',
                         spaulding_raised: 'Stephany Rose Spaulding',
-                        walsh_raised: 'John Walsh',
+                        walsh_raised: 'John Walsh*',
                         warren_raised: 'Michelle Ferrigno Warren',
                         williams_raised: 'Angela Williams',
                         zornio_raised: 'Trish Zornio'
@@ -177,16 +177,16 @@ function init() {
                         value: ['baer_total_raised', 'bray_total_raised', 'garcia_total_raised', 'gardner_total_raised', 'hickenlooper_total_raised', 'johnston_total_raised', 'madden_total_raised', 'romanoff_total_raised', 'spaulding_total_raised', 'walsh_total_raised', 'warren_total_raised', 'williams_total_raised', 'zornio_total_raised']
                     },
                     names: {
-                        baer_total_raised: 'Dan Baer',
+                        baer_total_raised: 'Dan Baer*',
                         bray_total_raised: 'Diana Bray',
                         garcia_total_raised: 'Lorena Garcia',
                         gardner_total_raised: 'Cory Gardner',
                         hickenlooper_total_raised: 'John Hicklooper',
-                        johnston_total_raised: 'Mike Johnston',
-                        madden_total_raised: 'Alice Madden',
+                        johnston_total_raised: 'Mike Johnston*',
+                        madden_total_raised: 'Alice Madden*',
                         romanoff_total_raised: 'Andrew Romanoff',
                         spaulding_total_raised: 'Stephany Rose Spaulding',
-                        walsh_total_raised: 'John Walsh',
+                        walsh_total_raised: 'John Walsh*',
                         warren_total_raised: 'Michelle Ferrigno Warren',
                         williams_total_raised: 'Angela Williams',
                         zornio_total_raised: 'Trish Zornio'
