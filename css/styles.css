@@ -1,0 +1,286 @@
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1%;
+    }
+
+    .title {
+        font-family: Georgia;
+        /*font-size: 84px;*/
+        font-size: 5.25rem;
+        font-weight: 100;
+        font-variant: small-caps;
+        text-align: center;
+        line-height: 90%;
+    }
+
+    #title-year {
+    	font-family: Georgia;
+        /*font-size: 100px;*/
+        font-size: 6.25rem;
+        font-weight: 700;
+        font-style: italic;
+        letter-spacing: -5px;
+        color: #dc381f;
+    }
+
+    .countdown-text {
+        /*font-size: 14px;*/
+        font-size: .875rem;
+        color: gray;
+        font-style: italic;
+        text-align: center;
+    }
+
+    #countdown-primary,
+    #countdown-general {
+        color: #dc381f;
+    }
+
+    #intro-text-wrapper {
+        border-bottom: 4px solid black;
+        margin-bottom: 40px;
+    }
+
+    .intro-text {
+        font-family: Georgia;
+        /*font-size: 20px;*/
+        font-size: 1.25rem;
+        line-height: 160%;
+        margin-top: 45px;
+    }
+
+    .issues {
+        font-family: Georgia;
+        /*font-size: 20px;*/
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-align: center;
+        /*color: #dc381f;*/
+    }
+
+    .headshot-dem,
+    .headshot-rep {
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        display: inline-block;
+        border-radius: 50%;
+    }
+
+    .headshot-dem {
+        /*border: 5px solid rgba(0, 0, 140, 1);*/
+        /*border: 5px solid rgba(51,102,153,1);*/
+    }
+
+    .headshot-rep {
+        /*border: 5px solid rgba(140, 0, 0, 1);*/
+        /*border: 5px solid rgba(153,51,51,1);*/
+    }
+
+    .blurb-headshot {
+        height: 175px;
+        width: 175px;
+        padding: 10px;
+        float: right;
+    }
+
+    .blurb-title {
+        font-family: Georgia;
+        /*font-size: 36px;*/
+        font-size: 2.25rem;
+        line-height: 1;
+        margin-bottom: 2px;
+    }
+
+    .blurb-bio {
+        font-family: Georgia;
+        /*font-size: 16px;*/
+        font-size: 1rem;
+        line-height: 1.2;
+        font-style: italic;
+        color: gray;
+    }
+
+    .blurb-bio-dem,
+    .blurb-bio-rep {
+        font-style: normal;
+        font-weight: bold
+    }
+
+    .blurb-bio-rep {
+
+        /*color: rgba(153,51,51,1);*/
+        color: #a33e3e;
+    }
+
+    .blurb-bio-dem {
+        /*color: rgba(51,102,153,1);*/
+        color: #0068a4;
+    }
+
+    .blurb {
+        font-family: Georgia;
+        /*font-size: 18px;*/
+        font-size: 1.125rem;
+    }
+
+    .blurb-fundraising {
+        /*font-family: Georgia;*/
+        /*font-size: 18px;*/
+        /*font-style: italic;*/
+        /*color: #dc381f;*/
+    }
+
+    .source {
+    	font-size: .9rem;
+    	font-style: italic;
+    	text-align: right;
+    }
+
+    .tag-dem,
+    .tag-rep {
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        margin-bottom: 10px;
+    }
+
+    .tag-rep {
+        background-color: #a33e3e;
+    }
+
+    .tag-rep:after {
+        content: "R";
+    }
+
+    .tag-dem {
+        background-color: #0068a4;
+    }
+
+    .tag-dem:after {
+        content: "D";
+    }
+
+    .callout {
+        /*border-bottom: 2px solid black;*/
+        /*margin-bottom: 40px;*/
+        /*font-size: 18px;*/
+        font-size: 1.125rem;
+        background-color: #f5f5f5 !important;
+    }
+
+    .subtopics {
+        font-family: Georgia;
+        /*font-size: 24px;*/
+        font-size: 1.5rem;
+    }
+
+    .chart-title {
+        /*font-size: 20px;*/
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #image-wrapper {
+        margin-top: 20px;
+        /*width: 100%;*/
+        /*clear: both;*/
+    }
+
+    .container {
+        position: relative;
+        float: left;
+    }
+
+    .withdrew-text a {
+    	color: red;
+    	font-style: italic;
+    }
+
+    .overlay-dem,
+    .overlay-rep,
+    .overlay-withdrew {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin: 5px;
+        opacity: 0;
+        transition: .5s ease;
+        /*background-color: rgba(0, 0, 0, .5);*/
+    }
+
+    .overlay-dem {
+        /*background-color: rgba(51,102,153,.7);*/
+        background-color: #0068a4;
+    }
+
+    .overlay-rep {
+        /*background-color: rgba(153,51,51,.7);*/
+        background-color: #a33e3e;
+    }
+
+    .overlay-withdrew {
+        background-color: #000;
+        opacity: .8;
+    }
+
+    .container:hover .overlay-dem,
+    .container:hover .overlay-rep {
+        opacity: .75;
+    }
+
+    .container:hover .overlay-withdrew {
+        opacity: 0;
+    }
+
+    .hover-text {
+        color: white;
+        /*font-family: Georgia;*/
+        /*font-size: 15px;*/
+        font-size: .938rem;
+        line-height: 120%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .c3 svg {
+        /*font-size: 12px;*/
+        font-size: .75rem;
+    }
+
+    @media all and (max-width: 699px) and (min-width: 300px) {
+        .title {
+            /*font-size: 72px;*/
+            font-size: 4.5rem;
+        }
+    }

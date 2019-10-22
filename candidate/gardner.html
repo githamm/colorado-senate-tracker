@@ -14,6 +14,7 @@
     <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
@@ -108,16 +109,22 @@
             <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter.</p>
         </div>
     </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <div class="large-6 columns">
-                <h3 class="chart-title">Primary</h3>
-                <div id="donations-primary"></div>
+    <div class="row" id="gardner-fundraising-charts">
+        <div class="large-12 large-centered columns">
+            <div class="callout secondary">
+                <p class="chart-title">Fundraising Summary</p>
+                <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <em>Hover over or click chart for details &bull; * indicates candidate has withdrawn from race.</em>
+                    <div class="large-6 columns">
+                        <p style="font-weight:bold;text-align:center">Primary</p>
+                        <div id="donations-primary"></div>
+                    </div>
+                    <div class="large-6 columns">
+                        <p style="font-weight:bold;text-align:center">General</p>
+                        <div id="donations-general"></div>
+                    </div>
+                    <p class="source">Source: <a href="https://www.fec.gov/data/elections/senate/CO/2020/" target="_blank">Federal Election Commission</a> &bull; Kevin Hamm, The Denver Post</p>
             </div>
-            <div class="large-6 columns">
-                <h3 class="chart-title">General</h3>
-                <div id="donations-general"></div>
-            </div>
+            <hr>
         </div>
     </div>
     <div id="best-grants-table-container">
@@ -233,13 +240,13 @@
             data: {
                 x: 'x',
                 columns: [
-                    ['x', 'Q1 2019', 'Q2 2019', 'Total'],
-                    ['Campaign committee', 2000, 0, 2000],
-                    ['Individual', 921763.86, 885872.01, 1807635.87],
-                    ['Organization', 3907.7, 14890.88, 18798.58],
-                    ['Other committee', 0, 83961.67, 83961.67],
-                    ['Political action committee', 675416.92, 680165.79, 1355582.71],
-                    ['Political party committee', 0, 44600, 44600]
+                    ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
+                    ['Campaign committee', 2000, 0, 0, 2000],
+                    ['Individual', 921764, 885872, 1426741, 3234377],
+                    ['Organization', 3908, 14891, 11525, 30324],
+                    ['Other committee', 0, 83962, 74005, 157967],
+                    ['Political action committee', 675417, 680166, 1013810, 2369392],
+                    ['Political party committee', 0, 44600, 0, 44600]
                 ],
                 // types: {
                 //     'Campaign committee': 'area-line',
@@ -253,6 +260,7 @@
                 groups: [
                     ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
                 ],
+                order: 'desc',
                 colors: {
                     'Campaign committee': '#003f5c',
                     'Individual': '#444e86',
@@ -293,13 +301,13 @@
             data: {
                 x: 'x',
                 columns: [
-                    ['x', 'Q1 2019', 'Q2 2019'],
-                    ['Campaign committee', 2000, 2000],
-                    ['Individual', 353601.71, 680220.71],
-                    ['Organization', 5500, 7700],
-                    ['Other committee', 0, 37865.1],
-                    ['Political action committee', 362546.26, 716329.62],
-                    ['Political party committee', 0, 0]
+                    ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
+                    ['Campaign committee', 2000, 0, 0, 2000],
+                    ['Individual', 353602, 326619, 386185, 1066406],
+                    ['Organization', 5500, 2200, 3500, 11200],
+                    ['Other committee', 0, 37865, 19392, 57257],
+                    ['Political action committee', 362546, 353783, 334645, 1050975],
+                    ['Political party committee', 0, 0, 0, 0]
                 ],
                 // types: {
                 //     'Campaign committee': 'area-line',
@@ -313,6 +321,7 @@
                 groups: [
                     ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
                 ],
+                order: 'desc',
                 colors: {
                     'Campaign committee': '#003f5c',
                     'Individual': '#444e86',
@@ -373,7 +382,7 @@
 
 
         /*** TABLE ***/
-        var dataFile = '../data/gardner_july_2019_donors_modified.json';
+        var dataFile = '../data/gardner_2019_q3.json';
 
         $(document).ready(function() {
             function disableDependentFilter(level, inuse) {
