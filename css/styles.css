@@ -212,6 +212,10 @@
         float: left;
     }
 
+    .photo-grid-container {
+        margin: 0 0 0 10px;
+    }
+
     .withdrew-text a {
     	color: red;
     	font-style: italic;

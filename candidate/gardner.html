@@ -43,12 +43,12 @@
         font-size: .85rem;
     }
 
-    #best-grants-table-container {
+    #contributions-table-container {
         margin-top: 10px;
         padding: 3px;
     }
 
-    #best-grants-table {
+    #contributions-table {
         font-size: .85rem;
         font-family: 'Roboto', sans-serif;
     }
@@ -127,7 +127,7 @@
             <hr>
         </div>
     </div>
-    <div id="best-grants-table-container">
+    <div id="contributions-table-container">
         <div class="row">
             <div class="large-12 columns">
                 <h2 class="table-title">Search Cory Gardner's campaign contributions</h2>
@@ -137,36 +137,36 @@
         </div>
         <div id="filters">
             <div class="row">
-                <div class="large-3 medium-3 columns">
+                <div class="large-3 medium-3 small-6 columns">
                     <span id="filter-1" style="font-weight: bold;"></span>
                 </div>
-                <div class="large-3 medium-3 columns">
+                <div class="large-3 medium-3 small-6 columns">
                     <span id="filter-2" style="font-weight: bold;"></span>
                 </div>
-                <div class="large-3 medium-3 columns">
+                <div class="large-3 medium-3 small-6 columns">
                     <span id="filter-3" style="font-weight: bold;"></span>
                 </div>
-                <div class="large-3 medium-3 end columns">
+                <div class="large-3 medium-3 small-6 end columns">
                     <span id="filter-4" style="font-weight: bold;"></span>
                 </div>
             </div>
             <div class="row">
                 <div class="large-12 columns">
-                    <table id="best-grants-table" cellspacing="0" width="100%">
+                    <table id="contributions-table" cellspacing="0" width="100%">
                         <thead>
                             <tr>
                                 <th></th>
-                                <th data-priority="1">Name</th>
-                                <th>Type</th>
-                                <th>Donor name</th>
+                                <th>Candidate</th>
+                                <th data-priority="1">Donor</th>
+                                <th data-priority="4">Type</th>
                                 <th>City</th>
                                 <th>State</th>
                                 <th>ZIP code</th>
                                 <th>Employer</th>
                                 <th>Occupation</th>
                                 <th>Receipt type</th>
-                                <th>Amount</th>
-                                <th>YTD total</th>
+                                <th data-priority="2">Amount</th>
+                                <th data-priority="3">YTD total</th>
                                 <th>Year</th>
                                 <th>Quarter</th>
                                 <th>Election type</th>
@@ -388,7 +388,7 @@
             function disableDependentFilter(level, inuse) {
                 if (level < 4) {
                     filter = $('#yadcf-filter--example-' + level);
-                    yadcf.exResetFilters(bestGrantsTable, [level]);
+                    yadcf.exResetFilters(contributionsTable, [level]);
                     filter.prop('disabled', !inuse);
 
                     disableDependentFilter(level + 1, false);
@@ -397,7 +397,7 @@
 
             // var donorTypes = [{ value: 'POLITICAL ACTION COMMITTEE', label: 'POLITICAL ACTION COMMITTEE' }, { value: 'POLITICAL PARTY COMMITTEE', label: 'POLITICAL PARTY COMMITTEE'}, { value: 'ORGANIZATION', label: 'ORGANIZATION' }, { value: 'CAMPAIGN COMMITTEE', label: 'CAMPAIGN COMMITTEE' }, { value: 'OTHER COMMITTEE', label: 'OTHER COMMITTEE'} ];
 
-            var bestGrantsTable = $('#best-grants-table').DataTable({
+            var contributionsTable = $('#contributions-table').DataTable({
                 ajax: {
                     'url': dataFile,
                     'dataSrc': ''
@@ -415,17 +415,12 @@
                     targets: 0
                 }],
                 order: [
-                    [1, 'asc'],
-                    [2, 'asc']
+                    [11, 'desc']
                 ],
                 columns: [
                     { data: 'button' },
                     {
                         data: 'committee_name',
-                        visible: false
-                    },
-                    {
-                        data: 'entity_type_desc',
                         visible: false
                     },
                     {
@@ -436,6 +431,10 @@
                         //     } else return data
 
                         // }
+                    },
+                    {
+                        data: 'entity_type_desc',
+                        visible: true
                     },
                     {
                         data: 'contributor_city',
@@ -466,8 +465,11 @@
                     {
                         data: 'contribution_receipt_amount',
                         render: function(data, type, row) {
-                            return '<a href="' + row.pdf_url + '" target="_blank">$' + data.toLocaleString() + '</a>'
+                            return '$' + data.toLocaleString()
                         }
+                        // render: function(data, type, row) {
+                        //     return '<a href="' + row.pdf_url + '" target="_blank">$' + data.toLocaleString() + '</a>'
+                        // }
                     },
                     {
                         data: 'contributor_aggregate_ytd',
@@ -491,14 +493,14 @@
                 ],
 
                 initComplete: function() {
-                    yadcf.init(bestGrantsTable, [{
-                            column_number: 2,
+                    yadcf.init(contributionsTable, [{
+                            column_number: 3,
                             filter_container_id: 'filter-1',
                             filter_default_label: 'Filter by donor type',
                             //data: donorTypes
                         },
                         {
-                            column_number: 3,
+                            column_number: 2,
                             filter_container_id: 'filter-2',
                             filter_default_label: 'Filter by donor name'
                         },
