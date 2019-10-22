@@ -27,6 +27,7 @@
     <script src="https://extras.denverpost.com/app/homicide-report/js/d3.v3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
+    <!-- <script src="../js/scripts.js"></script> -->
     <style>
     body {
         background-color: #fafafa;
@@ -99,21 +100,33 @@
         font-size: 1.5rem;
         text-align: center
     }
+
+    hr {
+        margin: 0 100px 0 100px;
+    }
     </style>
 </head>
 
 <body>
     <div class="row">
-        <div class="large-12 columns">
-            <h2 class="table-title">Cory Gardner</h2>
-            <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter.</p>
+        <div id="gardner-section" class="large-10 large-centered medium-10 medium-centered columns">
+            <h3 class="blurb-title">Cory Gardner <div class="tag-rep"></div>
+            </h3>
+            <img class="blurb-headshot" src="../images/cory-gardner-cropped.jpg">
+            <p class="blurb-bio">Incumbent U.S. Senator, 45</p>
+            <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, felis a tempus iaculis, urna eros mattis ante, quis scelerisque urna nisl id eros. Curabitur vel orci elit. Vivamus vitae nisl mauris. Nunc gravida molestie lorem et fringilla. Vestibulum egestas ante ut ante pellentesque, in bibendum tellus eleifend. Ut non ex ex. Nullam id velit sodales, efficitur orci vitae, volutpat ante. Ut sollicitudin mi sit amet nisl lobortis interdum. Maecenas mi nisl, ullamcorper non odio non, pulvinar placerat orci. Suspendisse feugiat elit eget tortor iaculis aliquet. Praesent non urna et leo varius eleifend non convallis eros.</p>
+            <!-- <div class="callout secondary">
+                <p><strong>Fundraising as of <span id="gardner-date"></span></strong><br>
+                    <span class="blurb-fundraising">$<span id="gardner-cash"></span> cash on hand &bull; $<span id="gardner-raised"></span> raised during last quarter<br><a href="#fundraising-charts">View charts</a></span></p>
+            </div> -->
+            <!-- <hr> -->
         </div>
     </div>
     <div class="row" id="gardner-fundraising-charts">
-        <div class="large-12 large-centered columns">
+        <div class="large-10 large-centered columns">
             <div class="callout secondary">
                 <p class="chart-title">Fundraising Summary</p>
-                <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <em>Hover over or click chart for details &bull; * indicates candidate has withdrawn from race.</em>
+                <p>As of <span id="gardner-date"></span>, Cory Gardner had $<span id="gardner-cash"></span> on hand and raised $<span id="gardner-raised"></span> in the last quarter. <em>Hover over or click chart for details.</em>
                     <div class="large-6 columns">
                         <p style="font-weight:bold;text-align:center">Primary</p>
                         <div id="donations-primary"></div>
@@ -124,15 +137,15 @@
                     </div>
                     <p class="source">Source: <a href="https://www.fec.gov/data/elections/senate/CO/2020/" target="_blank">Federal Election Commission</a> &bull; Kevin Hamm, The Denver Post</p>
             </div>
-            <hr>
+            <!-- <hr> -->
         </div>
     </div>
     <div id="contributions-table-container">
         <div class="row">
             <div class="large-12 columns">
                 <h2 class="table-title">Search Cory Gardner's campaign contributions</h2>
-                <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <strong>Source: Federal Election Commission</strong></em></p>
-                <p style="color:#990012;font-style:italic;text-align:center">Click column headers to sort data; use dropdown menus to filter data</p>
+                <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, employer or state, or search by a specific term. Click the column headers to sort the data. <strong>Source: Federal Election Commission</strong></em></p>
+                <!-- <p style="color:#990012;font-style:italic;text-align:center">Click column headers to sort data; use dropdown menus to filter data</p> -->
             </div>
         </div>
         <div id="filters">
@@ -150,393 +163,479 @@
                     <span id="filter-4" style="font-weight: bold;"></span>
                 </div>
             </div>
-            <div class="row">
-                <div class="large-12 columns">
-                    <table id="contributions-table" cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Candidate</th>
-                                <th data-priority="1">Donor</th>
-                                <th data-priority="4">Type</th>
-                                <th>City</th>
-                                <th>State</th>
-                                <th>ZIP code</th>
-                                <th>Employer</th>
-                                <th>Occupation</th>
-                                <th>Receipt type</th>
-                                <th data-priority="2">Amount</th>
-                                <th data-priority="3">YTD total</th>
-                                <th>Year</th>
-                                <th>Quarter</th>
-                                <th>Election type</th>
-                                <th>PDF link</th>
-                            </tr>
-                        </thead>
-                        <tfoot>
-                        </tfoot>
-                        <tbody>
-                        </tbody>
-                    </table>
-                </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <table id="contributions-table" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Candidate</th>
+                            <th data-priority="1">Donor</th>
+                            <th data-priority="4">Type</th>
+                            <th>City</th>
+                            <th>State</th>
+                            <th>ZIP code</th>
+                            <th>Employer</th>
+                            <th>Occupation</th>
+                            <th>Receipt type</th>
+                            <th data-priority="2">Amount</th>
+                            <th data-priority="3">YTD total</th>
+                            <th>Year</th>
+                            <th>Quarter</th>
+                            <th>Election type</th>
+                            <th>PDF link</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                    </tfoot>
+                    <tbody>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <script>
-        /*** CHARTS ***/
-        // var barDonationType = c3.generate({
-        //     bindto: '#donation-type',
-        //     size: {
-        //         height: 400
-        //         //width: 800
-        //     },
-        //     data: {
-        //         columns: [
-        //             ['Campaign committee', 2000, 0],
-        //             ['Individual', 500, 1000]
-        //         ],
-        //         type: 'bar',
-        //         groups: [
-        //             ['Campaign committee', 'Individual']
-        //         ]
+    </div>
+    <script>
+        /*** MAIN PAGE FUNDRAISING TOTALS CHART ***/
+    var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
 
-        //         // colors: {
-        //         //     'pending': 'red',
-        //         //     'approved': 'black',
-        //         // },
-        //     },
-        //     axis: {
-        //         x: {
-        //             type: 'category',
-        //             tick: {
-        //                 rotate: 0,
-        //                 multiline: false
-        //             }
-        //         },
-        //         y: {
-        //             tick: {
-        //                 format: d3.format('$,')
-        //             },
-        //             // label: {
-        //             //     text: 'Money raised',
-        //             //     position: 'outer-middle'
-        //             // }
-        //         }
-        //     },
-        //     grid: {
-        //         x: {
-        //             show: true
-        //         },
-        //         y: {
-        //             show: true
-        //         }
-        //     },
-        //     point: {
-        //         r: 4
-        //     }
-        // });
+    function init() {
+        Tabletop.init({
+            key: publicSpreadsheetUrl,
+            callback: function(data, tabletop) {
+                // Get last row from sheet
+                var lastRow = (data.slice(-1)[0]);
+                var lastDate = lastRow.date;
+                // var baerRaised = (lastRow.baer_raised).toLocaleString();
+                // var baerCash = (lastRow.baer_cash).toLocaleString();
+                // var brayRaised = (lastRow.bray_raised).toLocaleString();
+                // var brayCash = (lastRow.bray_cash).toLocaleString();
+                // var garciaRaised = (lastRow.garcia_raised).toLocaleString();
+                // var garciaCash = (lastRow.garcia_cash).toLocaleString();
+                var gardnerRaised = (lastRow.gardner_raised).toLocaleString();
+                var gardnerCash = (lastRow.gardner_cash).toLocaleString();
+                // var hickenlooperRaised = (lastRow.hickenlooper_raised).toLocaleString();
+                // var hickenlooperCash = (lastRow.hickenlooper_cash).toLocaleString();
+                // var johnstonRaised = (lastRow.johnston_raised).toLocaleString();
+                // var johnstonCash = (lastRow.johnston_cash).toLocaleString();
+                // var maddenRaised = (lastRow.madden_raised).toLocaleString();
+                // var maddenCash = (lastRow.madden_cash).toLocaleString();
+                // var romanoffRaised = (lastRow.romanoff_raised).toLocaleString();
+                // var romanoffCash = (lastRow.romanoff_cash).toLocaleString();
+                // var spauldingRaised = (lastRow.spaulding_raised).toLocaleString();
+                // var spauldingCash = (lastRow.spaulding_cash).toLocaleString();
+                // var walshRaised = (lastRow.walsh_raised).toLocaleString();
+                // var walshCash = (lastRow.walsh_cash).toLocaleString();
+                // var warrenRaised = (lastRow.warren_raised).toLocaleString();
+                // var warrenCash = (lastRow.warren_cash).toLocaleString();
+                // var williamsRaised = (lastRow.williams_raised).toLocaleString();
+                // var williamsCash = (lastRow.williams_cash).toLocaleString();
+                // var zornioRaised = (lastRow.zornio_raised).toLocaleString();
+                // var zornioCash = (lastRow.zornio_cash).toLocaleString();
+                // Bind to html
+                /*** UN-COMMENT BELOW WHEN THEY FILE ***/
+                // document.getElementById('baer-date').innerHTML = lastDate;
+                // document.getElementById('bray-date').innerHTML = lastDate;
+                // document.getElementById('garcia-date').innerHTML = lastDate;
+                document.getElementById('gardner-date').innerHTML = lastDate;
+                // document.getElementById('hickenlooper-date').innerHTML = lastDate;
+                // document.getElementById('johnston-date').innerHTML = lastDate;
+                // document.getElementById('madden-date').innerHTML = lastDate;
+                // document.getElementById('romanoff-date').innerHTML = lastDate;
+                // document.getElementById('spaulding-date').innerHTML = lastDate;
+                // document.getElementById('walsh-date').innerHTML = lastDate;
+                // document.getElementById('warren-date').innerHTML = lastDate;
+                // document.getElementById('williams-date').innerHTML = lastDate;
+                // document.getElementById('zornio-date').innerHTML = lastDate;
+                // document.getElementById('baer-raised').innerHTML = baerRaised;
+                // document.getElementById('baer-cash').innerHTML = baerCash;
+                // document.getElementById('bray-raised').innerHTML = brayRaised;
+                // document.getElementById('bray-cash').innerHTML = brayCash;
+                // document.getElementById('garcia-raised').innerHTML = garciaRaised;
+                // document.getElementById('garcia-cash').innerHTML = garciaCash;
+                document.getElementById('gardner-raised').innerHTML = gardnerRaised;
+                document.getElementById('gardner-cash').innerHTML = gardnerCash;
+                // document.getElementById('hickenlooper-raised').innerHTML = hickenlooperRaised;
+                // document.getElementById('hickenlooper-cash').innerHTML = hickenlooperCash;
+                // document.getElementById('johnston-raised').innerHTML = johnstonRaised;
+                // document.getElementById('johnston-cash').innerHTML = johnstonCash;
+                // document.getElementById('madden-raised').innerHTML = maddenRaised;
+                // document.getElementById('madden-cash').innerHTML = maddenCash;
+                // document.getElementById('romanoff-raised').innerHTML = romanoffRaised;
+                // document.getElementById('romanoff-cash').innerHTML = romanoffCash;
+                // document.getElementById('spaulding-raised').innerHTML = spauldingRaised;
+                // document.getElementById('spaulding-cash').innerHTML = spauldingCash;
+                // document.getElementById('walsh-raised').innerHTML = walshRaised;
+                // document.getElementById('walsh-cash').innerHTML = walshCash;
+                // document.getElementById('warren-raised').innerHTML = warrenRaised;
+                // document.getElementById('warren-cash').innerHTML = warrenCash;
+                // document.getElementById('williams-raised').innerHTML = williamsRaised;
+                // document.getElementById('williams-cash').innerHTML = williamsCash;
+                // document.getElementById('zornio-raised').innerHTML = zornioRaised;
+                // document.getElementById('zornio-cash').innerHTML = zornioCash;
+            },
+            simpleSheet: true,
+            parseNumbers: true
+        });
+    }
 
-        var donationsPrimary = c3.generate({
-            bindto: '#donations-primary',
-            data: {
-                x: 'x',
-                columns: [
-                    ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
-                    ['Campaign committee', 2000, 0, 0, 2000],
-                    ['Individual', 921764, 885872, 1426741, 3234377],
-                    ['Organization', 3908, 14891, 11525, 30324],
-                    ['Other committee', 0, 83962, 74005, 157967],
-                    ['Political action committee', 675417, 680166, 1013810, 2369392],
-                    ['Political party committee', 0, 44600, 0, 44600]
-                ],
-                // types: {
-                //     'Campaign committee': 'area-line',
-                //     'Individual': 'area-line',
-                //     'Organization': 'area-line',
-                //     'Other committee': 'area-line',
-                //     'Political action committee': 'area-line',
-                //     'Political party committee': 'area-line'
-                // },
-                type: 'bar',
-                groups: [
-                    ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
-                ],
-                order: 'desc',
-                colors: {
-                    'Campaign committee': '#003f5c',
-                    'Individual': '#444e86',
-                    'Organization': '#955196',
-                    'Other committee': '#dd5182',
-                    'Political action committee': '#ff6e54',
-                    'Political party committee': '#ffa600'
-                }
+    /*** CHARTS ***/
+    // var barDonationType = c3.generate({
+    //     bindto: '#donation-type',
+    //     size: {
+    //         height: 400
+    //         //width: 800
+    //     },
+    //     data: {
+    //         columns: [
+    //             ['Campaign committee', 2000, 0],
+    //             ['Individual', 500, 1000]
+    //         ],
+    //         type: 'bar',
+    //         groups: [
+    //             ['Campaign committee', 'Individual']
+    //         ]
+
+    //         // colors: {
+    //         //     'pending': 'red',
+    //         //     'approved': 'black',
+    //         // },
+    //     },
+    //     axis: {
+    //         x: {
+    //             type: 'category',
+    //             tick: {
+    //                 rotate: 0,
+    //                 multiline: false
+    //             }
+    //         },
+    //         y: {
+    //             tick: {
+    //                 format: d3.format('$,')
+    //             },
+    //             // label: {
+    //             //     text: 'Money raised',
+    //             //     position: 'outer-middle'
+    //             // }
+    //         }
+    //     },
+    //     grid: {
+    //         x: {
+    //             show: true
+    //         },
+    //         y: {
+    //             show: true
+    //         }
+    //     },
+    //     point: {
+    //         r: 4
+    //     }
+    // });
+
+    var donationsPrimary = c3.generate({
+        bindto: '#donations-primary',
+        data: {
+            x: 'x',
+            columns: [
+                ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
+                ['Campaign committee', 2000, 0, 0, 2000],
+                ['Individual', 921764, 885872, 1426741, 3234377],
+                ['Organization', 3908, 14891, 11525, 30324],
+                ['Other committee', 0, 83962, 74005, 157967],
+                ['Political action committee', 675417, 680166, 1013810, 2369392],
+                ['Political party committee', 0, 44600, 0, 44600]
+            ],
+            // types: {
+            //     'Campaign committee': 'area-line',
+            //     'Individual': 'area-line',
+            //     'Organization': 'area-line',
+            //     'Other committee': 'area-line',
+            //     'Political action committee': 'area-line',
+            //     'Political party committee': 'area-line'
+            // },
+            type: 'bar',
+            groups: [
+                ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
+            ],
+            order: 'desc',
+            colors: {
+                'Campaign committee': '#003f5c',
+                'Individual': '#444e86',
+                'Organization': '#955196',
+                'Other committee': '#dd5182',
+                'Political action committee': '#ff6e54',
+                'Political party committee': '#ffa600'
+            }
+        },
+        axis: {
+            x: {
+                type: 'category'
             },
-            axis: {
-                x: {
-                    type: 'category'
+            y: {
+                tick: {
+                    format: d3.format('$,'),
+                    values: [1000000, 3000000, 5000000]
                 },
-                y: {
-                    tick: {
-                        format: d3.format('$,'),
-                        values: [1000000, 3000000, 5000000]
-                    },
-                    max: 5000000,
-                    label: {
-                        text: 'Money raised',
-                        position: 'outer-middle'
-                    }
-                }
-            },
-            grid: {
-                x: {
-                    show: true
-                },
-                y: {
-                    show: true
+                max: 5000000,
+                label: {
+                    text: 'Money raised',
+                    position: 'outer-middle'
                 }
             }
-        });
+        },
+        grid: {
+            x: {
+                show: true
+            },
+            y: {
+                show: true
+            }
+        }
+    });
 
-        var donationsGeneral = c3.generate({
-            bindto: '#donations-general',
-            data: {
-                x: 'x',
-                columns: [
-                    ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
-                    ['Campaign committee', 2000, 0, 0, 2000],
-                    ['Individual', 353602, 326619, 386185, 1066406],
-                    ['Organization', 5500, 2200, 3500, 11200],
-                    ['Other committee', 0, 37865, 19392, 57257],
-                    ['Political action committee', 362546, 353783, 334645, 1050975],
-                    ['Political party committee', 0, 0, 0, 0]
-                ],
-                // types: {
-                //     'Campaign committee': 'area-line',
-                //     'Individual': 'area-line',
-                //     'Organization': 'area-line',
-                //     'Other committee': 'area-line',
-                //     'Political action committee': 'area-line',
-                //     'Political party committee': 'area-line'
-                // },
-                type: 'bar',
-                groups: [
-                    ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
-                ],
-                order: 'desc',
-                colors: {
-                    'Campaign committee': '#003f5c',
-                    'Individual': '#444e86',
-                    'Organization': '#955196',
-                    'Other committee': '#dd5182',
-                    'Political action committee': '#ff6e54',
-                    'Political party committee': '#ffa600'
-                }
+    var donationsGeneral = c3.generate({
+        bindto: '#donations-general',
+        data: {
+            x: 'x',
+            columns: [
+                ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
+                ['Campaign committee', 2000, 0, 0, 2000],
+                ['Individual', 353602, 326619, 386185, 1066406],
+                ['Organization', 5500, 2200, 3500, 11200],
+                ['Other committee', 0, 37865, 19392, 57257],
+                ['Political action committee', 362546, 353783, 334645, 1050975],
+                ['Political party committee', 0, 0, 0, 0]
+            ],
+            // types: {
+            //     'Campaign committee': 'area-line',
+            //     'Individual': 'area-line',
+            //     'Organization': 'area-line',
+            //     'Other committee': 'area-line',
+            //     'Political action committee': 'area-line',
+            //     'Political party committee': 'area-line'
+            // },
+            type: 'bar',
+            groups: [
+                ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
+            ],
+            order: 'desc',
+            colors: {
+                'Campaign committee': '#003f5c',
+                'Individual': '#444e86',
+                'Organization': '#955196',
+                'Other committee': '#dd5182',
+                'Political action committee': '#ff6e54',
+                'Political party committee': '#ffa600'
+            }
+        },
+        axis: {
+            x: {
+                type: 'category'
             },
-            axis: {
-                x: {
-                    type: 'category'
+            y: {
+                tick: {
+                    format: d3.format('$,'),
+                    values: [1000000, 3000000, 5000000]
                 },
-                y: {
-                    tick: {
-                        format: d3.format('$,'),
-                        values: [1000000, 3000000, 5000000]
-                    },
-                    max: 5000000,
-                    //min: 0,
-                    label: {
-                        text: 'Money raised',
-                        position: 'outer-middle'
-                    }
-                }
-            },
-            grid: {
-                x: {
-                    show: true
-                },
-                y: {
-                    show: true
+                max: 5000000,
+                //min: 0,
+                label: {
+                    text: 'Money raised',
+                    position: 'outer-middle'
                 }
             }
-        });
-
-        // var chart = c3.generate({
-        //     bindto: '#donation-type',
-        //     data: {
-        //         columns: [
-        //             ['Campaign committee', 2000],
-        //             ['Individual', 353601.71],
-        //             ['Organization', 5500],
-        //             ['Other committee', 0],
-        //             ['Political action committee', 362546.26],
-        //             ['Political party committee', 0]
-        //         ],
-        //         type: 'donut',
-        //         onclick: function(d, i) { console.log("onclick", d, i); },
-        //         onmouseover: function(d, i) { console.log("onmouseover", d, i); },
-        //         onmouseout: function(d, i) { console.log("onmouseout", d, i); }
-        //     },
-        //     donut: {
-        //         title: "Iris Petal Width"
-        //     }
-        // });
-
-
-
-        /*** TABLE ***/
-        var dataFile = '../data/gardner_2019_q3.json';
-
-        $(document).ready(function() {
-            function disableDependentFilter(level, inuse) {
-                if (level < 4) {
-                    filter = $('#yadcf-filter--example-' + level);
-                    yadcf.exResetFilters(contributionsTable, [level]);
-                    filter.prop('disabled', !inuse);
-
-                    disableDependentFilter(level + 1, false);
-                }
+        },
+        grid: {
+            x: {
+                show: true
+            },
+            y: {
+                show: true
             }
+        }
+    });
 
-            // var donorTypes = [{ value: 'POLITICAL ACTION COMMITTEE', label: 'POLITICAL ACTION COMMITTEE' }, { value: 'POLITICAL PARTY COMMITTEE', label: 'POLITICAL PARTY COMMITTEE'}, { value: 'ORGANIZATION', label: 'ORGANIZATION' }, { value: 'CAMPAIGN COMMITTEE', label: 'CAMPAIGN COMMITTEE' }, { value: 'OTHER COMMITTEE', label: 'OTHER COMMITTEE'} ];
+    // var chart = c3.generate({
+    //     bindto: '#donation-type',
+    //     data: {
+    //         columns: [
+    //             ['Campaign committee', 2000],
+    //             ['Individual', 353601.71],
+    //             ['Organization', 5500],
+    //             ['Other committee', 0],
+    //             ['Political action committee', 362546.26],
+    //             ['Political party committee', 0]
+    //         ],
+    //         type: 'donut',
+    //         onclick: function(d, i) { console.log("onclick", d, i); },
+    //         onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+    //         onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+    //     },
+    //     donut: {
+    //         title: "Iris Petal Width"
+    //     }
+    // });
 
-            var contributionsTable = $('#contributions-table').DataTable({
-                ajax: {
-                    'url': dataFile,
-                    'dataSrc': ''
-                },
-                pageLength: 15,
-                responsive: {
-                    details: {
-                        type: 'column'
-                    }
-                },
-                dom: '<if<t>lp>',
-                columnDefs: [{
-                    className: 'control',
-                    orderable: false,
-                    targets: 0
-                }],
-                order: [
-                    [11, 'desc']
-                ],
-                columns: [
-                    { data: 'button' },
-                    {
-                        data: 'committee_name',
-                        visible: false
-                    },
-                    {
-                        data: 'contributor_name',
-                        // render: function(data, type, row) {
-                        //     if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
-                        //         return '*'
-                        //     } else return data
 
-                        // }
-                    },
-                    {
-                        data: 'entity_type_desc',
-                        visible: true
-                    },
-                    {
-                        data: 'contributor_city',
-                        visible: true
-                    },
-                    {
-                        data: 'contributor_state',
-                        visible: true
-                    },
-                    {
-                        data: 'contributor_zip',
-                        visible: false
-                    },
-                    { data: 'contributor_employer' },
-                    {
-                        data: 'contributor_occupation',
-                        // render: function(data, type, row) {
-                        //     if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
-                        //         return '*'
-                        //     } else return data
 
-                        // }
-                    },
-                    {
-                        data: 'receipt_type_full',
-                        visible: false
-                    },
-                    {
-                        data: 'contribution_receipt_amount',
-                        render: function(data, type, row) {
-                            return '$' + data.toLocaleString()
-                        }
-                        // render: function(data, type, row) {
-                        //     return '<a href="' + row.pdf_url + '" target="_blank">$' + data.toLocaleString() + '</a>'
-                        // }
-                    },
-                    {
-                        data: 'contributor_aggregate_ytd',
-                        render: function(data, type, row) {
-                            return '$' + data.toLocaleString()
-                        }
-                    },
-                    {
-                        data: 'report_year',
-                        visible: true
-                    },
-                    {
-                        data: 'report_type',
-                        visible: true
-                    },
-                    { data: 'fec_election_type_desc' },
-                    {
-                        data: 'pdf_url',
-                        visible: false
-                    }
-                ],
+    /*** TABLE ***/
+    var dataFile = '../data/gardner_2019_q3.json';
 
-                initComplete: function() {
-                    yadcf.init(contributionsTable, [{
-                            column_number: 3,
-                            filter_container_id: 'filter-1',
-                            filter_default_label: 'Filter by donor type',
-                            //data: donorTypes
-                        },
-                        {
-                            column_number: 2,
-                            filter_container_id: 'filter-2',
-                            filter_default_label: 'Filter by donor name'
-                        },
-                        {
-                            column_number: 7,
-                            filter_container_id: 'filter-3',
-                            filter_default_label: 'Filter by donor employer'
-                        },
-                        {
-                            column_number: 5,
-                            filter_container_id: 'filter-4',
-                            filter_default_label: 'Filter by donor state'
-                        },
-                    ], {
-                        cumulative_filtering: true,
-                        filter_reset_button_text: 'Reset filter'
-                    });
+    $(document).ready(function() {
+        function disableDependentFilter(level, inuse) {
+            if (level < 4) {
+                filter = $('#yadcf-filter--example-' + level);
+                yadcf.exResetFilters(contributionsTable, [level]);
+                filter.prop('disabled', !inuse);
 
-                    // get it started
-                    disableDependentFilter(1, true);
+                disableDependentFilter(level + 1, false);
+            }
+        }
 
-                    $('.yadcf-filter-reset-button').on('click', function() {
-                        level = parseInt(this.id.split('-')[1]);
-                        disableDependentFilter(level, true);
-                    });
+        // var donorTypes = [{ value: 'POLITICAL ACTION COMMITTEE', label: 'POLITICAL ACTION COMMITTEE' }, { value: 'POLITICAL PARTY COMMITTEE', label: 'POLITICAL PARTY COMMITTEE'}, { value: 'ORGANIZATION', label: 'ORGANIZATION' }, { value: 'CAMPAIGN COMMITTEE', label: 'CAMPAIGN COMMITTEE' }, { value: 'OTHER COMMITTEE', label: 'OTHER COMMITTEE'} ];
 
-                    $('.yadcf-filter').on('change', function() {
-                        level = parseInt(this.id.slice(-1));
-                        inuse = $(this).hasClass('inuse');
-
-                        disableDependentFilter(level + 1, inuse);
-                    });
+        var contributionsTable = $('#contributions-table').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            pageLength: 15,
+            responsive: {
+                details: {
+                    type: 'column'
                 }
-            });
+            },
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                className: 'control',
+                orderable: false,
+                targets: 0
+            }],
+            order: [
+                [11, 'desc']
+            ],
+            columns: [
+                { data: 'button' },
+                {
+                    data: 'committee_name',
+                    visible: false
+                },
+                {
+                    data: 'contributor_name',
+                    // render: function(data, type, row) {
+                    //     if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
+                    //         return '*'
+                    //     } else return data
+
+                    // }
+                },
+                {
+                    data: 'entity_type_desc',
+                    visible: true
+                },
+                {
+                    data: 'contributor_city',
+                    visible: true
+                },
+                {
+                    data: 'contributor_state',
+                    visible: true
+                },
+                {
+                    data: 'contributor_zip',
+                    visible: false
+                },
+                { data: 'contributor_employer' },
+                {
+                    data: 'contributor_occupation',
+                    // render: function(data, type, row) {
+                    //     if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
+                    //         return '*'
+                    //     } else return data
+
+                    // }
+                },
+                {
+                    data: 'receipt_type_full',
+                    visible: false
+                },
+                {
+                    data: 'contribution_receipt_amount',
+                    render: function(data, type, row) {
+                        return '$' + data.toLocaleString()
+                    }
+                    // render: function(data, type, row) {
+                    //     return '<a href="' + row.pdf_url + '" target="_blank">$' + data.toLocaleString() + '</a>'
+                    // }
+                },
+                {
+                    data: 'contributor_aggregate_ytd',
+                    render: function(data, type, row) {
+                        return '$' + data.toLocaleString()
+                    }
+                },
+                {
+                    data: 'report_year',
+                    visible: true
+                },
+                {
+                    data: 'report_type',
+                    visible: true
+                },
+                { data: 'fec_election_type_desc' },
+                {
+                    data: 'pdf_url',
+                    visible: false
+                }
+            ],
+
+            initComplete: function() {
+                yadcf.init(contributionsTable, [{
+                        column_number: 3,
+                        filter_container_id: 'filter-1',
+                        filter_default_label: 'Filter by donor type',
+                        //data: donorTypes
+                    },
+                    {
+                        column_number: 2,
+                        filter_container_id: 'filter-2',
+                        filter_default_label: 'Filter by donor name'
+                    },
+                    {
+                        column_number: 7,
+                        filter_container_id: 'filter-3',
+                        filter_default_label: 'Filter by donor employer'
+                    },
+                    {
+                        column_number: 5,
+                        filter_container_id: 'filter-4',
+                        filter_default_label: 'Filter by donor state'
+                    },
+                ], {
+                    cumulative_filtering: true,
+                    filter_reset_button_text: 'Reset filter'
+                });
+
+                // get it started
+                disableDependentFilter(1, true);
+
+                $('.yadcf-filter-reset-button').on('click', function() {
+                    level = parseInt(this.id.split('-')[1]);
+                    disableDependentFilter(level, true);
+                });
+
+                $('.yadcf-filter').on('change', function() {
+                    level = parseInt(this.id.slice(-1));
+                    inuse = $(this).hasClass('inuse');
+
+                    disableDependentFilter(level + 1, inuse);
+                });
+            }
         });
-        </script>
+    });
+
+    window.addEventListener('DOMContentLoaded', init)
+    </script>
 </body>
 
 </html>
