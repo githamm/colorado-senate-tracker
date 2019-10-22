@@ -96,11 +96,6 @@
         font-weight: normal;
     }
 
-    .chart-title {
-        font-size: 1.5rem;
-        text-align: center
-    }
-
     hr {
         margin: 0 100px 0 100px;
     }
@@ -125,19 +120,20 @@
     <div class="row" id="gardner-fundraising-charts">
         <div class="large-10 large-centered columns">
             <div class="callout secondary">
-                <p class="chart-title">Fundraising Summary</p>
+                <p class="chart-container-title">Fundraising Summary</p>
                 <p>As of <span id="gardner-date"></span>, Cory Gardner had $<span id="gardner-cash"></span> on hand and raised $<span id="gardner-raised"></span> in the last quarter. <em>Hover over or click chart for details.</em>
-                    <div class="large-6 columns">
-                        <p style="font-weight:bold;text-align:center">Primary</p>
-                        <div id="donations-primary"></div>
+                    <div class="large-6 medium-6 columns">
+                        <p class="chart-title">Total contributions<br>and transfers</p>
+                        <div id="donations-quarterly"></div>
+                        <p class="source">Source: <a href="https://www.fec.gov/data/reports/house-senate/?is_amended=false&data_type=processed&committee_id=C00492454&cycle=2020" target="_blank">FEC quarterly report </a>
                     </div>
-                    <div class="large-6 columns">
-                        <p style="font-weight:bold;text-align:center">General</p>
-                        <div id="donations-general"></div>
+                    <div class="large-6 medium-6 columns">
+                        <p class="chart-title">Individual donations<br>2019</p>
+                        <div id="donations-breakdown"></div>
+                        <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
                     </div>
-                    <p class="source">Source: <a href="https://www.fec.gov/data/elections/senate/CO/2020/" target="_blank">Federal Election Commission</a> &bull; Kevin Hamm, The Denver Post</p>
+                    <p>&nbsp;</p>
             </div>
-            <!-- <hr> -->
         </div>
     </div>
     <div id="contributions-table-container">
@@ -196,7 +192,7 @@
         </div>
     </div>
     <script>
-        /*** MAIN PAGE FUNDRAISING TOTALS CHART ***/
+    /*** MAIN PAGE FUNDRAISING TOTALS CHART ***/
     var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
 
     function init() {
@@ -332,18 +328,16 @@
     //     }
     // });
 
-    var donationsPrimary = c3.generate({
-        bindto: '#donations-primary',
+    var donationsQuarterly = c3.generate({
+        bindto: '#donations-quarterly',
         data: {
             x: 'x',
             columns: [
-                ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
-                ['Campaign committee', 2000, 0, 0, 2000],
-                ['Individual', 921764, 885872, 1426741, 3234377],
-                ['Organization', 3908, 14891, 11525, 30324],
-                ['Other committee', 0, 83962, 74005, 157967],
-                ['Political action committee', 675417, 680166, 1013810, 2369392],
-                ['Political party committee', 0, 44600, 0, 44600]
+                ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total election cycle'],
+                ['Individuals', 1033301, 961869, 1532721, 4460391],
+                ['Political party committees', 0, 44600, 0, 44600],
+                ['Other political committees (PACs)', 694283, 626098, 385987, 3195878],
+                ['Transfers from other authorized committees', 275228, 376686, 532655, 1638763]
             ],
             // types: {
             //     'Campaign committee': 'area-line',
@@ -355,32 +349,44 @@
             // },
             type: 'bar',
             groups: [
-                ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
+                ['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
             ],
             order: 'desc',
             colors: {
-                'Campaign committee': '#003f5c',
-                'Individual': '#444e86',
-                'Organization': '#955196',
-                'Other committee': '#dd5182',
-                'Political action committee': '#ff6e54',
-                'Political party committee': '#ffa600'
+                // 'Individuals': '#444e86',
+                // 'Transfers from other authorized committees': '#dd5182',
+                // 'Other political committees (PACs)': '#ff6e54',
+                // 'Political party committees': '#ffa600'
+                'Individuals': '#5e3c99',
+                'Transfers from other authorized committees': '#b2abd2',
+                'Other political committees (PACs)': '#e66101',
+                'Political party committees': '#fdb863'
             }
+        },
+        padding: {
+            bottom: 40
         },
         axis: {
             x: {
-                type: 'category'
+                type: 'category',
+                tick: {
+                    // rotate: 60,
+                    // multiline: true,
+                    height: 130
+                }
             },
             y: {
                 tick: {
-                    format: d3.format('$,'),
-                    values: [1000000, 3000000, 5000000]
+                    values: [3000000, 5000000, 7000000, 9000000],
+                    format: function(d) {
+                        return d3.format('$.1s')(d)
+                    }
                 },
-                max: 5000000,
-                label: {
-                    text: 'Money raised',
-                    position: 'outer-middle'
-                }
+                // max: 5000000,
+                // label: {
+                //     text: 'In millions',
+                //     position: 'outer-middle'
+                // }
             }
         },
         grid: {
@@ -393,90 +399,98 @@
         }
     });
 
-    var donationsGeneral = c3.generate({
-        bindto: '#donations-general',
-        data: {
-            x: 'x',
-            columns: [
-                ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
-                ['Campaign committee', 2000, 0, 0, 2000],
-                ['Individual', 353602, 326619, 386185, 1066406],
-                ['Organization', 5500, 2200, 3500, 11200],
-                ['Other committee', 0, 37865, 19392, 57257],
-                ['Political action committee', 362546, 353783, 334645, 1050975],
-                ['Political party committee', 0, 0, 0, 0]
-            ],
-            // types: {
-            //     'Campaign committee': 'area-line',
-            //     'Individual': 'area-line',
-            //     'Organization': 'area-line',
-            //     'Other committee': 'area-line',
-            //     'Political action committee': 'area-line',
-            //     'Political party committee': 'area-line'
-            // },
-            type: 'bar',
-            groups: [
-                ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
-            ],
-            order: 'desc',
-            colors: {
-                'Campaign committee': '#003f5c',
-                'Individual': '#444e86',
-                'Organization': '#955196',
-                'Other committee': '#dd5182',
-                'Political action committee': '#ff6e54',
-                'Political party committee': '#ffa600'
-            }
-        },
-        axis: {
-            x: {
-                type: 'category'
-            },
-            y: {
-                tick: {
-                    format: d3.format('$,'),
-                    values: [1000000, 3000000, 5000000]
-                },
-                max: 5000000,
-                //min: 0,
-                label: {
-                    text: 'Money raised',
-                    position: 'outer-middle'
-                }
-            }
-        },
-        grid: {
-            x: {
-                show: true
-            },
-            y: {
-                show: true
-            }
-        }
-    });
-
-    // var chart = c3.generate({
-    //     bindto: '#donation-type',
+    // var donationsGeneral = c3.generate({
+    //     bindto: '#donations-breakdown',
     //     data: {
+    //         x: 'x',
     //         columns: [
-    //             ['Campaign committee', 2000],
-    //             ['Individual', 353601.71],
-    //             ['Organization', 5500],
-    //             ['Other committee', 0],
-    //             ['Political action committee', 362546.26],
-    //             ['Political party committee', 0]
+    //             ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
+    //             ['Campaign committee', 2000, 0, 0, 2000],
+    //             ['Individual', 353602, 326619, 386185, 1066406],
+    //             ['Organization', 5500, 2200, 3500, 11200],
+    //             ['Other committee', 0, 37865, 19392, 57257],
+    //             ['Political action committee', 362546, 353783, 334645, 1050975],
+    //             ['Political party committee', 0, 0, 0, 0]
     //         ],
-    //         type: 'donut',
-    //         onclick: function(d, i) { console.log("onclick", d, i); },
-    //         onmouseover: function(d, i) { console.log("onmouseover", d, i); },
-    //         onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+    //         // types: {
+    //         //     'Campaign committee': 'area-line',
+    //         //     'Individual': 'area-line',
+    //         //     'Organization': 'area-line',
+    //         //     'Other committee': 'area-line',
+    //         //     'Political action committee': 'area-line',
+    //         //     'Political party committee': 'area-line'
+    //         // },
+    //         type: 'bar',
+    //         groups: [
+    //             ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
+    //         ],
+    //         order: 'desc',
+    //         colors: {
+    //             'Campaign committee': '#003f5c',
+    //             'Individual': '#444e86',
+    //             'Organization': '#955196',
+    //             'Other committee': '#dd5182',
+    //             'Political action committee': '#ff6e54',
+    //             'Political party committee': '#ffa600'
+    //         }
     //     },
-    //     donut: {
-    //         title: "Iris Petal Width"
+    //     axis: {
+    //         x: {
+    //             type: 'category'
+    //         },
+    //         y: {
+    //             tick: {
+    //                 format: d3.format('$,'),
+    //                 values: [1000000, 3000000, 5000000]
+    //             },
+    //             max: 5000000,
+    //             //min: 0,
+    //             label: {
+    //                 text: 'Money raised',
+    //                 position: 'outer-middle'
+    //             }
+    //         }
+    //     },
+    //     grid: {
+    //         x: {
+    //             show: true
+    //         },
+    //         y: {
+    //             show: true
+    //         }
     //     }
     // });
 
-
+    var donationsBreakdown = c3.generate({
+        bindto: '#donations-breakdown',
+        data: {
+            columns: [
+                ['$2,000 and over', 2887951],
+                ['$500—$999', 360865],
+                ['$200.01—$499', 147452],
+                ['$1,000—$1,999', 813859],
+                ['$200 and under', 491318]
+            ],
+            type: 'donut',
+            colors: {
+                '$2,000 and over': '#4a1486',
+                '$500—$999': '#6a51a3',
+                '$200.01—$499': '#807dba',
+                '$1,000—$1,999': '#9e9ac8',
+                '$200 and under': '#bcbddc'
+            },
+            onclick: function(d, i) { console.log("onclick", d, i); },
+            onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+        },
+        tooltip: {
+            format: {
+                value: function(value, ratio, id) {
+                    return d3.format('$,')(value)
+                }
+            }
+        }
+    });
 
     /*** TABLE ***/
     var dataFile = '../data/gardner_2019_q3.json';
@@ -491,8 +505,6 @@
                 disableDependentFilter(level + 1, false);
             }
         }
-
-        // var donorTypes = [{ value: 'POLITICAL ACTION COMMITTEE', label: 'POLITICAL ACTION COMMITTEE' }, { value: 'POLITICAL PARTY COMMITTEE', label: 'POLITICAL PARTY COMMITTEE'}, { value: 'ORGANIZATION', label: 'ORGANIZATION' }, { value: 'CAMPAIGN COMMITTEE', label: 'CAMPAIGN COMMITTEE' }, { value: 'OTHER COMMITTEE', label: 'OTHER COMMITTEE'} ];
 
         var contributionsTable = $('#contributions-table').DataTable({
             ajax: {
@@ -522,12 +534,6 @@
                 },
                 {
                     data: 'contributor_name',
-                    // render: function(data, type, row) {
-                    //     if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
-                    //         return '*'
-                    //     } else return data
-
-                    // }
                 },
                 {
                     data: 'entity_type_desc',
@@ -548,12 +554,6 @@
                 { data: 'contributor_employer' },
                 {
                     data: 'contributor_occupation',
-                    // render: function(data, type, row) {
-                    //     if (row.contributor_aggregate_ytd < 1000 && row.entity_type_desc === 'INDIVIDUAL') {
-                    //         return '*'
-                    //     } else return data
-
-                    // }
                 },
                 {
                     data: 'receipt_type_full',
@@ -564,9 +564,6 @@
                     render: function(data, type, row) {
                         return '$' + data.toLocaleString()
                     }
-                    // render: function(data, type, row) {
-                    //     return '<a href="' + row.pdf_url + '" target="_blank">$' + data.toLocaleString() + '</a>'
-                    // }
                 },
                 {
                     data: 'contributor_aggregate_ytd',
@@ -616,7 +613,6 @@
                     filter_reset_button_text: 'Reset filter'
                 });
 
-                // get it started
                 disableDependentFilter(1, true);
 
                 $('.yadcf-filter-reset-button').on('click', function() {
