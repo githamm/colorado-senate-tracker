@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Debt Database | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="//cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/plugins/foundation.reveal.js"></script>
+    <script src="//cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+    <script src="//cdn.datatables.net/plug-ins/1.10.19/sorting/datetime-moment.js"></script>
+    <script src="to-title-case.js"></script>
+
+    <head>
+        <style>
+        body {
+            background-color: #fafafa;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /*#main-container {
+            width: 900px;
+            margin: 0 auto;
+        }*/
+
+        .table-title {
+            font-size: 2.3rem;
+            line-height: 35px;
+            font-weight: 700;
+        }
+
+        .instructions-text {
+            color: #cb181d;
+            font-size: .8em;
+            font-style: italic;
+            text-align: center;
+        }
+
+        #filters {
+            font-size: .85rem;
+        }
+
+        #lockdowns-table-container {
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        #student-debt-table {
+            font-size: .85rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        button.yadcf-filter-reset-button {
+            color: #cb181d;
+            margin-left: 10px;
+        }
+
+        select {
+            margin-top: 7px;
+            margin-bottom: 0;
+            font-size: .85rem;
+        }
+
+        .dem {
+            background-color: lightblue;
+            width: 15px;
+            height: 15px;
+            margin-left: .5em;
+        }
+
+        .rep {
+            background-color: red;
+            width: 15px;
+            height: 15px;
+            margin-left: .5em;
+        }
+
+        .yadcf-filter-range {
+            height: 2.9em;
+            border: 1px solid silver;
+        }
+
+        .filter-text {
+            font-weight: bold;
+            margin-top: .5em;
+            margin-bottom: .5em;
+        }
+
+        p.source {
+            font-size: .9rem;
+            text-align: right;
+            font-style: italic;
+        }
+
+        .herd {
+            color: red;
+        }
+
+        .filter-description {
+            font-style: italic;
+            display: inline-block;
+            line-height: 16px;
+        }
+
+        thead {
+            line-height: 18px;
+            font-size: .85rem;
+        }
+
+        .topcorner {
+            /*position: relative;
+            top: 10px;
+            right: 10px;*/
+            float: right;
+            padding-right: 10px;
+        }
+
+        img {
+            height: 32px;
+            width: 32px;
+        }
+
+        .reveal {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .modal-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .modal-subtitle {
+            text-transform: uppercase;
+            color: rgba(0, 0, 0, .8);
+            margin-bottom: 4px;
+        }
+
+        .info-button {
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 4px;
+            line-height: 17px;
+        }
+        </style>
+    </head>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <table id="contributions-table" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>ID</th>
+                        <th>Candidate</th>
+                        <th data-priority="1">Donor</th>
+                        <th data-priority="4">Type</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>ZIP code</th>
+                        <th>Employer</th>
+                        <th>Occupation</th>
+                        <th>Receipt type</th>
+                        <th data-priority="2">Amount</th>
+                        <th data-priority="3">YTD total</th>
+                        <th>Year</th>
+                        <th>Quarter</th>
+                        <th>Election type</th>
+                        <th>PDF link</th>
+                        <!-- <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th> -->
+                    </tr>
+                </thead>
+                <tfoot>
+                </tfoot>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+    $(document).ready(function() {
+        // function disableDependentFilter(level, inuse) {
+        //     if (level < 4) {
+        //         filter = $('#yadcf-filter-debt' + level);
+        //         yadcf.exResetFilters(debtTable, [level]);
+        //         filter.prop('disabled', !inuse);
+
+        //         disableDependentFilter(level + 1, false);
+        //     }
+        // }
+
+
+
+        var debtTable = $('#contributions-table').DataTable({
+            processing: true,
+            serverSide: true,
+            ajax: {
+                url: 'getData.php'
+                //type: 'POST',
+                //dataSrc: ''
+            },
+            scrollY: '600px',
+            //deferRender: true,
+            pageLength: 50,
+            responsive: {
+                details: {
+                    type: 'column'
+                }
+            },
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                    defaultContent: '-',
+                    targets: '_all'
+                },
+                {
+                    className: 'control',
+                    orderable: false,
+                    targets: 0
+                },
+                {
+                    // targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+                    // targets: [1, 2],
+                    // visible: true
+                }
+                // {
+                //     targets: 2,
+                //     visible: true
+                // }
+                // {
+                //     targets: [6, 8],
+                //     render: function(data, type, row, meta) {
+                //         if (data !== null) {
+                //             return Number(data).toLocaleString();
+                //         }
+                //     }
+                // },
+                // {
+                //     targets: 7,
+                //     render: function(data, type, row, meta) {
+                //         //console.log(row);
+                //         if (data !== null) {
+                //             return '$' + Number(data).toLocaleString();
+                //         }
+                //     }
+                // }
+                // {
+                //     targets: [3, 4, 6],
+                //     render: function(data, type, row, meta) {
+                //         if (row[6] == 'MMR' && row[7] < .95) {
+                //             return '<span style="color:#cb181d">' + data + '</span>'
+                //         } else {
+                //             return data
+                //         }
+                //     }
+                // },
+                // {
+                //     targets: [7, 8, 9, 10, 11, 12, 13, 14],
+                //     render: function(data, type, row, meta) {
+                //         if (row[6] == '-') {
+                //             return '-'
+                //         } else if (row[6] == 'MMR' && row[7] < .95) {
+                //             return '<span style="color:#cb181d">' + (data * 100).toFixed(1) + '%' + '</span>'
+                //         } else {
+                //             return (data * 100).toFixed(1) + '%'
+                //         }
+                //     }
+                // },
+                // {
+                //     targets: [ /*8, 9, 10, 11, 12, 13, 14, */ 15],
+                //     render: function(data, type, row, meta) {
+                //         if (row[7] == '-') {
+                //             return '-'
+                //         } else {
+                //             return (data * 100).toFixed(1) + '%'
+                //         }
+                //     }
+                // }
+            ],
+            order: [
+                [2, 'asc']
+            ],
+            // initComplete: function() {
+            //     yadcf.init(debtTable, [{
+            //             column_number: 2,
+            //             filter_container_id: 'filter-1',
+            //             filter_default_label: 'Show all',
+            //             data: schoolName
+            //         },
+            //         {
+            //             column_number: 3,
+            //             filter_container_id: 'filter-2',
+            //             filter_default_label: 'Show all',
+            //             data: schoolType
+            //         },
+            //         {
+            //             column_number: 5,
+            //             filter_container_id: 'filter-3',
+            //             filter_default_label: 'Show all',
+            //             data: degreeType
+            //}
+            // {
+            //     column_number: 6,
+            //     filter_container_id: 'filter-4',
+            //     filter_default_label: 'Show all',
+            //     data: vaccinations
+            // },
+            // {
+            //     column_number: 17,
+            //     filter_container_id: 'filter-5',
+            //     filter_default_label: 'Show all',
+            //     data: surveyStatus
+            // }
+            // ], {
+            //     cumulative_filtering: true,
+            //     filter_reset_button_text: 'Reset filter'
+            // });
+
+            // get it started
+            // disableDependentFilter(1, true);
+
+            // $('.yadcf-filter-reset-button').on('click', function() {
+            //     level = parseInt(this.id.split('-')[4]);
+            //     disableDependentFilter(level, true);
+            // });
+
+            // $('.yadcf-filter').on('change', function() {
+            //     level = parseInt(this.id.slice(-1));
+            //     inuse = $(this).hasClass('inuse');
+
+            //     disableDependentFilter(level + 1, inuse);
+            // });
+            // yadcf.exFilterColumn(debtTable, [
+            //     [17, 'Completed']
+            // ], true);
+            //}
+        });
+    });
+    </script>
+    <script>
+    $(document).foundation()
+    </script>
+</body>
+
+</html>
