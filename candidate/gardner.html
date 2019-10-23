@@ -27,89 +27,24 @@
     <script src="https://extras.denverpost.com/app/homicide-report/js/d3.v3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
-    <!-- <script src="../js/scripts.js"></script> -->
-    <style>
-    body {
-        background-color: #fafafa;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .table-title {
-        font-weight: 700;
-        font-size: 1.75em;
-        line-height: 120%;
-    }
-
-    #filters {
-        font-size: .85rem;
-    }
-
-    #contributions-table-container {
-        margin-top: 10px;
-        padding: 3px;
-    }
-
-    #contributions-table {
-        font-size: .85rem;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    button.yadcf-filter-reset-button {
-        color: red;
-        margin-left: 10px;
-    }
-
-    select {
-        margin-top: 7px;
-        margin-bottom: 0;
-        font-size: .85rem;
-    }
-
-    .yadcf-filter-range {
-        height: 2.9em;
-        border: 1px solid silver;
-    }
-
-    .filter-text {
-        font-weight: bold;
-        margin-top: .5em;
-        margin-bottom: .5em;
-    }
-
-    .row-color {
-        background-color: #e4e4e4 !important;
-    }
-
-    tr {
-        background-color: #fafafa !important;
-        border-bottom: 1px solid silver;
-    }
-
-    table,
-    thead,
-    tbody {
-        border: none !important;
-    }
-
-    button.yadcf-filter-reset-button {
-        color: #990012;
-        font-weight: normal;
-    }
-
-    hr {
-        margin: 0 100px 0 100px;
-    }
-    </style>
 </head>
 
 <body>
     <div class="row">
         <div id="gardner-section" class="large-10 large-centered medium-10 medium-centered columns">
+            <nav aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                    <li><a href="../index.html">Home</a></li>
+                    <li>
+                        <span class="show-for-sr">Current: </span> Cory Gardner
+                    </li>
+                </ul>
+            </nav>
             <h3 class="blurb-title">Cory Gardner <div class="tag-rep"></div>
             </h3>
             <img class="blurb-headshot" src="../images/cory-gardner-cropped.jpg">
             <p class="blurb-bio">Incumbent U.S. Senator, 45</p>
-            <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, felis a tempus iaculis, urna eros mattis ante, quis scelerisque urna nisl id eros. Curabitur vel orci elit. Vivamus vitae nisl mauris. Nunc gravida molestie lorem et fringilla. Vestibulum egestas ante ut ante pellentesque, in bibendum tellus eleifend. Ut non ex ex. Nullam id velit sodales, efficitur orci vitae, volutpat ante. Ut sollicitudin mi sit amet nisl lobortis interdum. Maecenas mi nisl, ullamcorper non odio non, pulvinar placerat orci. Suspendisse feugiat elit eget tortor iaculis aliquet. Praesent non urna et leo varius eleifend non convallis eros.</p>
+            <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, felis a tempus iaculis, urna eros mattis ante, quis scelerisque urna nisl id eros. Curabitur vel orci elit. Vivamus vitae nisl mauris. Nunc gravida molestie lorem et fringilla. Vestibulum egestas ante ut ante pellentesque, in bibendum tellus eleifend. Ut non ex ex. Nullam id velit sodales, efficitur orci vitae, volutpat ante. Ut sollicitudin mi sit amet nisl lobortis interdum. Maecenas mi nisl, ullamcorper non odio non, pulvinar placerat orci. Suspendisse feugiat elit eget tortor iaculis aliquet. Praesent non urna et leo varius eleifend non convallis eros. <em><a href="https://www.denverpost.com/tag/cory-gardner/" target="_blank">Read Cory Gardner coverage &rarr;</a></em></p>
             <!-- <div class="callout secondary">
                 <p><strong>Fundraising as of <span id="gardner-date"></span></strong><br>
                     <span class="blurb-fundraising">$<span id="gardner-cash"></span> cash on hand &bull; $<span id="gardner-raised"></span> raised during last quarter<br><a href="#fundraising-charts">View charts</a></span></p>
@@ -275,59 +210,7 @@
         });
     }
 
-    /*** CHARTS ***/
-    // var barDonationType = c3.generate({
-    //     bindto: '#donation-type',
-    //     size: {
-    //         height: 400
-    //         //width: 800
-    //     },
-    //     data: {
-    //         columns: [
-    //             ['Campaign committee', 2000, 0],
-    //             ['Individual', 500, 1000]
-    //         ],
-    //         type: 'bar',
-    //         groups: [
-    //             ['Campaign committee', 'Individual']
-    //         ]
-
-    //         // colors: {
-    //         //     'pending': 'red',
-    //         //     'approved': 'black',
-    //         // },
-    //     },
-    //     axis: {
-    //         x: {
-    //             type: 'category',
-    //             tick: {
-    //                 rotate: 0,
-    //                 multiline: false
-    //             }
-    //         },
-    //         y: {
-    //             tick: {
-    //                 format: d3.format('$,')
-    //             },
-    //             // label: {
-    //             //     text: 'Money raised',
-    //             //     position: 'outer-middle'
-    //             // }
-    //         }
-    //     },
-    //     grid: {
-    //         x: {
-    //             show: true
-    //         },
-    //         y: {
-    //             show: true
-    //         }
-    //     },
-    //     point: {
-    //         r: 4
-    //     }
-    // });
-
+    /*** BAR CHART ***/
     var donationsQuarterly = c3.generate({
         bindto: '#donations-quarterly',
         data: {
@@ -339,26 +222,14 @@
                 ['Other political committees (PACs)', 694283, 626098, 385987, 3195878],
                 ['Transfers from other authorized committees', 275228, 376686, 532655, 1638763]
             ],
-            // types: {
-            //     'Campaign committee': 'area-line',
-            //     'Individual': 'area-line',
-            //     'Organization': 'area-line',
-            //     'Other committee': 'area-line',
-            //     'Political action committee': 'area-line',
-            //     'Political party committee': 'area-line'
-            // },
             type: 'bar',
             groups: [
                 ['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
             ],
             order: 'desc',
             colors: {
-                // 'Individuals': '#444e86',
-                // 'Transfers from other authorized committees': '#dd5182',
-                // 'Other political committees (PACs)': '#ff6e54',
-                // 'Political party committees': '#ffa600'
                 'Individuals': '#5e3c99',
-                'Transfers from other authorized committees': '#b2abd2',
+                'Transfers from other authorized committees': '#807dba',
                 'Other political committees (PACs)': '#e66101',
                 'Political party committees': '#fdb863'
             }
@@ -369,11 +240,6 @@
         axis: {
             x: {
                 type: 'category',
-                tick: {
-                    // rotate: 60,
-                    // multiline: true,
-                    height: 130
-                }
             },
             y: {
                 tick: {
@@ -382,11 +248,13 @@
                         return d3.format('$.1s')(d)
                     }
                 },
-                // max: 5000000,
-                // label: {
-                //     text: 'In millions',
-                //     position: 'outer-middle'
-                // }
+            }
+        },
+        tooltip: {
+            format: {
+                value: function(value, ratio, id) {
+                    return d3.format('$,')(value)
+                }
             }
         },
         grid: {
@@ -399,84 +267,23 @@
         }
     });
 
-    // var donationsGeneral = c3.generate({
-    //     bindto: '#donations-breakdown',
-    //     data: {
-    //         x: 'x',
-    //         columns: [
-    //             ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total'],
-    //             ['Campaign committee', 2000, 0, 0, 2000],
-    //             ['Individual', 353602, 326619, 386185, 1066406],
-    //             ['Organization', 5500, 2200, 3500, 11200],
-    //             ['Other committee', 0, 37865, 19392, 57257],
-    //             ['Political action committee', 362546, 353783, 334645, 1050975],
-    //             ['Political party committee', 0, 0, 0, 0]
-    //         ],
-    //         // types: {
-    //         //     'Campaign committee': 'area-line',
-    //         //     'Individual': 'area-line',
-    //         //     'Organization': 'area-line',
-    //         //     'Other committee': 'area-line',
-    //         //     'Political action committee': 'area-line',
-    //         //     'Political party committee': 'area-line'
-    //         // },
-    //         type: 'bar',
-    //         groups: [
-    //             ['Campaign committee', 'Individual', 'Organization', 'Other committee', 'Political action committee', 'Political party committee']
-    //         ],
-    //         order: 'desc',
-    //         colors: {
-    //             'Campaign committee': '#003f5c',
-    //             'Individual': '#444e86',
-    //             'Organization': '#955196',
-    //             'Other committee': '#dd5182',
-    //             'Political action committee': '#ff6e54',
-    //             'Political party committee': '#ffa600'
-    //         }
-    //     },
-    //     axis: {
-    //         x: {
-    //             type: 'category'
-    //         },
-    //         y: {
-    //             tick: {
-    //                 format: d3.format('$,'),
-    //                 values: [1000000, 3000000, 5000000]
-    //             },
-    //             max: 5000000,
-    //             //min: 0,
-    //             label: {
-    //                 text: 'Money raised',
-    //                 position: 'outer-middle'
-    //             }
-    //         }
-    //     },
-    //     grid: {
-    //         x: {
-    //             show: true
-    //         },
-    //         y: {
-    //             show: true
-    //         }
-    //     }
-    // });
-
+    /*** PIE CHART ***/
     var donationsBreakdown = c3.generate({
         bindto: '#donations-breakdown',
         data: {
             columns: [
                 ['$2,000 and over', 2887951],
-                ['$500—$999', 360865],
-                ['$200.01—$499', 147452],
-                ['$1,000—$1,999', 813859],
+                ['$1,000-$1,999', 813859],
+                ['$500-$999', 360865],
+                ['$200.01-$499', 147452],
                 ['$200 and under', 491318]
             ],
             type: 'donut',
             colors: {
                 '$2,000 and over': '#4a1486',
-                '$500—$999': '#6a51a3',
-                '$200.01—$499': '#807dba',
-                '$1,000—$1,999': '#9e9ac8',
+                '$1,000-$1,999': '#6a51a3',
+                '$500-$999': '#807dba',
+                '$200.01-$499': '#9e9ac8',
                 '$200 and under': '#bcbddc'
             },
             onclick: function(d, i) { console.log("onclick", d, i); },
