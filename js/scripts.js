@@ -29,8 +29,17 @@ function init() {
     Tabletop.init({
         key: publicSpreadsheetUrl,
         callback: function(data, tabletop) {
+            console.log(data);
             // Get last row from sheet
-            var lastRow = (data.slice(-1)[0]);
+            // var lastRow = (data.slice(-1)[0]);
+            var lastRow = (data[data.length - 3]);
+            // console.log(lastRow);
+            // var date0 = data[0].date;
+            // var date1 = data[1].date;
+            // var date2 = data[2].date;
+            //console.log(data);
+            dataNoTotal = (data.slice(0, -6));
+            console.log(dataNoTotal);
             var lastDate = lastRow.date;
             var baerRaised = (lastRow.baer_raised).toLocaleString();
             var baerCash = (lastRow.baer_cash).toLocaleString();
@@ -108,8 +117,9 @@ function init() {
                     //width: 800
                 },
                 data: {
-                    json: data,
+                    json: dataNoTotal,
                     keys: {
+                        // x: [ 'date0', 'date1', 'date2' ],
                         x: 'date',
                         value: ['baer_raised', 'bray_raised', 'garcia_raised', 'gardner_raised', 'hickenlooper_raised', 'johnston_raised', 'madden_raised', 'romanoff_raised', 'spaulding_raised', 'walsh_raised', 'warren_raised', 'williams_raised', 'zornio_raised']
                     },
@@ -171,7 +181,7 @@ function init() {
                     //width: 800
                 },
                 data: {
-                    json: data,
+                    json: dataNoTotal,
                     keys: {
                         x: 'date',
                         value: ['baer_total_raised', 'bray_total_raised', 'garcia_total_raised', 'gardner_total_raised', 'hickenlooper_total_raised', 'johnston_total_raised', 'madden_total_raised', 'romanoff_total_raised', 'spaulding_total_raised', 'walsh_total_raised', 'warren_total_raised', 'williams_total_raised', 'zornio_total_raised']

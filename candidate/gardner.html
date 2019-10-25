@@ -63,7 +63,7 @@
                         <p class="source">Source: <a href="https://www.fec.gov/data/reports/house-senate/?is_amended=false&data_type=processed&committee_id=C00492454&cycle=2020" target="_blank">FEC quarterly report </a>
                     </div>
                     <div class="large-6 medium-6 columns">
-                        <p class="chart-title">Individual donations<br>2019</p>
+                        <p class="chart-title">Individual contributions<br>2019</p>
                         <div id="donations-breakdown"></div>
                         <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
                     </div>
@@ -134,9 +134,28 @@
         Tabletop.init({
             key: publicSpreadsheetUrl,
             callback: function(data, tabletop) {
+                //console.log(data);
                 // Get last row from sheet
-                var lastRow = (data.slice(-1)[0]);
+                //var lastRow = (data.slice(-1)[0]);
+                var lastRow = (data[data.length - 7]);
+                // console.log(lastRow);
+                // var date0 = data[0].date;
+                // var date1 = data[1].date;
+                // var date2 = data[2].date;
+                //console.log(data);
+                pieChartData = (data.slice(4, 9));
+                //console.log(pieChartData[0].date);
+                //console.log(pieChartData[0].gardner_pie_data);
+
+                var individualBreakdown = [];
+                pieChartData.forEach(function(e) {
+                    individualBreakdown.push(e.gardner_pie_data);
+                    pieChartData[e.gardner_pie_data] = e.date;
+                });
+                console.log(individualBreakdown);
+
                 var lastDate = lastRow.date;
+                var barChartData = (data.slice(0, -5));
                 // var baerRaised = (lastRow.baer_raised).toLocaleString();
                 // var baerCash = (lastRow.baer_cash).toLocaleString();
                 // var brayRaised = (lastRow.bray_raised).toLocaleString();
@@ -204,101 +223,125 @@
                 // document.getElementById('williams-cash').innerHTML = williamsCash;
                 // document.getElementById('zornio-raised').innerHTML = zornioRaised;
                 // document.getElementById('zornio-cash').innerHTML = zornioCash;
+
+
+                /*** BAR CHART ***/
+                var donationsQuarterly = c3.generate({
+                    bindto: '#donations-quarterly',
+                    data: {
+                        // x: 'x',
+                        // columns: [
+                        //     ['x', 'Total election cycle', 'Q1 2019', 'Q2 2019', 'Q3 2019'],
+                        //     ['Individuals', 4460391, 1033301, 961869, 1532721],
+                        //     ['Political party committees', 44600, 0, 44600, 0],
+                        //     ['Other political committees (PACs)', 3195878, 694283, 626098, 385987],
+                        //     ['Transfers from other authorized committees', 1638763, 275228, 376686, 532655]
+                        // ],
+                        json: barChartData,
+                        keys: {
+                            x: 'date',
+                            value: ['gardner_individuals', 'gardner_party_committees', 'gardner_pacs', 'gardner_transfers'],
+
+                            // x: 'x',
+                            // columns: [
+                            //     //['x', 'date'],
+                            //     ['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
+                            // ]
+                        },
+                        names: {
+                            gardner_individuals: 'Individuals',
+                            gardner_party_committees: 'Political party committees',
+                            gardner_pacs: 'Other political committees (PACs)',
+                            gardner_transfers: 'Transfers from other authorized committees'
+                        },
+                        type: 'bar',
+                        groups: [
+                            //['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
+                            ['gardner_individuals', 'gardner_party_committees', 'gardner_pacs', 'gardner_transfers']
+                        ],
+                        order: 'desc',
+                        colors: {
+                            'gardner_individuals': '#5e3c99',
+                            'gardner_transfers': '#807dba',
+                            'gardner_pacs': '#e66101',
+                            'gardner_party_committees': '#fdb863'
+                        }
+                    },
+                    padding: {
+                        bottom: 40
+                    },
+                    axis: {
+                        x: {
+                            type: 'category',
+                        },
+                        y: {
+                            tick: {
+                                //values: [3000000, 5000000, 7000000, 9000000],
+                                format: function(d) {
+                                    return d3.format('$.1s')(d)
+                                }
+                            },
+                        }
+                    },
+                    tooltip: {
+                        format: {
+                            value: function(value, ratio, id) {
+                                return d3.format('$,')(value)
+                            }
+                        }
+                    },
+                    grid: {
+                        x: {
+                            show: true
+                        },
+                        y: {
+                            show: true
+                        }
+                    }
+                });
+
+                /*** PIE CHART ***/
+                var donationsBreakdown = c3.generate({
+                    bindto: '#donations-breakdown',
+                    data: {
+                        columns: [
+                            ['$2,000 and over', individualBreakdown[4]],
+                            ['$1,000-$1,999', individualBreakdown[3]],
+                            ['$500-$999', individualBreakdown[2]],
+                            ['$201-$499', individualBreakdown[1]],
+                            ['$200 and under', individualBreakdown[0]]
+                        ],
+                        // json: pieChartData,
+                        // keys: {
+                        //     //x: 'date',
+                        //     //x: [ '$200 and under', '$201-$499', '$500-$999', '$1,000-$1,999', '$2,000 and over' ],
+                        //     value: ['individualBreakdown']
+                        // },
+                        type: 'donut',
+                        colors: {
+                            '$2,000 and over': '#4a1486',
+                            '$1,000-$1,999': '#6a51a3',
+                            '$500-$999': '#807dba',
+                            '$201-$499': '#9e9ac8',
+                            '$200 and under': '#bcbddc'
+                        },
+                        onclick: function(d, i) { console.log("onclick", d, i); },
+                        onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                        onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+                    },
+                    tooltip: {
+                        format: {
+                            value: function(value, ratio, id) {
+                                return d3.format('$,')(value)
+                            }
+                        }
+                    }
+                })
             },
             simpleSheet: true,
             parseNumbers: true
         });
     }
-
-    /*** BAR CHART ***/
-    var donationsQuarterly = c3.generate({
-        bindto: '#donations-quarterly',
-        data: {
-            x: 'x',
-            columns: [
-                ['x', 'Q1 2019', 'Q2 2019', 'Q3 2019', 'Total election cycle'],
-                ['Individuals', 1033301, 961869, 1532721, 4460391],
-                ['Political party committees', 0, 44600, 0, 44600],
-                ['Other political committees (PACs)', 694283, 626098, 385987, 3195878],
-                ['Transfers from other authorized committees', 275228, 376686, 532655, 1638763]
-            ],
-            type: 'bar',
-            groups: [
-                ['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
-            ],
-            order: 'desc',
-            colors: {
-                'Individuals': '#5e3c99',
-                'Transfers from other authorized committees': '#807dba',
-                'Other political committees (PACs)': '#e66101',
-                'Political party committees': '#fdb863'
-            }
-        },
-        padding: {
-            bottom: 40
-        },
-        axis: {
-            x: {
-                type: 'category',
-            },
-            y: {
-                tick: {
-                    values: [3000000, 5000000, 7000000, 9000000],
-                    format: function(d) {
-                        return d3.format('$.1s')(d)
-                    }
-                },
-            }
-        },
-        tooltip: {
-            format: {
-                value: function(value, ratio, id) {
-                    return d3.format('$,')(value)
-                }
-            }
-        },
-        grid: {
-            x: {
-                show: true
-            },
-            y: {
-                show: true
-            }
-        }
-    });
-
-    /*** PIE CHART ***/
-    var donationsBreakdown = c3.generate({
-        bindto: '#donations-breakdown',
-        data: {
-            columns: [
-                ['$2,000 and over', 2887951],
-                ['$1,000-$1,999', 813859],
-                ['$500-$999', 360865],
-                ['$200.01-$499', 147452],
-                ['$200 and under', 491318]
-            ],
-            type: 'donut',
-            colors: {
-                '$2,000 and over': '#4a1486',
-                '$1,000-$1,999': '#6a51a3',
-                '$500-$999': '#807dba',
-                '$200.01-$499': '#9e9ac8',
-                '$200 and under': '#bcbddc'
-            },
-            onclick: function(d, i) { console.log("onclick", d, i); },
-            onmouseover: function(d, i) { console.log("onmouseover", d, i); },
-            onmouseout: function(d, i) { console.log("onmouseout", d, i); }
-        },
-        tooltip: {
-            format: {
-                value: function(value, ratio, id) {
-                    return d3.format('$,')(value)
-                }
-            }
-        }
-    });
-
     /*** TABLE ***/
     var dataFile = '../data/gardner_2019_q3.json';
 
