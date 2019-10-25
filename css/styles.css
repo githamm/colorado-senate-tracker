@@ -297,6 +297,14 @@
         font-size: .75rem;
     }
 
+    .c3-chart-arc path {
+        stroke: #f5f5f5;
+        stroke-width: 6;
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        stroke-linejoin: round;
+    }
+
     @media all and (max-width: 699px) and (min-width: 300px) {
         .title {
             /*font-size: 72px;*/
