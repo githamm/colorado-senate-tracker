@@ -133,28 +133,16 @@
     </div>
     <script>
     /*** MAIN PAGE FUNDRAISING TOTALS CHART ***/
-    // var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
+    var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
 
-    // function init() {
-    //     Tabletop.init({
-    //         key: publicSpreadsheetUrl,
-    //         callback: function(data, tabletop) {
-    //console.log(data);
-    // Get last row from sheet
-
-    //$.getJSON('../data/gardner_test.json', function(data) {
-    $.getJSON('../data/gardner_fec_test.json', function(data) {
-        console.log(data);
-
-
-
-
-
-
-
+    function init() {
+        Tabletop.init({
+            key: publicSpreadsheetUrl,
+            callback: function(data, tabletop) {
+                //console.log(data);
+                // Get last row from sheet
                 //var lastRow = (data.slice(-1)[0]);
                 var lastRow = (data[data.length - 7]);
-                //console.log(lastRow);
                 // console.log(lastRow);
                 // var date0 = data[0].date;
                 // var date1 = data[1].date;
@@ -170,7 +158,7 @@
                     individualBreakdown.push(e.gardner_pie_data);
                     pieChartData[e.gardner_pie_data] = e.date;
                 });
-                //console.log(individualBreakdown);
+                console.log(individualBreakdown);
 
                 var lastDate = lastRow.date;
                 var barChartData = (data.slice(0, -5));
@@ -355,152 +343,150 @@
                         }
                     }
                 })
-            });
-            //         },
-            //         simpleSheet: true,
-            //         parseNumbers: true
-            //     });
-            // }
+            },
+            simpleSheet: true,
+            parseNumbers: true
+        });
+    }
+    /*** TABLE ***/
+    var dataFile = '../data/gardner_2019_q3.json';
 
-            /*** TABLE ***/
-            var dataFile = '../data/gardner_2019_q3.json';
+    $(document).ready(function() {
+        function disableDependentFilter(level, inuse) {
+            if (level < 4) {
+                filter = $('#yadcf-filter--example-' + level);
+                yadcf.exResetFilters(contributionsTable, [level]);
+                filter.prop('disabled', !inuse);
 
-            $(document).ready(function() {
-                function disableDependentFilter(level, inuse) {
-                    if (level < 4) {
-                        filter = $('#yadcf-filter--example-' + level);
-                        yadcf.exResetFilters(contributionsTable, [level]);
-                        filter.prop('disabled', !inuse);
+                disableDependentFilter(level + 1, false);
+            }
+        }
 
-                        disableDependentFilter(level + 1, false);
-                    }
+        var contributionsTable = $('#contributions-table').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            pageLength: 15,
+            responsive: {
+                details: {
+                    type: 'column'
                 }
-
-                var contributionsTable = $('#contributions-table').DataTable({
-                    ajax: {
-                        'url': dataFile,
-                        'dataSrc': ''
-                    },
-                    pageLength: 15,
-                    responsive: {
-                        details: {
-                            type: 'column'
-                        }
-                    },
-                    dom: '<if<t>lp>',
-                    columnDefs: [{
-                        className: 'control',
-                        orderable: false,
-                        targets: 0
-                    }],
-                    order: [
-                        [11, 'desc']
-                    ],
-                    columns: [
-                        { data: 'button' },
-                        {
-                            data: 'committee_name',
-                            visible: false
-                        },
-                        {
-                            data: 'contributor_name',
-                        },
-                        {
-                            data: 'entity_type_desc',
-                            visible: true
-                        },
-                        {
-                            data: 'contributor_city',
-                            visible: true
-                        },
-                        {
-                            data: 'contributor_state',
-                            visible: true
-                        },
-                        {
-                            data: 'contributor_zip',
-                            visible: false
-                        },
-                        { data: 'contributor_employer' },
-                        {
-                            data: 'contributor_occupation',
-                        },
-                        {
-                            data: 'receipt_type_full',
-                            visible: false
-                        },
-                        {
-                            data: 'contribution_receipt_amount',
-                            render: function(data, type, row) {
-                                return '$' + data.toLocaleString()
-                            }
-                        },
-                        {
-                            data: 'contributor_aggregate_ytd',
-                            render: function(data, type, row) {
-                                return '$' + data.toLocaleString()
-                            }
-                        },
-                        {
-                            data: 'report_year',
-                            visible: true
-                        },
-                        {
-                            data: 'report_type',
-                            visible: true
-                        },
-                        { data: 'fec_election_type_desc' },
-                        {
-                            data: 'pdf_url',
-                            visible: false
-                        }
-                    ],
-
-                    initComplete: function() {
-                        yadcf.init(contributionsTable, [{
-                                column_number: 3,
-                                filter_container_id: 'filter-1',
-                                filter_default_label: 'Filter by donor type',
-                                //data: donorTypes
-                            },
-                            {
-                                column_number: 2,
-                                filter_container_id: 'filter-2',
-                                filter_default_label: 'Filter by donor name'
-                            },
-                            {
-                                column_number: 7,
-                                filter_container_id: 'filter-3',
-                                filter_default_label: 'Filter by donor employer'
-                            },
-                            {
-                                column_number: 5,
-                                filter_container_id: 'filter-4',
-                                filter_default_label: 'Filter by donor state'
-                            },
-                        ], {
-                            cumulative_filtering: true,
-                            filter_reset_button_text: 'Reset filter'
-                        });
-
-                        disableDependentFilter(1, true);
-
-                        $('.yadcf-filter-reset-button').on('click', function() {
-                            level = parseInt(this.id.split('-')[1]);
-                            disableDependentFilter(level, true);
-                        });
-
-                        $('.yadcf-filter').on('change', function() {
-                            level = parseInt(this.id.slice(-1));
-                            inuse = $(this).hasClass('inuse');
-
-                            disableDependentFilter(level + 1, inuse);
-                        });
+            },
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                className: 'control',
+                orderable: false,
+                targets: 0
+            }],
+            order: [
+                [11, 'desc']
+            ],
+            columns: [
+                { data: 'button' },
+                {
+                    data: 'committee_name',
+                    visible: false
+                },
+                {
+                    data: 'contributor_name',
+                },
+                {
+                    data: 'entity_type_desc',
+                    visible: true
+                },
+                {
+                    data: 'contributor_city',
+                    visible: true
+                },
+                {
+                    data: 'contributor_state',
+                    visible: true
+                },
+                {
+                    data: 'contributor_zip',
+                    visible: false
+                },
+                { data: 'contributor_employer' },
+                {
+                    data: 'contributor_occupation',
+                },
+                {
+                    data: 'receipt_type_full',
+                    visible: false
+                },
+                {
+                    data: 'contribution_receipt_amount',
+                    render: function(data, type, row) {
+                        return '$' + data.toLocaleString()
                     }
-                });
-            });
+                },
+                {
+                    data: 'contributor_aggregate_ytd',
+                    render: function(data, type, row) {
+                        return '$' + data.toLocaleString()
+                    }
+                },
+                {
+                    data: 'report_year',
+                    visible: true
+                },
+                {
+                    data: 'report_type',
+                    visible: true
+                },
+                { data: 'fec_election_type_desc' },
+                {
+                    data: 'pdf_url',
+                    visible: false
+                }
+            ],
 
-            //window.addEventListener('DOMContentLoaded', init)
+            initComplete: function() {
+                yadcf.init(contributionsTable, [{
+                        column_number: 3,
+                        filter_container_id: 'filter-1',
+                        filter_default_label: 'Filter by donor type',
+                        //data: donorTypes
+                    },
+                    {
+                        column_number: 2,
+                        filter_container_id: 'filter-2',
+                        filter_default_label: 'Filter by donor name'
+                    },
+                    {
+                        column_number: 7,
+                        filter_container_id: 'filter-3',
+                        filter_default_label: 'Filter by donor employer'
+                    },
+                    {
+                        column_number: 5,
+                        filter_container_id: 'filter-4',
+                        filter_default_label: 'Filter by donor state'
+                    },
+                ], {
+                    cumulative_filtering: true,
+                    filter_reset_button_text: 'Reset filter'
+                });
+
+                disableDependentFilter(1, true);
+
+                $('.yadcf-filter-reset-button').on('click', function() {
+                    level = parseInt(this.id.split('-')[1]);
+                    disableDependentFilter(level, true);
+                });
+
+                $('.yadcf-filter').on('change', function() {
+                    level = parseInt(this.id.slice(-1));
+                    inuse = $(this).hasClass('inuse');
+
+                    disableDependentFilter(level + 1, inuse);
+                });
+            }
+        });
+    });
+
+    window.addEventListener('DOMContentLoaded', init)
     </script>
 </body>
 
