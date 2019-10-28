@@ -129,7 +129,7 @@
     <script>
     //$.getJSON('../data/gardner_test.json', function(data) {
     $.getJSON('fec_test_data.json', function(data) {
-        var quarterYear = data.map(d => {
+        var quarterlyBarChartData = data.map(d => {
             return {
                 "report_time": d.report_type + ' ' + d.report_year,
                 "total_individual_contributions_period": d.total_individual_contributions_period,
@@ -137,13 +137,19 @@
                 "other_political_committee_contributions_period": d.other_political_committee_contributions_period,
                 "transfers_from_other_authorized_committee_period": d.transfers_from_other_authorized_committee_period
             }
-        })
+        });
+
+        var ytdData = data.slice(-1).pop();
+        const ytdPieChartDataObject = (({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }) => ({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }))(ytdData);
+        var ytdPieChartData = [];
+        ytdPieChartData.push(ytdPieChartDataObject);
+        console.log(ytdPieChartData);
 
         /*** BAR CHART ***/
         var donationsQuarterly = c3.generate({
             bindto: '#donations-quarterly',
             data: {
-                json: quarterYear,
+                json: quarterlyBarChartData,
                 keys: {
                     x: 'report_time',
                     value: ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period'],
@@ -198,6 +204,53 @@
                 }
             }
         });
+
+        /*** PIE CHART ***/
+        var donationsBreakdown = c3.generate({
+            bindto: '#donations-breakdown',
+            data: {
+                //     columns: [
+                //         ['$2,000 and over', individualBreakdown[4]],
+                //         ['$1,000-$1,999', individualBreakdown[3]],
+                //         ['$500-$999', individualBreakdown[2]],
+                //         ['$201-$499', individualBreakdown[1]],
+                //         ['$200 and under', individualBreakdown[0]]
+                //     ],
+                json: ytdPieChartData,
+                keys: {
+                    //x: 'date',
+                    // x: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
+                    //     'transfers_from_other_authorized_committee_ytd'
+                    // ],
+                    value: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
+                        'transfers_from_other_authorized_committee_ytd'
+                    ]
+                },
+                names: {
+                    total_individual_contributions_ytd: 'Individuals',
+                    political_party_committee_contributions_ytd: 'Political party committees',
+                    other_political_committee_contributions_ytd: 'Other political committees (PACs)',
+                    transfers_from_other_authorized_committee_ytd: 'Transfers from other authorized committees'
+                },
+                type: 'pie',
+                colors: {
+                    'total_individual_contributions_ytd': '#5e3c99',
+                    'transfers_from_other_authorized_committee_ytd': '#807dba',
+                    'other_political_committee_contributions_ytd': '#e66101',
+                    'political_party_committee_contributions_ytd': '#fdb863'
+                },
+                onclick: function(d, i) { console.log("onclick", d, i); },
+                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+            },
+            tooltip: {
+                format: {
+                    value: function(value, ratio, id) {
+                        return d3.format('$,')(value)
+                    }
+                }
+            }
+        })
     });
     </script>
 </body>
