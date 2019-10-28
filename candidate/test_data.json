@@ -1,0 +1,21 @@
+[{
+	"report_type": "Q1",
+	"total_individual_contributions_period": 1000,
+	"political_party_committee_contributions_period": 2000,
+	"other_political_committee_contributions_period": 3000,
+	"transfers_from_other_authorized_committee_period": 4000
+},
+{
+	"report_type": "Q2",
+	"total_individual_contributions_period": 1000,
+	"political_party_committee_contributions_period": 2000,
+	"other_political_committee_contributions_period": 3000,
+	"transfers_from_other_authorized_committee_period": 4000
+},
+{
+	"report_type": "Q3",
+	"total_individual_contributions_period": 1000,
+	"political_party_committee_contributions_period": 2000,
+	"other_political_committee_contributions_period": 3000,
+	"transfers_from_other_authorized_committee_period": 4000
+}]

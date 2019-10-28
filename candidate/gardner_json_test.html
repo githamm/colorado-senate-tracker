@@ -128,104 +128,25 @@
     </div>
     <script>
     //$.getJSON('../data/gardner_test.json', function(data) {
-    $.getJSON('../data/gardner_fec_test.json', function(data) {
-        console.log(data);
-
-        // var gardnerQ1 = [];
-        // var gardnerQ12019 = data.filter(obj => {
-        //     return obj.report_type === 'Q1'&& return obj.report_year == 2019
-        // })
-        // console.log(gardnerQ1);
-
-        var gardnerQ12019 = data.filter(function(el) {
-            return el.report_type === 'Q1' &&
-                el.report_year == 2019;
-        });
-        console.log(gardnerQ12019);
-
-        var gardnerQ22019 = data.filter(function(el) {
-            return el.report_type === 'Q2' &&
-                el.report_year == 2019;
-        });
-        console.log(gardnerQ22019);
-
-        var gardnerQ32019 = data.filter(function(el) {
-            return el.report_type === 'Q3' &&
-                el.report_year == 2019;
-        });
-        console.log(gardnerQ32019);
-
-        var gardnerQ42019 = data.filter(function(el) {
-            return el.report_type === 'Q4' &&
-                el.report_year == 2019;
-        });
-        console.log(gardnerQ42019);
-
-
-        var quarters = [];
-        if (gardnerQ12019.length != 0) {
-            quarters.push(gardnerQ12019[0].report_type);
-        }
-        if (gardnerQ22019.length != 0) {
-            quarters.push(gardnerQ22019[0].report_type);
-        }
-        if (gardnerQ32019.length != 0) {
-            quarters.push(gardnerQ32019[0].report_type);
-        }
-        if (gardnerQ42019.length != 0) {
-            quarters.push(gardnerQ12019[0].report_type);
-        }
-        console.log(quarters);
-
-        var individualDonations = [];
-        if (gardnerQ12019.length != 0) {
-            individualDonations.push(gardnerQ12019[0].total_individual_contributions_period);
-        }
-        if (gardnerQ22019.length != 0) {
-            individualDonations.push(gardnerQ22019[0].total_individual_contributions_period);
-        }
-        if (gardnerQ32019.length != 0) {
-            individualDonations.push(gardnerQ32019[0].total_individual_contributions_period);
-        }
-        if (gardnerQ42019.length != 0) {
-            individualDonations.push(gardnerQ42019[0].total_individual_contributions_period);
-        }
-        console.log(individualDonations);
-
-        for (i = 0; i < quarters.length; i++) {
-            var obj = {};
-            obj[quarters[i]] = 0;
-            individualDonations.push(obj);
-        }
-        console.log(obj);
-
-        /*** UN-COMMENT BELOW WHEN THEY FILE ***/
-        // document.getElementById('gardner-date').innerHTML = lastDate;
-        // document.getElementById('gardner-raised').innerHTML = gardnerRaised;
-        // document.getElementById('gardner-cash').innerHTML = gardnerCash;
+    $.getJSON('fec_test_data.json', function(data) {
+        var quarterYear = data.map(d => {
+            return {
+                "report_time": d.report_type + ' ' + d.report_year,
+                "total_individual_contributions_period": d.total_individual_contributions_period,
+                "political_party_committee_contributions_period": d.political_party_committee_contributions_period,
+                "other_political_committee_contributions_period": d.other_political_committee_contributions_period,
+                "transfers_from_other_authorized_committee_period": d.transfers_from_other_authorized_committee_period
+            }
+        })
 
         /*** BAR CHART ***/
         var donationsQuarterly = c3.generate({
             bindto: '#donations-quarterly',
             data: {
-                // x: 'x',
-                // columns: [
-                //     ['x', 'Total election cycle', 'Q1 2019', 'Q2 2019', 'Q3 2019'],
-                //     ['Individuals', 4460391, 1033301, 961869, 1532721],
-                //     ['Political party committees', 44600, 0, 44600, 0],
-                //     ['Other political committees (PACs)', 3195878, 694283, 626098, 385987],
-                //     ['Transfers from other authorized committees', 1638763, 275228, 376686, 532655]
-                // ],
-                json: gardnerQ12019,
+                json: quarterYear,
                 keys: {
-                    x: 'report_type',
+                    x: 'report_time',
                     value: ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period'],
-
-                    // x: 'x',
-                    // columns: [
-                    //     //['x', 'date'],
-                    //     ['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
-                    // ]
                 },
                 names: {
                     total_individual_contributions_period: 'Individuals',
@@ -235,7 +156,6 @@
                 },
                 type: 'bar',
                 groups: [
-                    //['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
                     ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period']
                 ],
                 order: 'desc',
