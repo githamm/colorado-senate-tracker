@@ -67,11 +67,6 @@
                         <div id="donations-breakdown"></div>
                         <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
                     </div>
-                    <div class="large-4 medium-4 columns">
-                        <p class="chart-title">Individual contributions<br>2019</p>
-                        <div id="donations-breakdown"></div>
-                        <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
-                    </div>
                     <p>&nbsp;</p>
             </div>
         </div>
@@ -134,7 +129,7 @@
     <script>
     //$.getJSON('../data/gardner_test.json', function(data) {
     $.getJSON('../data/gardner_fec_test.json', function(data) {
-        //console.log(data);
+        console.log(data);
 
         // var gardnerQ1 = [];
         // var gardnerQ12019 = data.filter(obj => {
@@ -166,6 +161,44 @@
         });
         console.log(gardnerQ42019);
 
+
+        var quarters = [];
+        if (gardnerQ12019.length != 0) {
+            quarters.push(gardnerQ12019[0].report_type);
+        }
+        if (gardnerQ22019.length != 0) {
+            quarters.push(gardnerQ22019[0].report_type);
+        }
+        if (gardnerQ32019.length != 0) {
+            quarters.push(gardnerQ32019[0].report_type);
+        }
+        if (gardnerQ42019.length != 0) {
+            quarters.push(gardnerQ12019[0].report_type);
+        }
+        console.log(quarters);
+
+        var individualDonations = [];
+        if (gardnerQ12019.length != 0) {
+            individualDonations.push(gardnerQ12019[0].total_individual_contributions_period);
+        }
+        if (gardnerQ22019.length != 0) {
+            individualDonations.push(gardnerQ22019[0].total_individual_contributions_period);
+        }
+        if (gardnerQ32019.length != 0) {
+            individualDonations.push(gardnerQ32019[0].total_individual_contributions_period);
+        }
+        if (gardnerQ42019.length != 0) {
+            individualDonations.push(gardnerQ42019[0].total_individual_contributions_period);
+        }
+        console.log(individualDonations);
+
+        for (i = 0; i < quarters.length; i++) {
+            var obj = {};
+            obj[quarters[i]] = 0;
+            individualDonations.push(obj);
+        }
+        console.log(obj);
+
         /*** UN-COMMENT BELOW WHEN THEY FILE ***/
         // document.getElementById('gardner-date').innerHTML = lastDate;
         // document.getElementById('gardner-raised').innerHTML = gardnerRaised;
@@ -183,10 +216,10 @@
                 //     ['Other political committees (PACs)', 3195878, 694283, 626098, 385987],
                 //     ['Transfers from other authorized committees', 1638763, 275228, 376686, 532655]
                 // ],
-                json: data,
+                json: gardnerQ12019,
                 keys: {
-                    x: 'gardnerQ12019.report_type',
-                    value: ['gardnerQ12019.total_individual_contributions_period'],
+                    x: 'report_type',
+                    value: ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period'],
 
                     // x: 'x',
                     // columns: [
@@ -195,22 +228,22 @@
                     // ]
                 },
                 names: {
-                    gardner_individuals: 'Individuals',
-                    gardner_party_committees: 'Political party committees',
-                    gardner_pacs: 'Other political committees (PACs)',
-                    gardner_transfers: 'Transfers from other authorized committees'
+                    total_individual_contributions_period: 'Individuals',
+                    political_party_committee_contributions_period: 'Political party committees',
+                    other_political_committee_contributions_period: 'Other political committees (PACs)',
+                    transfers_from_other_authorized_committee_period: 'Transfers from other authorized committees'
                 },
                 type: 'bar',
                 groups: [
                     //['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
-                    ['gardner_individuals', 'gardner_party_committees', 'gardner_pacs', 'gardner_transfers']
+                    ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period']
                 ],
                 order: 'desc',
                 colors: {
-                    'gardner_individuals': '#5e3c99',
-                    'gardner_transfers': '#807dba',
-                    'gardner_pacs': '#e66101',
-                    'gardner_party_committees': '#fdb863'
+                    'total_individual_contributions_period': '#5e3c99',
+                    'transfers_from_other_authorized_committee_period': '#807dba',
+                    'other_political_committee_contributions_period': '#e66101',
+                    'political_party_committee_contributions_period': '#fdb863'
                 }
             },
             padding: {
@@ -245,190 +278,7 @@
                 }
             }
         });
-
-        /*** PIE CHART ***/
-        var donationsBreakdown = c3.generate({
-            bindto: '#donations-breakdown',
-            data: {
-                columns: [
-                    ['$2,000 and over', individualBreakdown[4]],
-                    ['$1,000-$1,999', individualBreakdown[3]],
-                    ['$500-$999', individualBreakdown[2]],
-                    ['$201-$499', individualBreakdown[1]],
-                    ['$200 and under', individualBreakdown[0]]
-                ],
-                // json: pieChartData,
-                // keys: {
-                //     //x: 'date',
-                //     //x: [ '$200 and under', '$201-$499', '$500-$999', '$1,000-$1,999', '$2,000 and over' ],
-                //     value: ['individualBreakdown']
-                // },
-                type: 'pie',
-                colors: {
-                    '$2,000 and over': '#4a1486',
-                    '$1,000-$1,999': '#6a51a3',
-                    '$500-$999': '#807dba',
-                    '$201-$499': '#9e9ac8',
-                    '$200 and under': '#bcbddc'
-                },
-                onclick: function(d, i) { console.log("onclick", d, i); },
-                onmouseover: function(d, i) { console.log("onmouseover", d, i); },
-                onmouseout: function(d, i) { console.log("onmouseout", d, i); }
-            },
-            tooltip: {
-                format: {
-                    value: function(value, ratio, id) {
-                        return d3.format('$,')(value)
-                    }
-                }
-            }
-        })
     });
-    //         },
-    //         simpleSheet: true,
-    //         parseNumbers: true
-    //     });
-    // }
-
-    /*** TABLE ***/
-    var dataFile = '../data/gardner_2019_q3.json';
-
-    $(document).ready(function() {
-        function disableDependentFilter(level, inuse) {
-            if (level < 4) {
-                filter = $('#yadcf-filter--example-' + level);
-                yadcf.exResetFilters(contributionsTable, [level]);
-                filter.prop('disabled', !inuse);
-
-                disableDependentFilter(level + 1, false);
-            }
-        }
-
-        var contributionsTable = $('#contributions-table').DataTable({
-            ajax: {
-                'url': dataFile,
-                'dataSrc': ''
-            },
-            pageLength: 15,
-            responsive: {
-                details: {
-                    type: 'column'
-                }
-            },
-            dom: '<if<t>lp>',
-            columnDefs: [{
-                className: 'control',
-                orderable: false,
-                targets: 0
-            }],
-            order: [
-                [11, 'desc']
-            ],
-            columns: [
-                { data: 'button' },
-                {
-                    data: 'committee_name',
-                    visible: false
-                },
-                {
-                    data: 'contributor_name',
-                },
-                {
-                    data: 'entity_type_desc',
-                    visible: true
-                },
-                {
-                    data: 'contributor_city',
-                    visible: true
-                },
-                {
-                    data: 'contributor_state',
-                    visible: true
-                },
-                {
-                    data: 'contributor_zip',
-                    visible: false
-                },
-                { data: 'contributor_employer' },
-                {
-                    data: 'contributor_occupation',
-                },
-                {
-                    data: 'receipt_type_full',
-                    visible: false
-                },
-                {
-                    data: 'contribution_receipt_amount',
-                    render: function(data, type, row) {
-                        return '$' + data.toLocaleString()
-                    }
-                },
-                {
-                    data: 'contributor_aggregate_ytd',
-                    render: function(data, type, row) {
-                        return '$' + data.toLocaleString()
-                    }
-                },
-                {
-                    data: 'report_year',
-                    visible: true
-                },
-                {
-                    data: 'report_type',
-                    visible: true
-                },
-                { data: 'fec_election_type_desc' },
-                {
-                    data: 'pdf_url',
-                    visible: false
-                }
-            ],
-
-            initComplete: function() {
-                yadcf.init(contributionsTable, [{
-                        column_number: 3,
-                        filter_container_id: 'filter-1',
-                        filter_default_label: 'Filter by donor type',
-                        //data: donorTypes
-                    },
-                    {
-                        column_number: 2,
-                        filter_container_id: 'filter-2',
-                        filter_default_label: 'Filter by donor name'
-                    },
-                    {
-                        column_number: 7,
-                        filter_container_id: 'filter-3',
-                        filter_default_label: 'Filter by donor employer'
-                    },
-                    {
-                        column_number: 5,
-                        filter_container_id: 'filter-4',
-                        filter_default_label: 'Filter by donor state'
-                    },
-                ], {
-                    cumulative_filtering: true,
-                    filter_reset_button_text: 'Reset filter'
-                });
-
-                disableDependentFilter(1, true);
-
-                $('.yadcf-filter-reset-button').on('click', function() {
-                    level = parseInt(this.id.split('-')[1]);
-                    disableDependentFilter(level, true);
-                });
-
-                $('.yadcf-filter').on('change', function() {
-                    level = parseInt(this.id.slice(-1));
-                    inuse = $(this).hasClass('inuse');
-
-                    disableDependentFilter(level + 1, inuse);
-                });
-            }
-        });
-    });
-
-    //window.addEventListener('DOMContentLoaded', init)
     </script>
 </body>
 
