@@ -52,7 +52,7 @@
         <div class="large-10 large-centered columns">
             <div class="callout secondary">
                 <p class="chart-container-title">Fundraising Summary</p>
-                <p>As of <span id="last-quarter-end-date"></span>, John Hickenlooper had <span class="highlight">$<span id="candidate-cash"></span></span> on hand and raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> in the last quarter. <em>Hover over or click chart for details.</em></p>
+                <p>As of <span id="last-quarter-end-date"></span>, John Hickenlooper had <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand, raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> in the last quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle. <em>Hover over or click chart for details.</em></p>
                 <div class="large-4 medium-4 columns">
                     <p class="chart-title">Quarterly contributions<br>and transfers</p>
                     <div id="donations-quarterly"></div>
@@ -153,6 +153,10 @@
         // Total receipts for latest quarter
         var lastQuarterReceipts = lastQuarterData.total_receipts_period;
         document.getElementById('candidate-receipts-last-quarter').innerHTML = Math.round(lastQuarterReceipts).toLocaleString();
+
+        // Total receipts YTD
+        var ytdReceipts = lastQuarterData.total_receipts_ytd;
+        document.getElementById('candidate-receipts-ytd').innerHTML = Math.round(ytdReceipts).toLocaleString();
 
         // Last quarter end date
         var lastQuarterEndDate = moment(lastQuarterData.coverage_end_date, 'YYYY-MM-DD h:mm:ss').format('MMM DD, YYYY');

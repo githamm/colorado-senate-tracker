@@ -300,6 +300,10 @@
         margin-top: 40px;
     }
 
+    .breadcrumbs li {
+        font-size: .9rem;
+    }
+
     .c3 svg {
         /*font-size: 12px;*/
         font-size: .75rem;
