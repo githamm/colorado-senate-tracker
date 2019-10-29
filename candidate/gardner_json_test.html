@@ -69,7 +69,7 @@
                         <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
                     </div>
                     <div class="large-4 medium-4 columns">
-                        <p class="chart-title">Individual contributions<br>2019</p>
+                        <p class="chart-title">Individual contributions<br>by size</p>
                         <div id="individual-donations-breakdown"></div>
                         <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
                     </div>
@@ -166,7 +166,10 @@
         const ytdPieChartDataObject = (({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }) => ({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }))(lastQuarterData);
         var ytdPieChartData = [];
         ytdPieChartData.push(ytdPieChartDataObject);
-        console.log(ytdPieChartDataObject);
+        console.log(ytdPieChartData);
+
+        // Individual donation pie chart data
+
 
         /*** BAR CHART ***/
         var donationsQuarterly = c3.generate({
@@ -284,6 +287,11 @@
             key: publicSpreadsheetUrl,
             callback: function(data, tabletop) {
                 console.log(data);
+                // const individualPieChartDataObject = (({ under_200, under_500, under_1000, under_2000, over_2000 }) => ({ under_200, under_500, under_1000, under_2000, over_2000 }))(data);
+                // var individualPieChartData = [];
+                // individualPieChartData.push(individualPieChartDataObject);
+                // console.log(individualPieChartData);
+
                 var individualDonationsBreakdown = c3.generate({
                     bindto: '#individual-donations-breakdown',
                     data: {
@@ -298,15 +306,22 @@
                         keys: {
                             //x: 'category',
                             //x: [ '$200 and under', '$201-$499', '$500-$999', '$1,000-$1,999', '$2,000 and over' ],
-                            value: ['gardner_amount']
+                            value: ['gardner_under_200', 'gardner_under_500', 'gardner_under_1000', 'gardner_under_2000', 'gardner_over_2000']
+                        },
+                        names: {
+                            gardner_under_200: 'Less than $200',
+                            gardner_under_500: '$201-$500',
+                            gardner_under_1000: '$501-$1,000',
+                            gardner_under_2000: '$1,001-$2,000',
+                            gardner_over_2000: 'More than $2,000'
                         },
                         type: 'pie',
                         colors: {
-                            '$2,000 and over': '#4a1486',
-                            '$1,000-$1,999': '#6a51a3',
-                            '$500-$999': '#807dba',
-                            '$201-$499': '#9e9ac8',
-                            '$200 and under': '#bcbddc'
+                            'gardner_over_2000': '#4a1486',
+                            'gardner_under_2000': '#6a51a3',
+                            'gardner_under_1000': '#807dba',
+                            'gardner_under_500': '#9e9ac8',
+                            'gardner_under_200': '#bcbddc'
                         },
                         onclick: function(d, i) { console.log("onclick", d, i); },
                         onmouseover: function(d, i) { console.log("onmouseover", d, i); },
@@ -320,7 +335,7 @@
                         }
                     },
                     padding: {
-                        bottom: 40
+                        bottom: 20
                     },
                 })
             },
