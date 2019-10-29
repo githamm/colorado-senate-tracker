@@ -27,6 +27,7 @@
     <script src="https://extras.denverpost.com/app/homicide-report/js/d3.v3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
+    <script src="../js/moment.js"></script>
 </head>
 
 <body>
@@ -53,55 +54,57 @@
         </div>
     </div>
     <div class="row" id="gardner-fundraising-charts">
-        <div class="large-12 large-centered columns">
+        <div class="large-10 large-centered columns">
             <div class="callout secondary">
                 <p class="chart-container-title">Fundraising Summary</p>
-                <p>As of <span id="gardner-date"></span>, Cory Gardner had $<span id="gardner-cash"></span> on hand and raised $<span id="gardner-raised"></span> in the last quarter. <em>Hover over or click chart for details.</em>
-                    <div class="large-4 medium-4 columns">
-                        <p class="chart-title">Total contributions<br>and transfers</p>
-                        <div id="donations-quarterly"></div>
-                        <p class="source">Source: <a href="https://www.fec.gov/data/reports/house-senate/?is_amended=false&data_type=processed&committee_id=C00492454&cycle=2020" target="_blank">FEC quarterly report </a>
-                    </div>
-                    <div class="large-4 medium-4 columns">
-                        <p class="chart-title">Individual contributions<br>2019</p>
-                        <div id="donations-breakdown"></div>
-                        <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
-                    </div>
-                    <div class="large-4 medium-4 columns">
-                        <p class="chart-title">Individual contributions<br>2019</p>
-                        <div id="donations-breakdown"></div>
-                        <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
-                    </div>
-                    <p>&nbsp;</p>
+                <p>As of <span id="last-quarter-end-date"></span>, Cory Gardner had <span class="highlight">$<span id="candidate-cash"></span></span> on hand and raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> in the last quarter. <em>Hover over or click chart for details.</em></p>
+                <div class="large-4 medium-4 columns">
+                    <p class="chart-title">Quarterly contributions<br>and transfers</p>
+                    <div id="donations-quarterly"></div>
+                    <p class="source">Source: <a href="https://www.fec.gov/data/reports/house-senate/?is_amended=false&data_type=processed&committee_id=C00492454&cycle=2020" target="_blank">FEC quarterly report </a>
+                </div>
+                <div class="large-4 medium-4 columns">
+                    <p class="chart-title">Total contributions<br>and transfers</p>
+                    <div id="donations-breakdown"></div>
+                    <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
+                </div>
+                <div class="large-4 medium-4 columns">
+                    <p class="chart-title">Individual contributions<br>by size</p>
+                    <div id="individual-donations-breakdown"></div>
+                    <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
+                </div>
+                <p>&nbsp;</p>
             </div>
         </div>
     </div>
     <div id="contributions-table-container">
         <div class="row">
-            <div class="large-12 columns">
-                <h2 class="table-title">Search Cory Gardner's campaign contributions</h2>
+            <div class="large-10 large-centered columns">
+                <h2 class="table-title"><span style="border-top:5px solid #252525;display:inline-block">Search Cory Gardner&rsquo;s campaign contributions</span></h2>
                 <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, employer or state, or search by a specific term. Click the column headers to sort the data. <strong>Source: Federal Election Commission</strong></em></p>
                 <!-- <p style="color:#990012;font-style:italic;text-align:center">Click column headers to sort data; use dropdown menus to filter data</p> -->
             </div>
         </div>
         <div id="filters">
             <div class="row">
-                <div class="large-3 medium-3 small-6 columns">
-                    <span id="filter-1" style="font-weight: bold;"></span>
-                </div>
-                <div class="large-3 medium-3 small-6 columns">
-                    <span id="filter-2" style="font-weight: bold;"></span>
-                </div>
-                <div class="large-3 medium-3 small-6 columns">
-                    <span id="filter-3" style="font-weight: bold;"></span>
-                </div>
-                <div class="large-3 medium-3 small-6 end columns">
-                    <span id="filter-4" style="font-weight: bold;"></span>
+                <div class="large-10 large-centered columns">
+                    <div class="large-3 medium-3 small-6 columns">
+                        <span id="filter-1" style="font-weight: bold;"></span>
+                    </div>
+                    <div class="large-3 medium-3 small-6 columns">
+                        <span id="filter-2" style="font-weight: bold;"></span>
+                    </div>
+                    <div class="large-3 medium-3 small-6 columns">
+                        <span id="filter-3" style="font-weight: bold;"></span>
+                    </div>
+                    <div class="large-3 medium-4 small-6 end columns">
+                        <span id="filter-4" style="font-weight: bold;"></span>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="large-12 columns">
+            <div class="large-10 large-centered columns">
                 <table id="contributions-table" cellspacing="0" width="100%">
                     <thead>
                         <tr>
@@ -133,88 +136,72 @@
     </div>
     <script>
     //$.getJSON('../data/gardner_test.json', function(data) {
-    $.getJSON('../data/gardner_fec_test.json', function(data) {
-        //console.log(data);
+    $.getJSON('fec_test_data.json', function(data) {
 
-        // var gardnerQ1 = [];
-        // var gardnerQ12019 = data.filter(obj => {
-        //     return obj.report_type === 'Q1'&& return obj.report_year == 2019
-        // })
-        // console.log(gardnerQ1);
-
-        var gardnerQ12019 = data.filter(function(el) {
-            return el.report_type === 'Q1' &&
-                el.report_year == 2019;
+        // Period bar chart data
+        var quarterlyBarChartData = data.map(d => {
+            return {
+                "report_time": d.report_type + ' ' + d.report_year,
+                "total_individual_contributions_period": d.total_individual_contributions_period,
+                "political_party_committee_contributions_period": d.political_party_committee_contributions_period,
+                "other_political_committee_contributions_period": d.other_political_committee_contributions_period,
+                "transfers_from_other_authorized_committee_period": d.transfers_from_other_authorized_committee_period
+            }
         });
-        console.log(gardnerQ12019);
 
-        var gardnerQ22019 = data.filter(function(el) {
-            return el.report_type === 'Q2' &&
-                el.report_year == 2019;
-        });
-        console.log(gardnerQ22019);
+        // Get last object (should be most recent filing period) in array
+        var lastQuarterData = data.slice(-1).pop();
 
-        var gardnerQ32019 = data.filter(function(el) {
-            return el.report_type === 'Q3' &&
-                el.report_year == 2019;
-        });
-        console.log(gardnerQ32019);
+        // Cash on hand at end of period
+        var cashOnHand = lastQuarterData.cash_on_hand_end_period;
+        document.getElementById('candidate-cash').innerHTML = Math.round(cashOnHand).toLocaleString();
 
-        var gardnerQ42019 = data.filter(function(el) {
-            return el.report_type === 'Q4' &&
-                el.report_year == 2019;
-        });
-        console.log(gardnerQ42019);
+        // Total receipts for latest quarter
+        var lastQuarterReceipts = lastQuarterData.total_receipts_period;
+        document.getElementById('candidate-receipts-last-quarter').innerHTML = Math.round(lastQuarterReceipts).toLocaleString();
 
-        /*** UN-COMMENT BELOW WHEN THEY FILE ***/
-        // document.getElementById('gardner-date').innerHTML = lastDate;
-        // document.getElementById('gardner-raised').innerHTML = gardnerRaised;
-        // document.getElementById('gardner-cash').innerHTML = gardnerCash;
+        // Last quarter end date
+        var lastQuarterEndDate = moment(lastQuarterData.coverage_end_date, 'YYYY-MM-DD h:mm:ss').format('MMM DD, YYYY');
+        document.getElementById('last-quarter-end-date').innerHTML = lastQuarterEndDate;
+
+        // YTD pie chart data
+        const ytdPieChartDataObject = (({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }) => ({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }))(lastQuarterData);
+        var ytdPieChartData = [];
+        ytdPieChartData.push(ytdPieChartDataObject);
+        console.log(ytdPieChartData);
+
+        // Individual donation pie chart data
+
 
         /*** BAR CHART ***/
         var donationsQuarterly = c3.generate({
             bindto: '#donations-quarterly',
             data: {
-                // x: 'x',
-                // columns: [
-                //     ['x', 'Total election cycle', 'Q1 2019', 'Q2 2019', 'Q3 2019'],
-                //     ['Individuals', 4460391, 1033301, 961869, 1532721],
-                //     ['Political party committees', 44600, 0, 44600, 0],
-                //     ['Other political committees (PACs)', 3195878, 694283, 626098, 385987],
-                //     ['Transfers from other authorized committees', 1638763, 275228, 376686, 532655]
-                // ],
-                json: data,
+                json: quarterlyBarChartData,
                 keys: {
-                    x: 'gardnerQ12019.report_type',
-                    value: ['gardnerQ12019.total_individual_contributions_period'],
-
-                    // x: 'x',
-                    // columns: [
-                    //     //['x', 'date'],
-                    //     ['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
-                    // ]
+                    x: 'report_time',
+                    value: ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period'],
                 },
                 names: {
-                    gardner_individuals: 'Individuals',
-                    gardner_party_committees: 'Political party committees',
-                    gardner_pacs: 'Other political committees (PACs)',
-                    gardner_transfers: 'Transfers from other authorized committees'
+                    total_individual_contributions_period: 'Individuals',
+                    political_party_committee_contributions_period: 'Political party committees',
+                    other_political_committee_contributions_period: 'Other political committees (PACs)',
+                    transfers_from_other_authorized_committee_period: 'Transfers from other authorized committees'
                 },
                 type: 'bar',
                 groups: [
-                    //['Individuals', 'Political party committees', 'Other political committees (PACs)', 'Transfers from other authorized committees']
-                    ['gardner_individuals', 'gardner_party_committees', 'gardner_pacs', 'gardner_transfers']
+                    ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period']
                 ],
                 order: 'desc',
                 colors: {
-                    'gardner_individuals': '#5e3c99',
-                    'gardner_transfers': '#807dba',
-                    'gardner_pacs': '#e66101',
-                    'gardner_party_committees': '#fdb863'
+                    'total_individual_contributions_period': '#5e3c99',
+                    'transfers_from_other_authorized_committee_period': '#807dba',
+                    'other_political_committee_contributions_period': '#e66101',
+                    'political_party_committee_contributions_period': '#fdb863'
                 }
             },
             padding: {
-                bottom: 40
+                bottom: 20
             },
             axis: {
                 x: {
@@ -246,30 +233,39 @@
             }
         });
 
-        /*** PIE CHART ***/
+        /*** PIE CHART - TOTAL RUNDRAISING BREAKDOWN***/
         var donationsBreakdown = c3.generate({
             bindto: '#donations-breakdown',
             data: {
-                columns: [
-                    ['$2,000 and over', individualBreakdown[4]],
-                    ['$1,000-$1,999', individualBreakdown[3]],
-                    ['$500-$999', individualBreakdown[2]],
-                    ['$201-$499', individualBreakdown[1]],
-                    ['$200 and under', individualBreakdown[0]]
-                ],
-                // json: pieChartData,
-                // keys: {
-                //     //x: 'date',
-                //     //x: [ '$200 and under', '$201-$499', '$500-$999', '$1,000-$1,999', '$2,000 and over' ],
-                //     value: ['individualBreakdown']
-                // },
+                //     columns: [
+                //         ['$2,000 and over', individualBreakdown[4]],
+                //         ['$1,000-$1,999', individualBreakdown[3]],
+                //         ['$500-$999', individualBreakdown[2]],
+                //         ['$201-$499', individualBreakdown[1]],
+                //         ['$200 and under', individualBreakdown[0]]
+                //     ],
+                json: ytdPieChartData,
+                keys: {
+                    //x: 'date',
+                    // x: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
+                    //     'transfers_from_other_authorized_committee_ytd'
+                    // ],
+                    value: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
+                        'transfers_from_other_authorized_committee_ytd'
+                    ]
+                },
+                names: {
+                    total_individual_contributions_ytd: 'Individuals',
+                    political_party_committee_contributions_ytd: 'Political party committees',
+                    other_political_committee_contributions_ytd: 'Other political committees (PACs)',
+                    transfers_from_other_authorized_committee_ytd: 'Transfers from other authorized committees'
+                },
                 type: 'pie',
                 colors: {
-                    '$2,000 and over': '#4a1486',
-                    '$1,000-$1,999': '#6a51a3',
-                    '$500-$999': '#807dba',
-                    '$201-$499': '#9e9ac8',
-                    '$200 and under': '#bcbddc'
+                    'total_individual_contributions_ytd': '#5e3c99',
+                    'transfers_from_other_authorized_committee_ytd': '#807dba',
+                    'other_political_committee_contributions_ytd': '#e66101',
+                    'political_party_committee_contributions_ytd': '#fdb863'
                 },
                 onclick: function(d, i) { console.log("onclick", d, i); },
                 onmouseover: function(d, i) { console.log("onmouseover", d, i); },
@@ -284,11 +280,71 @@
             }
         })
     });
-    //         },
-    //         simpleSheet: true,
-    //         parseNumbers: true
-    //     });
-    // }
+
+    /*** PIE CHART - INDIVIDUAL DONATION BREAKDOWN ***/
+    var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1neSnWnUNBpRHf7hCISm1v4mM2CDIOclsEJeez0R7kcQ/edit#gid=0';
+
+    function init() {
+        Tabletop.init({
+            key: publicSpreadsheetUrl,
+            callback: function(data, tabletop) {
+                console.log(data);
+                // const individualPieChartDataObject = (({ under_200, under_500, under_1000, under_2000, over_2000 }) => ({ under_200, under_500, under_1000, under_2000, over_2000 }))(data);
+                // var individualPieChartData = [];
+                // individualPieChartData.push(individualPieChartDataObject);
+                // console.log(individualPieChartData);
+
+                var individualDonationsBreakdown = c3.generate({
+                    bindto: '#individual-donations-breakdown',
+                    data: {
+                        // columns: [
+                        //     ['$2,000 and over', individualBreakdown[4]],
+                        //     ['$1,000-$1,999', individualBreakdown[3]],
+                        //     ['$500-$999', individualBreakdown[2]],
+                        //     ['$201-$499', individualBreakdown[1]],
+                        //     ['$200 and under', individualBreakdown[0]]
+                        // ],
+                        json: data,
+                        keys: {
+                            //x: 'category',
+                            //x: [ '$200 and under', '$201-$499', '$500-$999', '$1,000-$1,999', '$2,000 and over' ],
+                            value: ['gardner_under_200', 'gardner_under_500', 'gardner_under_1000', 'gardner_under_2000', 'gardner_over_2000']
+                        },
+                        names: {
+                            gardner_under_200: 'Less than $200',
+                            gardner_under_500: '$201-$500',
+                            gardner_under_1000: '$501-$1,000',
+                            gardner_under_2000: '$1,001-$2,000',
+                            gardner_over_2000: 'More than $2,000'
+                        },
+                        type: 'pie',
+                        colors: {
+                            'gardner_over_2000': '#4a1486',
+                            'gardner_under_2000': '#6a51a3',
+                            'gardner_under_1000': '#807dba',
+                            'gardner_under_500': '#9e9ac8',
+                            'gardner_under_200': '#bcbddc'
+                        },
+                        onclick: function(d, i) { console.log("onclick", d, i); },
+                        onmouseover: function(d, i) { console.log("onmouseover", d, i); },
+                        onmouseout: function(d, i) { console.log("onmouseout", d, i); }
+                    },
+                    tooltip: {
+                        format: {
+                            value: function(value, ratio, id) {
+                                return d3.format('$,')(value)
+                            }
+                        }
+                    },
+                    // padding: {
+                    //     bottom: 10
+                    // },
+                })
+            },
+            simpleSheet: true,
+            parseNumbers: true
+        });
+    }
 
     /*** TABLE ***/
     var dataFile = '../data/gardner_2019_q3.json';
@@ -427,8 +483,7 @@
             }
         });
     });
-
-    //window.addEventListener('DOMContentLoaded', init)
+    window.addEventListener('DOMContentLoaded', init)
     </script>
 </body>
 
