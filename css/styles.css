@@ -307,7 +307,7 @@
 
     .c3-chart-arc path {
         stroke: #f5f5f5;
-        stroke-width: 4;
+        stroke-width: 3.5;
         stroke-dasharray: 0;
         stroke-dashoffset: 0;
         stroke-linejoin: round;

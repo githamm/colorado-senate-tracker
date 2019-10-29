@@ -32,7 +32,7 @@
 
 <body>
     <div class="row">
-        <div id="gardner-section" class="large-10 large-centered medium-10 medium-centered columns">
+        <div class="large-10 large-centered medium-10 medium-centered columns">
             <nav aria-label="You are here:" role="navigation">
                 <ul class="breadcrumbs">
                     <li><a href="../index.html">Home</a></li>
@@ -46,14 +46,9 @@
             <img class="blurb-headshot" src="../images/cory-gardner-cropped.jpg">
             <p class="blurb-bio">Incumbent U.S. Senator, 45</p>
             <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, felis a tempus iaculis, urna eros mattis ante, quis scelerisque urna nisl id eros. Curabitur vel orci elit. Vivamus vitae nisl mauris. Nunc gravida molestie lorem et fringilla. Vestibulum egestas ante ut ante pellentesque, in bibendum tellus eleifend. Ut non ex ex. Nullam id velit sodales, efficitur orci vitae, volutpat ante. Ut sollicitudin mi sit amet nisl lobortis interdum. Maecenas mi nisl, ullamcorper non odio non, pulvinar placerat orci. Suspendisse feugiat elit eget tortor iaculis aliquet. Praesent non urna et leo varius eleifend non convallis eros. <em><a href="https://www.denverpost.com/tag/cory-gardner/" target="_blank">Read Cory Gardner coverage &rarr;</a></em></p>
-            <!-- <div class="callout secondary">
-                <p><strong>Fundraising as of <span id="gardner-date"></span></strong><br>
-                    <span class="blurb-fundraising">$<span id="gardner-cash"></span> cash on hand &bull; $<span id="gardner-raised"></span> raised during last quarter<br><a href="#fundraising-charts">View charts</a></span></p>
-            </div> -->
-            <!-- <hr> -->
         </div>
     </div>
-    <div class="row" id="gardner-fundraising-charts">
+    <div class="row" id="fundraising-charts">
         <div class="large-10 large-centered columns">
             <div class="callout secondary">
                 <p class="chart-container-title">Fundraising Summary</p>
@@ -135,8 +130,7 @@
         </div>
     </div>
     <script>
-    //$.getJSON('../data/gardner_test.json', function(data) {
-    $.getJSON('fec_test_data.json', function(data) {
+    $.getJSON('../data/gardner/gardner_current_charts.json', function(data) {
 
         // Period bar chart data
         var quarterlyBarChartData = data.map(d => {
@@ -168,12 +162,8 @@
         const ytdPieChartDataObject = (({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }) => ({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }))(lastQuarterData);
         var ytdPieChartData = [];
         ytdPieChartData.push(ytdPieChartDataObject);
-        console.log(ytdPieChartData);
 
-        // Individual donation pie chart data
-
-
-        /*** BAR CHART ***/
+        /*** BAR CHART - QUARTERLY CONTRIBUTIONS***/
         var donationsQuarterly = c3.generate({
             bindto: '#donations-quarterly',
             data: {
@@ -209,9 +199,8 @@
                 },
                 y: {
                     tick: {
-                        //values: [3000000, 5000000, 7000000, 9000000],
                         format: function(d) {
-                            return d3.format('$.1s')(d)
+                            return d3.format('$.2s')(d)
                         }
                     },
                 }
@@ -233,23 +222,12 @@
             }
         });
 
-        /*** PIE CHART - TOTAL RUNDRAISING BREAKDOWN***/
+        /*** PIE CHART - TOTAL RUNDRAISING BREAKDOWN ***/
         var donationsBreakdown = c3.generate({
             bindto: '#donations-breakdown',
             data: {
-                //     columns: [
-                //         ['$2,000 and over', individualBreakdown[4]],
-                //         ['$1,000-$1,999', individualBreakdown[3]],
-                //         ['$500-$999', individualBreakdown[2]],
-                //         ['$201-$499', individualBreakdown[1]],
-                //         ['$200 and under', individualBreakdown[0]]
-                //     ],
                 json: ytdPieChartData,
                 keys: {
-                    //x: 'date',
-                    // x: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
-                    //     'transfers_from_other_authorized_committee_ytd'
-                    // ],
                     value: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
                         'transfers_from_other_authorized_committee_ytd'
                     ]
@@ -288,26 +266,11 @@
         Tabletop.init({
             key: publicSpreadsheetUrl,
             callback: function(data, tabletop) {
-                console.log(data);
-                // const individualPieChartDataObject = (({ under_200, under_500, under_1000, under_2000, over_2000 }) => ({ under_200, under_500, under_1000, under_2000, over_2000 }))(data);
-                // var individualPieChartData = [];
-                // individualPieChartData.push(individualPieChartDataObject);
-                // console.log(individualPieChartData);
-
                 var individualDonationsBreakdown = c3.generate({
                     bindto: '#individual-donations-breakdown',
                     data: {
-                        // columns: [
-                        //     ['$2,000 and over', individualBreakdown[4]],
-                        //     ['$1,000-$1,999', individualBreakdown[3]],
-                        //     ['$500-$999', individualBreakdown[2]],
-                        //     ['$201-$499', individualBreakdown[1]],
-                        //     ['$200 and under', individualBreakdown[0]]
-                        // ],
                         json: data,
                         keys: {
-                            //x: 'category',
-                            //x: [ '$200 and under', '$201-$499', '$500-$999', '$1,000-$1,999', '$2,000 and over' ],
                             value: ['gardner_under_200', 'gardner_under_500', 'gardner_under_1000', 'gardner_under_2000', 'gardner_over_2000']
                         },
                         names: {
@@ -347,7 +310,7 @@
     }
 
     /*** TABLE ***/
-    var dataFile = '../data/gardner_2019_q3.json';
+    var dataFile = '../data/gardner/gardner_current_table.json';
 
     $(document).ready(function() {
         function disableDependentFilter(level, inuse) {

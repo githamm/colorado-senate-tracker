@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Cory Gardner: 2020 Senate Race | The Denver Post</title>
+    <title>John Hickenlooper: 2020 Senate Race | The Denver Post</title>
     <meta charset="utf-8">
     <meta name="robots" content="noindex,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -32,32 +32,27 @@
 
 <body>
     <div class="row">
-        <div id="gardner-section" class="large-10 large-centered medium-10 medium-centered columns">
+        <div class="large-10 large-centered medium-10 medium-centered columns">
             <nav aria-label="You are here:" role="navigation">
                 <ul class="breadcrumbs">
                     <li><a href="../index.html">Home</a></li>
                     <li>
-                        <span class="show-for-sr">Current: </span> Cory Gardner
+                        <span class="show-for-sr">Current: </span> John Hickenlooper
                     </li>
                 </ul>
             </nav>
-            <h3 class="blurb-title">Cory Gardner <div class="tag-rep"></div>
+            <h3 class="blurb-title">John Hickenlooper <div class="tag-dem"></div>
             </h3>
-            <img class="blurb-headshot" src="../images/cory-gardner-cropped.jpg">
-            <p class="blurb-bio">Incumbent U.S. Senator, 45</p>
-            <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, felis a tempus iaculis, urna eros mattis ante, quis scelerisque urna nisl id eros. Curabitur vel orci elit. Vivamus vitae nisl mauris. Nunc gravida molestie lorem et fringilla. Vestibulum egestas ante ut ante pellentesque, in bibendum tellus eleifend. Ut non ex ex. Nullam id velit sodales, efficitur orci vitae, volutpat ante. Ut sollicitudin mi sit amet nisl lobortis interdum. Maecenas mi nisl, ullamcorper non odio non, pulvinar placerat orci. Suspendisse feugiat elit eget tortor iaculis aliquet. Praesent non urna et leo varius eleifend non convallis eros. <em><a href="https://www.denverpost.com/tag/cory-gardner/" target="_blank">Read Cory Gardner coverage &rarr;</a></em></p>
-            <!-- <div class="callout secondary">
-                <p><strong>Fundraising as of <span id="gardner-date"></span></strong><br>
-                    <span class="blurb-fundraising">$<span id="gardner-cash"></span> cash on hand &bull; $<span id="gardner-raised"></span> raised during last quarter<br><a href="#fundraising-charts">View charts</a></span></p>
-            </div> -->
-            <!-- <hr> -->
+            <img class="blurb-headshot" src="../images/john-hickenlooper-cropped.jpg">
+            <p class="blurb-bio">Former Colorado governor and Denver mayor, 67</p>
+            <p class="blurb">Hickenlooper, 67, dropped out of the presidential race Aug. 15 and said he was considering a Senate run. A week later, he announced he is running for Senate. “I’ve always said Washington was a lousy place for a guy like me who wants to get things done – but this is no time to walk away from the table,” the former governor of Colorado said in his announcement video. “… I’m not done fighting for the people of Colorado.” In that video, filmed at the Denver brewpub he founded, Hickenlooper echoed his presidential pitch to voters, which focused on ending the conflict in Washington. And he promised to work on fighting climate change, prescription drug prices and economic inequity. <em><a href="https://www.denverpost.com/tag/john-hickenlooper/" target="_blank">Read John Hickenlooper coverage &rarr;</a></em></p>
         </div>
     </div>
-    <div class="row" id="gardner-fundraising-charts">
+    <div class="row" id="fundraising-charts">
         <div class="large-10 large-centered columns">
             <div class="callout secondary">
                 <p class="chart-container-title">Fundraising Summary</p>
-                <p>As of <span id="last-quarter-end-date"></span>, Cory Gardner had <span class="highlight">$<span id="candidate-cash"></span></span> on hand and raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> in the last quarter. <em>Hover over or click chart for details.</em></p>
+                <p>As of <span id="last-quarter-end-date"></span>, John Hickenlooper had <span class="highlight">$<span id="candidate-cash"></span></span> on hand and raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> in the last quarter. <em>Hover over or click chart for details.</em></p>
                 <div class="large-4 medium-4 columns">
                     <p class="chart-title">Quarterly contributions<br>and transfers</p>
                     <div id="donations-quarterly"></div>
@@ -80,7 +75,7 @@
     <div id="contributions-table-container">
         <div class="row">
             <div class="large-10 large-centered columns">
-                <h2 class="table-title"><span>Search Cory Gardner's campaign contributions</span></h2>
+                <h2 class="table-title"><span style="border-top:5px solid #252525;display:inline-block">Search John Hickenlooper&rsquo;s campaign contributions</span></h2>
                 <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, employer or state, or search by a specific term. Click the column headers to sort the data. <strong>Source: Federal Election Commission</strong></em></p>
                 <!-- <p style="color:#990012;font-style:italic;text-align:center">Click column headers to sort data; use dropdown menus to filter data</p> -->
             </div>
@@ -135,8 +130,7 @@
         </div>
     </div>
     <script>
-    //$.getJSON('../data/gardner_test.json', function(data) {
-    $.getJSON('fec_test_data.json', function(data) {
+    $.getJSON('../data/hickenlooper/hickenlooper_current_charts.json', function(data) {
 
         // Period bar chart data
         var quarterlyBarChartData = data.map(d => {
@@ -168,12 +162,8 @@
         const ytdPieChartDataObject = (({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }) => ({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }))(lastQuarterData);
         var ytdPieChartData = [];
         ytdPieChartData.push(ytdPieChartDataObject);
-        console.log(ytdPieChartData);
 
-        // Individual donation pie chart data
-
-
-        /*** BAR CHART ***/
+        /*** BAR CHART - QUARTERLY CONTRIBUTIONS***/
         var donationsQuarterly = c3.generate({
             bindto: '#donations-quarterly',
             data: {
@@ -209,9 +199,8 @@
                 },
                 y: {
                     tick: {
-                        //values: [3000000, 5000000, 7000000, 9000000],
                         format: function(d) {
-                            return d3.format('$.1s')(d)
+                            return d3.format('$.2s')(d)
                         }
                     },
                 }
@@ -233,23 +222,12 @@
             }
         });
 
-        /*** PIE CHART - TOTAL RUNDRAISING BREAKDOWN***/
+        /*** PIE CHART - TOTAL RUNDRAISING BREAKDOWN ***/
         var donationsBreakdown = c3.generate({
             bindto: '#donations-breakdown',
             data: {
-                //     columns: [
-                //         ['$2,000 and over', individualBreakdown[4]],
-                //         ['$1,000-$1,999', individualBreakdown[3]],
-                //         ['$500-$999', individualBreakdown[2]],
-                //         ['$201-$499', individualBreakdown[1]],
-                //         ['$200 and under', individualBreakdown[0]]
-                //     ],
                 json: ytdPieChartData,
                 keys: {
-                    //x: 'date',
-                    // x: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
-                    //     'transfers_from_other_authorized_committee_ytd'
-                    // ],
                     value: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
                         'transfers_from_other_authorized_committee_ytd'
                     ]
@@ -288,42 +266,27 @@
         Tabletop.init({
             key: publicSpreadsheetUrl,
             callback: function(data, tabletop) {
-                console.log(data);
-                // const individualPieChartDataObject = (({ under_200, under_500, under_1000, under_2000, over_2000 }) => ({ under_200, under_500, under_1000, under_2000, over_2000 }))(data);
-                // var individualPieChartData = [];
-                // individualPieChartData.push(individualPieChartDataObject);
-                // console.log(individualPieChartData);
-
                 var individualDonationsBreakdown = c3.generate({
                     bindto: '#individual-donations-breakdown',
                     data: {
-                        // columns: [
-                        //     ['$2,000 and over', individualBreakdown[4]],
-                        //     ['$1,000-$1,999', individualBreakdown[3]],
-                        //     ['$500-$999', individualBreakdown[2]],
-                        //     ['$201-$499', individualBreakdown[1]],
-                        //     ['$200 and under', individualBreakdown[0]]
-                        // ],
                         json: data,
                         keys: {
-                            //x: 'category',
-                            //x: [ '$200 and under', '$201-$499', '$500-$999', '$1,000-$1,999', '$2,000 and over' ],
-                            value: ['gardner_under_200', 'gardner_under_500', 'gardner_under_1000', 'gardner_under_2000', 'gardner_over_2000']
+                            value: ['hickenlooper_under_200', 'hickenlooper_under_500', 'hickenlooper_under_1000', 'hickenlooper_under_2000', 'hickenlooper_over_2000']
                         },
                         names: {
-                            gardner_under_200: 'Less than $200',
-                            gardner_under_500: '$201-$500',
-                            gardner_under_1000: '$501-$1,000',
-                            gardner_under_2000: '$1,001-$2,000',
-                            gardner_over_2000: 'More than $2,000'
+                            hickenlooper_under_200: 'Less than $200',
+                            hickenlooper_under_500: '$201-$500',
+                            hickenlooper_under_1000: '$501-$1,000',
+                            hickenlooper_under_2000: '$1,001-$2,000',
+                            hickenlooper_over_2000: 'More than $2,000'
                         },
                         type: 'pie',
                         colors: {
-                            'gardner_over_2000': '#4a1486',
-                            'gardner_under_2000': '#6a51a3',
-                            'gardner_under_1000': '#807dba',
-                            'gardner_under_500': '#9e9ac8',
-                            'gardner_under_200': '#bcbddc'
+                            'hickenlooper_over_2000': '#4a1486',
+                            'hickenlooper_under_2000': '#6a51a3',
+                            'hickenlooper_under_1000': '#807dba',
+                            'hickenlooper_under_500': '#9e9ac8',
+                            'hickenlooper_under_200': '#bcbddc'
                         },
                         onclick: function(d, i) { console.log("onclick", d, i); },
                         onmouseover: function(d, i) { console.log("onmouseover", d, i); },
@@ -347,7 +310,7 @@
     }
 
     /*** TABLE ***/
-    var dataFile = '../data/gardner_2019_q3.json';
+    var dataFile = '../data/hickenlooper/hickenlooper_current_table.json';
 
     $(document).ready(function() {
         function disableDependentFilter(level, inuse) {
