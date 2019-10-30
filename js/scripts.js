@@ -128,7 +128,7 @@ function init() {
                         bray_raised: 'Diana Bray',
                         garcia_raised: 'Lorena Garcia',
                         gardner_raised: 'Cory Gardner',
-                        hickenlooper_raised: 'John Hicklooper',
+                        hickenlooper_raised: 'John Hickenlooper',
                         johnston_raised: 'Mike Johnston*',
                         madden_raised: 'Alice Madden*',
                         romanoff_raised: 'Andrew Romanoff',
@@ -154,12 +154,21 @@ function init() {
                     },
                     y: {
                         tick: {
-                            format: d3.format('$,')
+                            format: function(d) {
+                                return d3.format('$.2s')(d)
+                            }
                         },
                         // label: {
                         //     text: 'Money raised',
                         //     position: 'outer-middle'
                         // }
+                    }
+                },
+                tooltip: {
+                    format: {
+                        value: function(value, ratio, id) {
+                            return d3.format('$,')(value)
+                        }
                     }
                 },
                 grid: {
@@ -191,7 +200,7 @@ function init() {
                         bray_total_raised: 'Diana Bray',
                         garcia_total_raised: 'Lorena Garcia',
                         gardner_total_raised: 'Cory Gardner',
-                        hickenlooper_total_raised: 'John Hicklooper',
+                        hickenlooper_total_raised: 'John Hickenlooper',
                         johnston_total_raised: 'Mike Johnston*',
                         madden_total_raised: 'Alice Madden*',
                         romanoff_total_raised: 'Andrew Romanoff',
@@ -217,12 +226,21 @@ function init() {
                     },
                     y: {
                         tick: {
-                            format: d3.format('$,')
+                            format: function(d) {
+                                return d3.format('$.1s')(d)
+                            }
                         },
                         // label: {
                         //     text: 'Money raised',
                         //     position: 'outer-middle'
                         // }
+                    }
+                },
+                tooltip: {
+                    format: {
+                        value: function(value, ratio, id) {
+                            return d3.format('$,')(value)
+                        }
                     }
                 },
                 grid: {

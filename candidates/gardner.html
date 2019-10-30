@@ -32,7 +32,7 @@
 
 <body>
     <div class="row">
-        <div class="large-10 large-centered medium-10 medium-centered columns">
+        <div class="large-12 columns">
             <nav aria-label="You are here:" role="navigation">
                 <ul class="breadcrumbs">
                     <li><a href="../index.html">Home</a></li>
@@ -45,11 +45,11 @@
             </h3>
             <img class="blurb-headshot" src="../images/cory-gardner-cropped.jpg">
             <p class="blurb-bio">Incumbent U.S. Senator, 45</p>
-            <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, felis a tempus iaculis, urna eros mattis ante, quis scelerisque urna nisl id eros. Curabitur vel orci elit. Vivamus vitae nisl mauris. Nunc gravida molestie lorem et fringilla. Vestibulum egestas ante ut ante pellentesque, in bibendum tellus eleifend. Ut non ex ex. Nullam id velit sodales, efficitur orci vitae, volutpat ante. Ut sollicitudin mi sit amet nisl lobortis interdum. Maecenas mi nisl, ullamcorper non odio non, pulvinar placerat orci. Suspendisse feugiat elit eget tortor iaculis aliquet. Praesent non urna et leo varius eleifend non convallis eros. <em><a href="https://www.denverpost.com/tag/cory-gardner/" target="_blank">Read Cory Gardner coverage &rarr;</a></em></p>
+            <p class="blurb">Gardner, 45, was first elected to the Senate in 2014, upsetting incumbent Sen. Mark Udall after two terms in the U.S. House. Before that, he was a member of the Colorado House of Representatives. Gardner is one of only two Republicans holding statewide office in Colorado and is expected to have a tough re-election fight in 2020. He lives in his hometown of Yuma, on the Eastern Plains. &ldquo;I&rsquo;m a fifth-generation Coloradan and common sense conservative,&rdquo; Gardner said when unveiling one of his first campaign ads of the 2020 election. &ldquo;I believe in America, in the power of America and that it is morning in America. There&rsquo;s a lot on the line in 2020 and Colorado&rsquo;s fight for the future will not be in vain.&rdquo; &bull; <em><a href="https://www.denverpost.com/tag/cory-gardner/" target="_blank">Read Cory Gardner coverage &rarr;</a></em></p>
         </div>
     </div>
     <div class="row" id="fundraising-charts">
-        <div class="large-10 large-centered columns">
+        <div class="large-12 columns">
             <div class="callout secondary">
                 <p class="chart-container-title">Fundraising Summary</p>
                 <p>As of <span id="last-quarter-end-date"></span>, Cory Gardner had <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand, raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> in the last quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle. <em>Hover over or click chart for details.</em></p>
@@ -74,7 +74,7 @@
     </div>
     <div id="contributions-table-container">
         <div class="row">
-            <div class="large-10 large-centered columns" style="border-top:5px solid #252525;">
+            <div class="large-12 columns" style="border-top:5px solid #252525;">
                 <h2 class="table-title">Search Cory Gardner&rsquo;s campaign contributions</h2>
                 <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, state or employer, or search by a specific term. <em>Source: <a href="https://www.fec.gov/data/receipts/?two_year_transaction_period=2020&committee_id=C00492454&data_type=processed" target="_blank">FEC 2019-20 receipts</a></em></p>
                 <p class="table-instructions">Click column headers to sort &bull; scroll right to see full table</p>
@@ -82,7 +82,7 @@
         </div>
         <div id="filters">
             <div class="row">
-                <div class="large-10 large-centered columns">
+                <div class="large-12 columns">
                     <div class="row">
                         <div class="large-3 medium-3 small-6 columns">
                             <p id="filter-1"></p>
@@ -101,7 +101,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="large-10 large-centered columns">
+            <div class="large-12 columns">
                 <table id="contributions-table" cellspacing="0" width="100%">
                     <thead>
                         <tr>
@@ -350,7 +350,7 @@
                 targets: 0
             }],
             order: [
-                [11, 'desc']
+                [5, 'desc'], [4, 'desc']
             ],
             columns: [
                 { data: 'button' },
@@ -367,13 +367,13 @@
                 {
                     data: 'contribution_receipt_amount',
                     render: function(data, type, row) {
-                        return '$' + data.toLocaleString()
+                        return '$' + Math.round(data).toLocaleString()
                     }
                 },
                 {
                     data: 'contributor_aggregate_ytd',
                     render: function(data, type, row) {
-                        return '$' + data.toLocaleString()
+                        return '$' + Math.round(data).toLocaleString()
                     }
                 },
                 {
@@ -386,6 +386,7 @@
                 },
                 {
                     data: 'contributor_zip',
+                    visible: false,
                     render: function(data, type, row) {
                         if (data != null) {
                             return data.toString().slice(0, 5)

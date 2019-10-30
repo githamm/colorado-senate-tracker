@@ -132,7 +132,7 @@
     .blurb {
         font-family: Georgia;
         /*font-size: 18px;*/
-        font-size: 1.125rem;
+        font-size: 1.21rem;
     }
 
     .blurb-fundraising {
@@ -228,7 +228,7 @@
     }
 
     .photo-grid-container {
-        margin: 0 0 0 50px;
+        margin: 0 0 0 27px;
     }
 
     .withdrew-text a {
@@ -297,7 +297,7 @@
     }
 
     #fundraising-charts {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .breadcrumbs li {
@@ -320,7 +320,7 @@
     @media all and (max-width: 699px) and (min-width: 300px) {
         .title {
             /*font-size: 72px;*/
-            font-size: 4.5rem;
+            font-size: 3.5rem;
         }
 
         .photo-grid-container {
