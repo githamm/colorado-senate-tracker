@@ -32,7 +32,7 @@
 
 <body>
     <div class="row">
-        <div class="large-10 large-centered medium-10 medium-centered columns">
+        <div class="large-12 columns">
             <nav aria-label="You are here:" role="navigation">
                 <ul class="breadcrumbs">
                     <li><a href="../index.html">Home</a></li>
@@ -45,28 +45,28 @@
             </h3>
             <img class="blurb-headshot" src="../images/john-hickenlooper-cropped.jpg">
             <p class="blurb-bio">Former Colorado governor and Denver mayor, 67</p>
-            <p class="blurb">Hickenlooper, 67, dropped out of the presidential race Aug. 15 and said he was considering a Senate run. A week later, he announced he is running for Senate. “I’ve always said Washington was a lousy place for a guy like me who wants to get things done – but this is no time to walk away from the table,” the former governor of Colorado said in his announcement video. “… I’m not done fighting for the people of Colorado.” In that video, filmed at the Denver brewpub he founded, Hickenlooper echoed his presidential pitch to voters, which focused on ending the conflict in Washington. And he promised to work on fighting climate change, prescription drug prices and economic inequity. <em><a href="https://www.denverpost.com/tag/john-hickenlooper/" target="_blank">Read John Hickenlooper coverage &rarr;</a></em></p>
+            <p class="blurb">Hickenlooper, 67, dropped out of the presidential race Aug. 15 and said he was considering a Senate run. A week later, he announced he is running for Senate. “I’ve always said Washington was a lousy place for a guy like me who wants to get things done – but this is no time to walk away from the table,” the former governor of Colorado said in his announcement video. “… I’m not done fighting for the people of Colorado.” In that video, filmed at the Denver brewpub he founded, Hickenlooper echoed his presidential pitch to voters, which focused on ending the conflict in Washington. And he promised to work on fighting climate change, prescription drug prices and economic inequity. &bull; <em><a href="https://www.denverpost.com/tag/john-hickenlooper/" target="_blank">Read John Hickenlooper coverage &rarr;</a></em></p>
         </div>
     </div>
     <div class="row" id="fundraising-charts">
-        <div class="large-10 large-centered columns">
+        <div class="large-12 columns">
             <div class="callout secondary">
                 <p class="chart-container-title">Fundraising Summary</p>
                 <p>As of <span id="last-quarter-end-date"></span>, John Hickenlooper had <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand, raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> in the last quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle. <em>Hover over or click chart for details.</em></p>
                 <div class="large-4 medium-4 columns">
-                    <p class="chart-title">Quarterly contributions<br>and transfers</p>
+                    <p class="chart-title">Quarterly<br>contributions</p>
                     <div id="donations-quarterly"></div>
-                    <p class="source">Source: <a href="https://www.fec.gov/data/reports/house-senate/?is_amended=false&data_type=processed&committee_id=C00492454&cycle=2020" target="_blank">FEC quarterly report </a>
+                    <p class="source">Source: <a href="https://www.fec.gov/data/reports/house-senate/?is_amended=false&data_type=processed&committee_id=C00716720&cycle=2020" target="_blank">FEC quarterly report </a>
                 </div>
                 <div class="large-4 medium-4 columns">
-                    <p class="chart-title">Total contributions<br>and transfers</p>
+                    <p class="chart-title">Total<br>contributions</p>
                     <div id="donations-breakdown"></div>
-                    <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
+                    <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00716720/?tab=raising&cycle=2020#total-receipts" target="_blank">FEC total receipts</a>
                 </div>
                 <div class="large-4 medium-4 columns">
-                    <p class="chart-title">Individual contributions<br>by size</p>
+                    <p class="chart-title">Individual<br>contributions</p>
                     <div id="individual-donations-breakdown"></div>
-                    <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00492454/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
+                    <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00716720/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
                 </div>
                 <p>&nbsp;</p>
             </div>
@@ -74,55 +74,54 @@
     </div>
     <div id="contributions-table-container">
         <div class="row">
-            <div class="large-10 large-centered columns">
-                <h2 class="table-title"><span style="border-top:5px solid #252525;display:inline-block">Search John Hickenlooper&rsquo;s campaign contributions</span></h2>
-                <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, employer or state, or search by a specific term. Click the column headers to sort the data. <strong>Source: Federal Election Commission</strong></em></p>
-                <!-- <p style="color:#990012;font-style:italic;text-align:center">Click column headers to sort data; use dropdown menus to filter data</p> -->
+            <div class="large-12 columns" style="border-top:5px solid #252525;">
+                <h2 class="table-title">Search John Hickenlooper&rsquo;s campaign contributions</h2>
+                <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, state or employer, or search by a specific term. <em>Source: <a href="https://www.fec.gov/data/receipts/?two_year_transaction_period=2020&committee_id=C00492454&data_type=processed" target="_blank">FEC 2019-20 receipts</a></em></p>
+                <p class="table-instructions">Click column headers to sort &bull; scroll right to see full table</p>
             </div>
         </div>
         <div id="filters">
             <div class="row">
-                <div class="large-10 large-centered columns">
-                    <div class="large-3 medium-3 small-6 columns">
-                        <span id="filter-1" style="font-weight: bold;"></span>
-                    </div>
-                    <div class="large-3 medium-3 small-6 columns">
-                        <span id="filter-2" style="font-weight: bold;"></span>
-                    </div>
-                    <div class="large-3 medium-3 small-6 columns">
-                        <span id="filter-3" style="font-weight: bold;"></span>
-                    </div>
-                    <div class="large-3 medium-4 small-6 end columns">
-                        <span id="filter-4" style="font-weight: bold;"></span>
+                <div class="large-12 columns">
+                    <div class="row">
+                        <div class="large-3 medium-3 small-6 columns">
+                            <p id="filter-1"></p>
+                        </div>
+                        <div class="large-3 medium-3 small-6 columns">
+                            <p id="filter-2"></p>
+                        </div>
+                        <div class="large-3 medium-3 small-6 columns end">
+                            <p id="filter-3"></p>
+                        </div>
+                        <div class="large-3 medium-3 small-6 columns end">
+                            <p id="filter-4"></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="large-10 large-centered columns">
+            <div class="large-12 columns">
                 <table id="contributions-table" cellspacing="0" width="100%">
                     <thead>
                         <tr>
                             <th></th>
                             <th>Candidate</th>
-                            <th data-priority="1">Donor</th>
-                            <th data-priority="4">Type</th>
-                            <th>City</th>
-                            <th>State</th>
-                            <th>ZIP code</th>
-                            <th>Employer</th>
-                            <th>Occupation</th>
-                            <th>Receipt type</th>
+                            <th data-priority="4">Donor type</th>
+                            <th data-priority="1">Name</th>
                             <th data-priority="2">Amount</th>
                             <th data-priority="3">YTD total</th>
-                            <th>Year</th>
+                            <th>City</th>
+                            <th>State</th>
+                            <th>ZIP</th>
+                            <th>Employer</th>
+                            <th>Occupation</th>
                             <th>Quarter</th>
+                            <th>Year</th>
+                            <th>Receipt type</th>
                             <th>Election type</th>
-                            <th>PDF link</th>
                         </tr>
                     </thead>
-                    <tfoot>
-                    </tfoot>
                     <tbody>
                     </tbody>
                 </table>
@@ -145,7 +144,7 @@
 
         // Get last object (should be most recent filing period) in array
         var lastQuarterData = data.slice(-1).pop();
-
+        console.log(lastQuarterData);
         // Cash on hand at end of period
         var cashOnHand = lastQuarterData.cash_on_hand_end_period;
         document.getElementById('candidate-cash').innerHTML = Math.round(cashOnHand).toLocaleString();
@@ -332,12 +331,18 @@
                 'url': dataFile,
                 'dataSrc': ''
             },
-            pageLength: 15,
-            responsive: {
-                details: {
-                    type: 'column'
-                }
-            },
+            // pageLength: 15,
+            scrollY: '600px',
+            //scrollCollapse: true,
+            scrollX: true,
+            paging: true,
+            pageLength: 50,
+            fixedHeader: true,
+            // responsive: {
+            //     details: {
+            //         type: 'column'
+            //     }
+            // },
             dom: '<if<t>lp>',
             columnDefs: [{
                 className: 'control',
@@ -345,20 +350,31 @@
                 targets: 0
             }],
             order: [
-                [11, 'desc']
+                [5, 'desc'], [4, 'desc']
             ],
             columns: [
                 { data: 'button' },
                 {
                     data: 'committee_name',
                     visible: false
+                }, {
+                    data: 'entity_type_desc',
+                    visible: true
                 },
                 {
                     data: 'contributor_name',
                 },
                 {
-                    data: 'entity_type_desc',
-                    visible: true
+                    data: 'contribution_receipt_amount',
+                    render: function(data, type, row) {
+                        return '$' + Math.round(data).toLocaleString()
+                    }
+                },
+                {
+                    data: 'contributor_aggregate_ytd',
+                    render: function(data, type, row) {
+                        return '$' + Math.round(data).toLocaleString()
+                    }
                 },
                 {
                     data: 'contributor_city',
@@ -370,34 +386,27 @@
                 },
                 {
                     data: 'contributor_zip',
-                    visible: false
+                    visible: false,
+                    render: function(data, type, row) {
+                        if (data != null) {
+                            return data.toString().slice(0, 5)
+                        }
+                    }
                 },
                 { data: 'contributor_employer' },
                 {
                     data: 'contributor_occupation',
                 },
                 {
-                    data: 'receipt_type_full',
-                    visible: false
-                },
-                {
-                    data: 'contribution_receipt_amount',
-                    render: function(data, type, row) {
-                        return '$' + data.toLocaleString()
-                    }
-                },
-                {
-                    data: 'contributor_aggregate_ytd',
-                    render: function(data, type, row) {
-                        return '$' + data.toLocaleString()
-                    }
+                    data: 'report_type',
+                    visible: true
                 },
                 {
                     data: 'report_year',
                     visible: true
                 },
                 {
-                    data: 'report_type',
+                    data: 'receipt_type_full',
                     visible: true
                 },
                 { data: 'fec_election_type_desc' },
@@ -409,25 +418,25 @@
 
             initComplete: function() {
                 yadcf.init(contributionsTable, [{
-                        column_number: 3,
+                        column_number: 2,
                         filter_container_id: 'filter-1',
                         filter_default_label: 'Filter by donor type',
                         //data: donorTypes
                     },
                     {
-                        column_number: 2,
+                        column_number: 3,
                         filter_container_id: 'filter-2',
-                        filter_default_label: 'Filter by donor name'
+                        filter_default_label: 'Filter by name'
                     },
                     {
                         column_number: 7,
                         filter_container_id: 'filter-3',
-                        filter_default_label: 'Filter by donor employer'
+                        filter_default_label: 'Filter by state'
                     },
                     {
-                        column_number: 5,
+                        column_number: 9,
                         filter_container_id: 'filter-4',
-                        filter_default_label: 'Filter by donor state'
+                        filter_default_label: 'Filter by employer'
                     },
                 ], {
                     cumulative_filtering: true,
