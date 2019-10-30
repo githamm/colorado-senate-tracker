@@ -46,10 +46,11 @@ $columns = array(
 );
  
 // SQL server connection information - plus server
+
 // $sql_details = array(
-//     'user' => 'datatables',
-//     'pass' => 'cddoAEt7Mye=KAr7gsyJ',
-//     'db'   => 'gardner_test',
+//     'user' => '',
+//     'pass' => '',
+//     'db'   => 'gardner_donations',
 //     'host' => 'localhost'
 // );
 
@@ -65,7 +66,7 @@ $sql_details = array(
  * server-side, there is no need to edit below this line.
  */
  
-require( 'ssp.class.php' );
+require( '../../ssp.class.php' );
  
 echo json_encode(
     SSP::simple( $_GET, $sql_details, $table, $primaryKey, $columns )
