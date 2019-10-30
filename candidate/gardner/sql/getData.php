@@ -28,26 +28,21 @@ $primaryKey = 'id';
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
 $columns = array(
-    array( 'db' => 'button', 'dt' => 0 ),
-    array( 'db' => 'id', 'dt' => 1 ),
-    array( 'db' => 'committee_name', 'dt' => 2 ),
-    array( 'db' => 'report_year', 'dt' => 3 ),
-    array( 'db' => 'report_type', 'dt' => 4 ),
-    array( 'db' => 'entity_type_desc', 'dt' => 5 ),
-    array( 'db' => 'contributor_name', 'dt' => 6 ),
-    array( 'db' => 'contributor_city', 'dt' => 7 ),
-    array( 'db' => 'contributor_state', 'dt' => 8 ),
-    array( 'db' => 'contributor_zip', 'dt' => 9 ),
-    array( 'db' => 'contributor_employer', 'dt' => 10 ),
-    array( 'db' => 'contributor_occupation', 'dt' => 11 ),
-    array( 'db' => 'receipt_type_full', 'dt' => 12 ),
-    array( 'db' => 'contribution_receipt_amount', 'dt' => 13 ),
-    array( 'db' => 'contributor_aggregate_ytd', 'dt' => 14 ),
-    array( 'db' => 'fec_election_type_desc', 'dt' => 15 ),
-    array( 'db' => 'pdf_url', 'dt' => 16 )
-    // array( 'db' => 'button', 'dt' => 0 ),
-    // array( 'db' => 'id', 'dt' => 1 ),
-    // array( 'db' => 'animal', 'dt' => 2 )
+    array( 'db' => 'id', 'dt' => 0 ),
+    array( 'db' => 'committee_name', 'dt' => 1 ),
+    array( 'db' => 'entity_type_desc', 'dt' => 2 ),
+    array( 'db' => 'contributor_name', 'dt' => 3 ),
+    array( 'db' => 'contribution_receipt_amount', 'dt' => 4 ),
+    array( 'db' => 'contributor_aggregate_ytd', 'dt' => 5 ),
+    array( 'db' => 'contributor_city', 'dt' => 6 ),
+    array( 'db' => 'contributor_state', 'dt' => 7 ),
+    array( 'db' => 'contributor_zip', 'dt' => 8 ),
+    array( 'db' => 'contributor_employer', 'dt' => 9 ),
+    array( 'db' => 'contributor_occupation', 'dt' => 10 ),
+    array( 'db' => 'report_type', 'dt' => 11 ),
+    array( 'db' => 'report_year', 'dt' => 12 ),
+    array( 'db' => 'receipt_type_full', 'dt' => 13 ),
+    array( 'db' => 'fec_election_type_desc', 'dt' => 14 )
 );
  
 // SQL server connection information - plus server

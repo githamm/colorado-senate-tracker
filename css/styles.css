@@ -383,7 +383,7 @@
     table,
     thead,
     tbody {
-        border: none !important;
+        /*border: none !important;*/
         font-size: .85rem;
     }
 
