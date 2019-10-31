@@ -52,8 +52,8 @@ $columns = array(
  
 // SQL server connection information - plus server
 // $sql_details = array(
-//     'user' => 'datatables',
-//     'pass' => 'cddoAEt7Mye=KAr7gsyJ',
+//     'user' => '',
+//     'pass' => '',
 //     'db'   => 'gardner_test',
 //     'host' => 'localhost'
 // );
