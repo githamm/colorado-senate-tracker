@@ -75,7 +75,7 @@
     <div id="contributions-table-container">
         <div class="row">
             <div class="large-12 columns" style="border-top:5px solid #252525;">
-                <h2 class="table-title">Search John Hickenlooper&rsquo;s campaign contributions</h2>
+                <h2 class="table-title">Search Cory Gardner&rsquo;s campaign contributions</h2>
                 <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, state or employer, or search by a specific term. <em>Source: <a href="https://www.fec.gov/data/receipts/?two_year_transaction_period=2020&committee_id=C00492454&data_type=processed" target="_blank">FEC 2019-20 receipts</a></em></p>
                 <p class="table-instructions">Click column headers to sort &bull; scroll right to see full table</p>
             </div>
@@ -105,7 +105,6 @@
                 <table id="contributions-table" cellspacing="0" width="100%">
                     <thead>
                         <tr>
-                            <th></th>
                             <th>Candidate</th>
                             <th data-priority="4">Donor type</th>
                             <th data-priority="1">Name</th>
@@ -344,16 +343,12 @@
             //     }
             // },
             dom: '<if<t>lp>',
-            columnDefs: [{
-                className: 'control',
-                orderable: false,
-                targets: 0
-            }],
             order: [
-                [5, 'desc'], [4, 'desc']
+                [4, 'desc'],
+                [3, 'desc']
             ],
             columns: [
-                { data: 'button' },
+                //{ data: 'button' },
                 {
                     data: 'committee_name',
                     visible: false
@@ -409,32 +404,28 @@
                     data: 'receipt_type_full',
                     visible: true
                 },
-                { data: 'fec_election_type_desc' },
-                {
-                    data: 'pdf_url',
-                    visible: false
-                }
+                { data: 'fec_election_type_desc' }
             ],
 
             initComplete: function() {
                 yadcf.init(contributionsTable, [{
-                        column_number: 2,
+                        column_number: 1,
                         filter_container_id: 'filter-1',
                         filter_default_label: 'Filter by donor type',
                         //data: donorTypes
                     },
                     {
-                        column_number: 3,
+                        column_number: 2,
                         filter_container_id: 'filter-2',
                         filter_default_label: 'Filter by name'
                     },
                     {
-                        column_number: 7,
+                        column_number: 6,
                         filter_container_id: 'filter-3',
                         filter_default_label: 'Filter by state'
                     },
                     {
-                        column_number: 9,
+                        column_number: 8,
                         filter_container_id: 'filter-4',
                         filter_default_label: 'Filter by employer'
                     },

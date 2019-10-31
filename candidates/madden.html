@@ -105,7 +105,6 @@
                 <table id="contributions-table" cellspacing="0" width="100%">
                     <thead>
                         <tr>
-                            <th></th>
                             <th>Candidate</th>
                             <th data-priority="4">Donor type</th>
                             <th data-priority="1">Name</th>
@@ -130,7 +129,7 @@
     </div>
     <script>
     $.getJSON('../data/madden/madden_current_charts.json', function(data) {
-console.log(data);
+        console.log(data);
         // Period bar chart data
         var quarterlyBarChartData = data.map(d => {
             return {
@@ -344,16 +343,12 @@ console.log(data);
             //     }
             // },
             dom: '<if<t>lp>',
-            columnDefs: [{
-                className: 'control',
-                orderable: false,
-                targets: 0
-            }],
             order: [
-                [5, 'desc'], [4, 'desc']
+                [4, 'desc'],
+                [3, 'desc']
             ],
             columns: [
-                { data: 'button' },
+                //{ data: 'button' },
                 {
                     data: 'committee_name',
                     visible: false
@@ -409,32 +404,28 @@ console.log(data);
                     data: 'receipt_type_full',
                     visible: true
                 },
-                { data: 'fec_election_type_desc' },
-                {
-                    data: 'pdf_url',
-                    visible: false
-                }
+                { data: 'fec_election_type_desc' }
             ],
 
             initComplete: function() {
                 yadcf.init(contributionsTable, [{
-                        column_number: 2,
+                        column_number: 1,
                         filter_container_id: 'filter-1',
                         filter_default_label: 'Filter by donor type',
                         //data: donorTypes
                     },
                     {
-                        column_number: 3,
+                        column_number: 2,
                         filter_container_id: 'filter-2',
                         filter_default_label: 'Filter by name'
                     },
                     {
-                        column_number: 7,
+                        column_number: 6,
                         filter_container_id: 'filter-3',
                         filter_default_label: 'Filter by state'
                     },
                     {
-                        column_number: 9,
+                        column_number: 8,
                         filter_container_id: 'filter-4',
                         filter_default_label: 'Filter by employer'
                     },
