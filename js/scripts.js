@@ -31,15 +31,8 @@ function init() {
         callback: function(data, tabletop) {
             console.log(data);
             // Get last row from sheet
-            // var lastRow = (data.slice(-1)[0]);
-            var lastRow = (data[data.length - 3]);
-            // console.log(lastRow);
-            // var date0 = data[0].date;
-            // var date1 = data[1].date;
-            // var date2 = data[2].date;
-            //console.log(data);
-            dataNoTotal = (data.slice(0, -6));
-            console.log(dataNoTotal);
+            var lastRow = (data.slice(-1)[0]);
+            // var lastRow = (data[data.length - 3]);
             var lastDate = lastRow.date;
             var baerRaised = (lastRow.baer_raised).toLocaleString();
             var baerCash = (lastRow.baer_cash).toLocaleString();
@@ -67,47 +60,6 @@ function init() {
             var williamsCash = (lastRow.williams_cash).toLocaleString();
             var zornioRaised = (lastRow.zornio_raised).toLocaleString();
             var zornioCash = (lastRow.zornio_cash).toLocaleString();
-            // Bind to html
-            /*** UN-COMMENT BELOW WHEN THEY FILE ***/
-            // document.getElementById('baer-date').innerHTML = lastDate;
-            // document.getElementById('bray-date').innerHTML = lastDate;
-            // document.getElementById('garcia-date').innerHTML = lastDate;
-            // document.getElementById('gardner-date').innerHTML = lastDate;
-            // document.getElementById('hickenlooper-date').innerHTML = lastDate;
-            // document.getElementById('johnston-date').innerHTML = lastDate;
-            // document.getElementById('madden-date').innerHTML = lastDate;
-            // document.getElementById('romanoff-date').innerHTML = lastDate;
-            // document.getElementById('spaulding-date').innerHTML = lastDate;
-            // document.getElementById('walsh-date').innerHTML = lastDate;
-            // document.getElementById('warren-date').innerHTML = lastDate;
-            // document.getElementById('williams-date').innerHTML = lastDate;
-            // document.getElementById('zornio-date').innerHTML = lastDate;
-            // document.getElementById('baer-raised').innerHTML = baerRaised;
-            // document.getElementById('baer-cash').innerHTML = baerCash;
-            // document.getElementById('bray-raised').innerHTML = brayRaised;
-            // document.getElementById('bray-cash').innerHTML = brayCash;
-            // document.getElementById('garcia-raised').innerHTML = garciaRaised;
-            // document.getElementById('garcia-cash').innerHTML = garciaCash;
-            // document.getElementById('gardner-raised').innerHTML = gardnerRaised;
-            // document.getElementById('gardner-cash').innerHTML = gardnerCash;
-            // document.getElementById('hickenlooper-raised').innerHTML = hickenlooperRaised;
-            // document.getElementById('hickenlooper-cash').innerHTML = hickenlooperCash;
-            // document.getElementById('johnston-raised').innerHTML = johnstonRaised;
-            // document.getElementById('johnston-cash').innerHTML = johnstonCash;
-            // document.getElementById('madden-raised').innerHTML = maddenRaised;
-            // document.getElementById('madden-cash').innerHTML = maddenCash;
-            // document.getElementById('romanoff-raised').innerHTML = romanoffRaised;
-            // document.getElementById('romanoff-cash').innerHTML = romanoffCash;
-            // document.getElementById('spaulding-raised').innerHTML = spauldingRaised;
-            // document.getElementById('spaulding-cash').innerHTML = spauldingCash;
-            // document.getElementById('walsh-raised').innerHTML = walshRaised;
-            // document.getElementById('walsh-cash').innerHTML = walshCash;
-            // document.getElementById('warren-raised').innerHTML = warrenRaised;
-            // document.getElementById('warren-cash').innerHTML = warrenCash;
-            // document.getElementById('williams-raised').innerHTML = williamsRaised;
-            // document.getElementById('williams-cash').innerHTML = williamsCash;
-            // document.getElementById('zornio-raised').innerHTML = zornioRaised;
-            // document.getElementById('zornio-cash').innerHTML = zornioCash;
 
             // Charts
             var quarterlyMoneyChart = c3.generate({
@@ -117,7 +69,7 @@ function init() {
                     //width: 800
                 },
                 data: {
-                    json: dataNoTotal,
+                    json: data,
                     keys: {
                         // x: [ 'date0', 'date1', 'date2' ],
                         x: 'date',
@@ -190,7 +142,7 @@ function init() {
                     //width: 800
                 },
                 data: {
-                    json: dataNoTotal,
+                    json: data,
                     keys: {
                         x: 'date',
                         value: ['baer_total_raised', 'bray_total_raised', 'garcia_total_raised', 'gardner_total_raised', 'hickenlooper_total_raised', 'johnston_total_raised', 'madden_total_raised', 'romanoff_total_raised', 'spaulding_total_raised', 'walsh_total_raised', 'warren_total_raised', 'williams_total_raised', 'zornio_total_raised']
