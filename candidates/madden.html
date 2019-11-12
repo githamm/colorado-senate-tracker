@@ -129,7 +129,7 @@
     </div>
     <script>
     $.getJSON('../data/madden/madden_current_charts.json', function(data) {
-        console.log(data);
+
         // Period bar chart data
         var quarterlyBarChartData = data.map(d => {
             return {
@@ -137,7 +137,8 @@
                 "total_individual_contributions_period": d.total_individual_contributions_period,
                 "political_party_committee_contributions_period": d.political_party_committee_contributions_period,
                 "other_political_committee_contributions_period": d.other_political_committee_contributions_period,
-                "transfers_from_other_authorized_committee_period": d.transfers_from_other_authorized_committee_period
+                "transfers_from_other_authorized_committee_period": d.transfers_from_other_authorized_committee_period,
+                "candidate_contribution_period": d.candidate_contribution_period, "loans_made_by_candidate_period": d.loans_made_by_candidate_period
             }
         });
 
@@ -147,7 +148,7 @@
         // Cash on hand at beginning of period
         var beginningCashOnHand = lastQuarterData.cash_on_hand_beginning_period;
         document.getElementById('candidate-cash-beginning').innerHTML = Math.round(beginningCashOnHand).toLocaleString();
-        
+
         // Cash on hand at end of period
         var cashOnHand = lastQuarterData.cash_on_hand_end_period;
         document.getElementById('candidate-cash').innerHTML = Math.round(cashOnHand).toLocaleString();
@@ -165,7 +166,7 @@
         document.getElementById('last-quarter-end-date').innerHTML = lastQuarterEndDate;
 
         // YTD pie chart data
-        const ytdPieChartDataObject = (({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }) => ({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd }))(lastQuarterData);
+        const ytdPieChartDataObject = (({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd, candidate_contribution_ytd, loans_made_by_candidate_ytd }) => ({ total_individual_contributions_ytd, political_party_committee_contributions_ytd, other_political_committee_contributions_ytd, transfers_from_other_authorized_committee_ytd, candidate_contribution_ytd, loans_made_by_candidate_ytd }))(lastQuarterData);
         var ytdPieChartData = [];
         ytdPieChartData.push(ytdPieChartDataObject);
 
@@ -176,28 +177,31 @@
                 json: quarterlyBarChartData,
                 keys: {
                     x: 'report_time',
-                    value: ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period'],
+                    value: ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period', 'candidate_contribution_period', 'loans_made_by_candidate_period']
                 },
                 names: {
                     total_individual_contributions_period: 'Individuals',
                     political_party_committee_contributions_period: 'Political party committees',
                     other_political_committee_contributions_period: 'Other political committees (PACs)',
-                    transfers_from_other_authorized_committee_period: 'Transfers from other authorized committees'
+                    transfers_from_other_authorized_committee_period: 'Transfers from other authorized committees',
+                    candidate_contribution_period: 'Candidate contributions', loans_made_by_candidate_period: 'Candidate loans'
                 },
                 type: 'bar',
                 groups: [
-                    ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period']
+                    ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period', 'candidate_contribution_period', 'loans_made_by_candidate_period']
                 ],
                 order: 'desc',
                 colors: {
                     'total_individual_contributions_period': '#5e3c99',
                     'transfers_from_other_authorized_committee_period': '#807dba',
                     'other_political_committee_contributions_period': '#e66101',
-                    'political_party_committee_contributions_period': '#fdb863'
+                    'political_party_committee_contributions_period': '#fdb863',
+                    'candidate_contribution_period': '#bbb',
+                    'loans_made_by_candidate_period': '#939393'
                 }
             },
             padding: {
-                bottom: 20
+                bottom: 0
             },
             axis: {
                 x: {
@@ -228,28 +232,32 @@
             }
         });
 
-        /*** PIE CHART - TOTAL RUNDRAISING BREAKDOWN ***/
+        /*** PIE CHART - TOTAL FUNDRAISING BREAKDOWN ***/
         var donationsBreakdown = c3.generate({
             bindto: '#donations-breakdown',
             data: {
                 json: ytdPieChartData,
                 keys: {
                     value: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
-                        'transfers_from_other_authorized_committee_ytd'
+                        'transfers_from_other_authorized_committee_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'
                     ]
                 },
                 names: {
                     total_individual_contributions_ytd: 'Individuals',
                     political_party_committee_contributions_ytd: 'Political party committees',
                     other_political_committee_contributions_ytd: 'Other political committees (PACs)',
-                    transfers_from_other_authorized_committee_ytd: 'Transfers from other authorized committees'
+                    transfers_from_other_authorized_committee_ytd: 'Transfers from other authorized committees',
+                    candidate_contribution_ytd: 'Candidate contributions',
+                    loans_made_by_candidate_ytd: 'Candidate loans'
                 },
                 type: 'pie',
                 colors: {
                     'total_individual_contributions_ytd': '#5e3c99',
                     'transfers_from_other_authorized_committee_ytd': '#807dba',
                     'other_political_committee_contributions_ytd': '#e66101',
-                    'political_party_committee_contributions_ytd': '#fdb863'
+                    'political_party_committee_contributions_ytd': '#fdb863',
+                    'candidate_contribution_ytd': '#bbb',
+                    'loans_made_by_candidate_ytd': '#939393'
                 },
                 onclick: function(d, i) { console.log("onclick", d, i); },
                 onmouseover: function(d, i) { console.log("onmouseover", d, i); },
@@ -305,9 +313,9 @@
                             }
                         }
                     },
-                    // padding: {
-                    //     bottom: 10
-                    // },
+                    padding: {
+                        bottom: 10
+                    },
                 })
             },
             simpleSheet: true,
