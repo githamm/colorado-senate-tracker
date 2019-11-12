@@ -22,46 +22,29 @@ var y = setInterval(function() {
     }
 }, 1000);
 
-/*** MAIN PAGE FUNDRAISING TOTALS CHART ***/
+/*** MAIN PAGE QUARTERLY FUNDRAISING LINE CHART ***/
 
-var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
+var quarterlyRaisedSheet = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
 
 function init() {
     Tabletop.init({
-        key: publicSpreadsheetUrl,
+        key: quarterlyRaisedSheet,
         callback: function(data, tabletop) {
-            // Get last row from sheet
             var lastRow = (data.slice(-1)[0]);
-            // var lastRow = (data[data.length - 3]);
-            var lastDate = lastRow.date;
             var baerRaised = (lastRow.baer_raised).toLocaleString();
-            //var baerCash = (lastRow.baer_cash).toLocaleString();
             var brayRaised = (lastRow.bray_raised).toLocaleString();
-            //var brayCash = (lastRow.bray_cash).toLocaleString();
             var garciaRaised = (lastRow.garcia_raised).toLocaleString();
-            //var garciaCash = (lastRow.garcia_cash).toLocaleString();
             var gardnerRaised = (lastRow.gardner_raised).toLocaleString();
-            //var gardnerCash = (lastRow.gardner_cash).toLocaleString();
             var hickenlooperRaised = (lastRow.hickenlooper_raised).toLocaleString();
-            //var hickenlooperCash = (lastRow.hickenlooper_cash).toLocaleString();
             var johnstonRaised = (lastRow.johnston_raised).toLocaleString();
-            //var johnstonCash = (lastRow.johnston_cash).toLocaleString();
             var maddenRaised = (lastRow.madden_raised).toLocaleString();
-            //var maddenCash = (lastRow.madden_cash).toLocaleString();
             var romanoffRaised = (lastRow.romanoff_raised).toLocaleString();
-            //var romanoffCash = (lastRow.romanoff_cash).toLocaleString();
             var spauldingRaised = (lastRow.spaulding_raised).toLocaleString();
-            //var spauldingCash = (lastRow.spaulding_cash).toLocaleString();
             var walshRaised = (lastRow.walsh_raised).toLocaleString();
-            //var walshCash = (lastRow.walsh_cash).toLocaleString();
             var warrenRaised = (lastRow.warren_raised).toLocaleString();
-            //var warrenCash = (lastRow.warren_cash).toLocaleString();
             var williamsRaised = (lastRow.williams_raised).toLocaleString();
-            //var williamsCash = (lastRow.williams_cash).toLocaleString();
             var zornioRaised = (lastRow.zornio_raised).toLocaleString();
-            //var zornioCash = (lastRow.zornio_cash).toLocaleString();
 
-            // Charts
             var quarterlyMoneyChart = c3.generate({
                 bindto: '#quarterly-money-chart',
                 size: {
@@ -135,52 +118,58 @@ function init() {
                     r: 4
                 }
             });
+        },
+        simpleSheet: true,
+        parseNumbers: true
+    });
+};
+
+/*** MAIN PAGE TOTAL FUNDRAISING BAR CHART ***/
+
+var totalRaisedSheet = 'https://docs.google.com/spreadsheets/d/1JHfaRgWFIhST4NE72nLd_qpK81ZFIS4wSiu1YXagxhk/edit#gid=0';
+
+function init2() {
+    Tabletop.init({
+        key: totalRaisedSheet,
+        callback: function(data, tabletop) {
             var totalMoneyChart = c3.generate({
                 bindto: '#total-money-chart',
                 size: {
                     height: 400
                     //width: 800
                 },
+                padding: {
+                    right: 15
+                },
                 data: {
                     json: data,
                     keys: {
-                        x: 'date',
-                        value: ['baer_total_raised', 'bray_total_raised', 'garcia_total_raised', 'gardner_total_raised', 'hickenlooper_total_raised', 'johnston_total_raised', 'madden_total_raised', 'romanoff_total_raised', 'spaulding_total_raised', 'walsh_total_raised', 'warren_total_raised', 'williams_total_raised', 'zornio_total_raised']
+                        x: 'candidate',
+                        value: ['total']
                     },
                     names: {
-                        baer_total_raised: 'Dan Baer*',
-                        bray_total_raised: 'Diana Bray',
-                        garcia_total_raised: 'Lorena Garcia',
-                        gardner_total_raised: 'Cory Gardner',
-                        hickenlooper_total_raised: 'John Hickenlooper',
-                        johnston_total_raised: 'Mike Johnston*',
-                        madden_total_raised: 'Alice Madden*',
-                        romanoff_total_raised: 'Andrew Romanoff',
-                        spaulding_total_raised: 'Stephany Rose Spaulding',
-                        walsh_total_raised: 'John Walsh*',
-                        warren_total_raised: 'Michelle Ferrigno Warren',
-                        williams_total_raised: 'Angela Williams',
-                        zornio_total_raised: 'Trish Zornio'
+                        total: 'Total raised'
                     },
-                    type: 'line',
-                    // colors: {
-                    //     'pending': 'red',
-                    //     'approved': 'black',
-                    // },
+                    type: 'bar',
+                    colors: {
+                        'total': '#5e5a80',
+                    },
                 },
                 axis: {
+                    rotated: true,
                     x: {
                         type: 'category',
                         tick: {
                             rotate: 0,
-                            multiline: false
+                            multiline: true
                         }
                     },
                     y: {
                         tick: {
                             format: function(d) {
                                 return d3.format('$.1s')(d)
-                            }
+                            },
+                            count: 6
                         },
                         // label: {
                         //     text: 'Money raised',
@@ -195,6 +184,9 @@ function init() {
                         }
                     }
                 },
+                legend: {
+                    show: false
+                },
                 grid: {
                     x: {
                         show: true
@@ -203,9 +195,6 @@ function init() {
                         show: true
                     }
                 },
-                point: {
-                    r: 4
-                }
             });
         },
         simpleSheet: true,
@@ -213,4 +202,5 @@ function init() {
     });
 }
 
-window.addEventListener('DOMContentLoaded', init)
+window.addEventListener('DOMContentLoaded', init);
+window.addEventListener('DOMContentLoaded', init2);
