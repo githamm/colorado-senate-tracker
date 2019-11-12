@@ -154,8 +154,8 @@
         document.getElementById('candidate-receipts-last-quarter').innerHTML = Math.round(lastQuarterReceipts).toLocaleString();
 
         // Total receipts YTD
-        var ytdReceipts = lastQuarterData.total_receipts_ytd;
-        document.getElementById('candidate-receipts-ytd').innerHTML = Math.round(ytdReceipts).toLocaleString();
+        var gardnerYtdReceipts = lastQuarterData.total_receipts_ytd;
+        document.getElementById('candidate-receipts-ytd').innerHTML = Math.round(gardnerYtdReceipts).toLocaleString();
 
         // Last quarter end date
         var lastQuarterEndDate = moment(lastQuarterData.coverage_end_date, 'YYYY-MM-DD h:mm:ss').format('MMM DD, YYYY');

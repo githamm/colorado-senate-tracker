@@ -23,43 +23,83 @@ var y = setInterval(function() {
 }, 1000);
 
 /*** MAIN PAGE FUNDRAISING TOTALS CHART ***/
+
+// $.when(
+//     $.ajax('./data/gardner/gardner_current_charts.json'), $.ajax('./data/hickenlooper/hickenlooper_current_charts.json') ).done(function( gardnerData, hickenlooperData ) {
+//     var data = gardnerData[0] + hickenlooperData[0];
+//     console.log(data);
+// });
+
+// THIS IS GOOD
+// var files = [
+//    './data/gardner/gardner_current_charts.json', './data/hickenlooper/hickenlooper_current_charts.json', './data/zornio/zornio_current_charts.json'
+// ];
+
+// $.when($.ajax(files[0]),$.ajax(files[1]),$.ajax(files[2])).done(function(gardnerData, a2, a3) {
+//    var results = [];
+//    results.push(gardnerData[0].slice(-1)[0]);
+//    results.push(a2[0]);
+//    results.push(a3[0]);
+//    console.log(results);
+// });
+
+var files = [
+   './data/gardner/gardner_current_charts.json', './data/hickenlooper/hickenlooper_current_charts.json', './data/zornio/zornio_current_charts.json'
+];
+
+$.when.apply($, files.map(function(url) {
+    return $.ajax(url);
+})).done(function() {
+    var results = [];
+    // there will be one argument passed to this callback for each ajax call
+    // each argument is of this form [data, statusText, jqXHR]
+    for (var i = 0; i < arguments.length; i++) {
+        results.push(arguments[i][0].slice(-1)[0]);
+    }
+    // all data is now in the results array in order
+    console.log(results);
+});
+
+
+
+
+
 var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
 
 function init() {
     Tabletop.init({
         key: publicSpreadsheetUrl,
         callback: function(data, tabletop) {
-            console.log(data);
             // Get last row from sheet
             var lastRow = (data.slice(-1)[0]);
             // var lastRow = (data[data.length - 3]);
             var lastDate = lastRow.date;
             var baerRaised = (lastRow.baer_raised).toLocaleString();
-            var baerCash = (lastRow.baer_cash).toLocaleString();
+            //var baerCash = (lastRow.baer_cash).toLocaleString();
             var brayRaised = (lastRow.bray_raised).toLocaleString();
-            var brayCash = (lastRow.bray_cash).toLocaleString();
+            //var brayCash = (lastRow.bray_cash).toLocaleString();
             var garciaRaised = (lastRow.garcia_raised).toLocaleString();
-            var garciaCash = (lastRow.garcia_cash).toLocaleString();
+            //var garciaCash = (lastRow.garcia_cash).toLocaleString();
             var gardnerRaised = (lastRow.gardner_raised).toLocaleString();
-            var gardnerCash = (lastRow.gardner_cash).toLocaleString();
+            //var gardnerCash = (lastRow.gardner_cash).toLocaleString();
             var hickenlooperRaised = (lastRow.hickenlooper_raised).toLocaleString();
-            var hickenlooperCash = (lastRow.hickenlooper_cash).toLocaleString();
+            //var hickenlooperCash = (lastRow.hickenlooper_cash).toLocaleString();
             var johnstonRaised = (lastRow.johnston_raised).toLocaleString();
-            var johnstonCash = (lastRow.johnston_cash).toLocaleString();
+            //var johnstonCash = (lastRow.johnston_cash).toLocaleString();
             var maddenRaised = (lastRow.madden_raised).toLocaleString();
-            var maddenCash = (lastRow.madden_cash).toLocaleString();
+            //var maddenCash = (lastRow.madden_cash).toLocaleString();
             var romanoffRaised = (lastRow.romanoff_raised).toLocaleString();
-            var romanoffCash = (lastRow.romanoff_cash).toLocaleString();
+            //var romanoffCash = (lastRow.romanoff_cash).toLocaleString();
             var spauldingRaised = (lastRow.spaulding_raised).toLocaleString();
-            var spauldingCash = (lastRow.spaulding_cash).toLocaleString();
+            //var spauldingCash = (lastRow.spaulding_cash).toLocaleString();
             var walshRaised = (lastRow.walsh_raised).toLocaleString();
-            var walshCash = (lastRow.walsh_cash).toLocaleString();
+            //var walshCash = (lastRow.walsh_cash).toLocaleString();
             var warrenRaised = (lastRow.warren_raised).toLocaleString();
-            var warrenCash = (lastRow.warren_cash).toLocaleString();
+            //var warrenCash = (lastRow.warren_cash).toLocaleString();
             var williamsRaised = (lastRow.williams_raised).toLocaleString();
-            var williamsCash = (lastRow.williams_cash).toLocaleString();
+            //var williamsCash = (lastRow.williams_cash).toLocaleString();
             var zornioRaised = (lastRow.zornio_raised).toLocaleString();
-            var zornioCash = (lastRow.zornio_cash).toLocaleString();
+            //var zornioCash = (lastRow.zornio_cash).toLocaleString();
 
             // Charts
             var quarterlyMoneyChart = c3.generate({
