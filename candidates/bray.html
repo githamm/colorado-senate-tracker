@@ -51,8 +51,8 @@
     <div class="row" id="fundraising-charts">
         <div class="large-12 columns">
             <div class="callout secondary">
-                <p class="chart-container-title">Fundraising Summary</p>
-                <p>As of <span id="last-quarter-end-date"></span>, Diana Bray had <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand, raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> in the last quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle. <em>Hover over or click chart for details.</em></p>
+                <p class="chart-container-title">Fundraising as of <span id="last-quarter-end-date"></span></p>
+                <p>Bray began the quarter with <span class="highlight">$<span id="candidate-cash-beginning"></span></span> cash on hand and ended it with <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand. She raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> during the quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle. <em>Hover over or click chart for details.</em></p>
                 <div class="large-4 medium-4 columns">
                     <p class="chart-title">Quarterly<br>contributions</p>
                     <div id="donations-quarterly"></div>
@@ -143,7 +143,11 @@
 
         // Get last object (should be most recent filing period) in array
         var lastQuarterData = data.slice(-1).pop();
-        console.log(lastQuarterData);
+
+        // Cash on hand at beginning of period
+        var beginningCashOnHand = lastQuarterData.cash_on_hand_beginning_period;
+        document.getElementById('candidate-cash-beginning').innerHTML = Math.round(beginningCashOnHand).toLocaleString();
+
         // Cash on hand at end of period
         var cashOnHand = lastQuarterData.cash_on_hand_end_period;
         document.getElementById('candidate-cash').innerHTML = Math.round(cashOnHand).toLocaleString();
