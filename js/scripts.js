@@ -24,46 +24,6 @@ var y = setInterval(function() {
 
 /*** MAIN PAGE FUNDRAISING TOTALS CHART ***/
 
-// $.when(
-//     $.ajax('./data/gardner/gardner_current_charts.json'), $.ajax('./data/hickenlooper/hickenlooper_current_charts.json') ).done(function( gardnerData, hickenlooperData ) {
-//     var data = gardnerData[0] + hickenlooperData[0];
-//     console.log(data);
-// });
-
-// THIS IS GOOD
-// var files = [
-//    './data/gardner/gardner_current_charts.json', './data/hickenlooper/hickenlooper_current_charts.json', './data/zornio/zornio_current_charts.json'
-// ];
-
-// $.when($.ajax(files[0]),$.ajax(files[1]),$.ajax(files[2])).done(function(gardnerData, a2, a3) {
-//    var results = [];
-//    results.push(gardnerData[0].slice(-1)[0]);
-//    results.push(a2[0]);
-//    results.push(a3[0]);
-//    console.log(results);
-// });
-
-var files = [
-   './data/gardner/gardner_current_charts.json', './data/hickenlooper/hickenlooper_current_charts.json', './data/zornio/zornio_current_charts.json'
-];
-
-$.when.apply($, files.map(function(url) {
-    return $.ajax(url);
-})).done(function() {
-    var results = [];
-    // there will be one argument passed to this callback for each ajax call
-    // each argument is of this form [data, statusText, jqXHR]
-    for (var i = 0; i < arguments.length; i++) {
-        results.push(arguments[i][0].slice(-1)[0]);
-    }
-    // all data is now in the results array in order
-    console.log(results);
-});
-
-
-
-
-
 var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
 
 function init() {
