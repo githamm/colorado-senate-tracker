@@ -32,7 +32,8 @@
 
 <body>
     <div class="row">
-        <div class="large-12 columns">
+        <div class="large-11 large-centered columns">
+            <hr>
             <nav aria-label="You are here:" role="navigation">
                 <ul class="breadcrumbs">
                     <li><a href="../index.html">Home</a></li>
@@ -49,7 +50,7 @@
         </div>
     </div>
     <div class="row" id="fundraising-charts">
-        <div class="large-12 columns">
+        <div class="large-11 large-centered columns">
             <div class="callout secondary">
                 <p class="chart-container-title">Fundraising as of <span id="last-quarter-end-date"></span></p>
                 <p>Baer began the quarter with <span class="highlight">$<span id="candidate-cash-beginning"></span></span> cash on hand and ended it with <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand. He raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> during the quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle. <em>Hover over or click chart for details.</em></p>
@@ -75,7 +76,7 @@
     </div>
     <div id="contributions-table-container">
         <div class="row">
-            <div class="large-12 columns" style="border-top:5px solid #252525;">
+            <div class="large-11 large-centered columns" style="border-top:5px solid #252525;">
                 <h2 class="table-title">Search Dan Baer&rsquo;s campaign contributions</h2>
                 <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, state or employer, or search by a specific term. <em>Source: <a href="https://www.fec.gov/data/receipts/?two_year_transaction_period=2020&committee_id=C00492454&data_type=processed" target="_blank">FEC 2019-20 receipts</a></em></p>
                 <p class="table-instructions">Click column headers to sort &bull; scroll right to see full table</p>
@@ -83,7 +84,7 @@
         </div>
         <div id="filters">
             <div class="row">
-                <div class="large-12 columns">
+                <div class="large-11 large-centered columns">
                     <div class="row">
                         <div class="large-3 medium-3 small-6 columns">
                             <p id="filter-1"></p>
@@ -102,7 +103,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="large-12 columns">
+            <div class="large-11 large-centered columns">
                 <table id="contributions-table" cellspacing="0" width="100%">
                     <thead>
                         <tr>
@@ -177,19 +178,19 @@
                 json: quarterlyBarChartData,
                 keys: {
                     x: 'report_time',
-                    value: ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period'],
+                    value: ['total_individual_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period', 'political_party_committee_contributions_period'],
                 },
                 names: {
                     total_individual_contributions_period: 'Individuals',
                     political_party_committee_contributions_period: 'Political party committees',
                     other_political_committee_contributions_period: 'Other political committees (PACs)',
-                    transfers_from_other_authorized_committee_period: 'Transfers from other authorized committees'
+                    transfers_from_other_authorized_committee_period: 'Transfers from other committees'
                 },
                 type: 'bar',
                 groups: [
                     ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period']
                 ],
-                order: 'desc',
+                order: null,
                 colors: {
                     'total_individual_contributions_period': '#5e3c99',
                     'transfers_from_other_authorized_committee_period': '#807dba',
@@ -306,9 +307,9 @@
                             }
                         }
                     },
-                    // padding: {
-                    //     bottom: 10
-                    // },
+                    padding: {
+                        bottom: 15
+                    },
                 })
             },
             simpleSheet: true,
