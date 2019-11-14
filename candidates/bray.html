@@ -140,7 +140,8 @@
                 "political_party_committee_contributions_period": d.political_party_committee_contributions_period,
                 "other_political_committee_contributions_period": d.other_political_committee_contributions_period,
                 "transfers_from_other_authorized_committee_period": d.transfers_from_other_authorized_committee_period,
-                "candidate_contribution_period": d.candidate_contribution_period, "loans_made_by_candidate_period": d.loans_made_by_candidate_period
+                "candidate_contribution_period": d.candidate_contribution_period,
+                "loans_made_by_candidate_period": d.loans_made_by_candidate_period
             }
         });
 
@@ -179,29 +180,44 @@
                 json: quarterlyBarChartData,
                 keys: {
                     x: 'report_time',
-                    value: ['total_individual_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period', 'political_party_committee_contributions_period'],
+                    value: ['total_individual_contributions_period',
+                    'loans_made_by_candidate_period',
+                    'candidate_contribution_period',
+                    'political_party_committee_contributions_period',
+                    'other_political_committee_contributions_period',
+                    'transfers_from_other_authorized_committee_period'
+                    ]
                 },
                 names: {
                     total_individual_contributions_period: 'Individuals',
+                    loans_made_by_candidate_period: 'Candidate loans',
+                    candidate_contribution_period: 'Candidate contributions',
                     political_party_committee_contributions_period: 'Political party committees',
                     other_political_committee_contributions_period: 'Other political committees (PACs)',
-                    transfers_from_other_authorized_committee_period: 'Transfers from other committees'
+                    transfers_from_other_authorized_committee_period: 'Transfers from other authorized committees'
                 },
                 type: 'bar',
                 groups: [
-                    ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period']
+                    ['total_individual_contributions_period',
+                    'political_party_committee_contributions_period',
+                    'other_political_committee_contributions_period',
+                    'transfers_from_other_authorized_committee_period',
+                    'candidate_contribution_period',
+                    'loans_made_by_candidate_period']
                 ],
                 order: null,
                 colors: {
                     'total_individual_contributions_period': '#5e3c99',
                     'transfers_from_other_authorized_committee_period': '#807dba',
                     'other_political_committee_contributions_period': '#e66101',
-                    'political_party_committee_contributions_period': '#fdb863'
+                    'political_party_committee_contributions_period': '#fdb863',
+                    'candidate_contribution_period': '#bbb',
+                    'loans_made_by_candidate_period': '#939393'
                 }
             },
-            padding: {
-                bottom: 20
-            },
+            // padding: {
+            //     bottom: 20
+            // },
             axis: {
                 x: {
                     type: 'category',
@@ -237,17 +253,16 @@
             data: {
                 json: ytdPieChartData,
                 keys: {
-                    value: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
-                        'transfers_from_other_authorized_committee_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'
+                    value: ['total_individual_contributions_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'/*,'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
+                        'transfers_from_other_authorized_committee_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'*/
                     ]
                 },
                 names: {
-                    total_individual_contributions_ytd: 'Individuals',
-                    political_party_committee_contributions_ytd: 'Political party committees',
-                    other_political_committee_contributions_ytd: 'Other political committees (PACs)',
-                    transfers_from_other_authorized_committee_ytd: 'Transfers from other authorized committees',
-                    candidate_contribution_ytd: 'Candidate contributions',
+                    total_individual_contributions_ytd: 'Individuals', candidate_contribution_ytd: 'Candidate contributions',
                     loans_made_by_candidate_ytd: 'Candidate loans'
+                    //political_party_committee_contributions_ytd: 'Political party committees',
+                    //other_political_committee_contributions_ytd: 'Other political committees (PACs)',
+                    //transfers_from_other_authorized_committee_ytd: 'Transfers from other authorized committees',
                 },
                 type: 'pie',
                 colors: {
@@ -312,9 +327,9 @@
                             }
                         }
                     },
-                    padding: {
-                        bottom: 15
-                    },
+                    // padding: {
+                    //     bottom: 55
+                    // },
                 })
             },
             simpleSheet: true,

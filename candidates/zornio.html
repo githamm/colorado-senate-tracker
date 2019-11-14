@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onload="window.top.scrollTo(0,0);">
 
 <head>
     <title>Trish Zornio: 2020 Senate Race | The Denver Post</title>
@@ -31,7 +31,13 @@
 </head>
 
 <body>
-    <div class="row">
+    <!-- 
+    <script>
+    $(document).ready(function() {
+        $(this).scrollTop(0);
+    });
+    </script> -->
+    <div class="row" id="">
         <div class="large-11 large-centered columns">
             <hr>
             <nav aria-label="You are here:" role="navigation">
@@ -64,7 +70,7 @@
                     <div id="donations-breakdown"></div>
                     <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00694844/?tab=raising&cycle=2020#total-receipts" target="_blank">FEC total receipts</a>
                 </div>
-                <div class="large-4 medium-4 columns">
+                <div id="top" class="large-4 medium-4 columns">
                     <p class="chart-title">Individual<br>contributions</p>
                     <div id="individual-donations-breakdown"></div>
                     <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00694844/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
@@ -179,29 +185,41 @@
                 json: quarterlyBarChartData,
                 keys: {
                     x: 'report_time',
-                    value: ['total_individual_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period', 'political_party_committee_contributions_period'],
+                    value: ['total_individual_contributions_period',
+                        'candidate_contribution_period',
+                        'other_political_committee_contributions_period',
+                        'transfers_from_other_authorized_committee_period',
+                        'political_party_committee_contributions_period'
+                    ],
                 },
                 names: {
                     total_individual_contributions_period: 'Individuals',
-                    political_party_committee_contributions_period: 'Political party committees',
+                    candidate_contribution_period: 'Candidate contributions',
                     other_political_committee_contributions_period: 'Other political committees (PACs)',
+                    political_party_committee_contributions_period: 'Political party committees',
                     transfers_from_other_authorized_committee_period: 'Transfers from other committees'
                 },
                 type: 'bar',
                 groups: [
-                    ['total_individual_contributions_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period', 'transfers_from_other_authorized_committee_period']
+                    ['total_individual_contributions_period',
+                        'candidate_contribution_period',
+                        'political_party_committee_contributions_period',
+                        'other_political_committee_contributions_period',
+                        'transfers_from_other_authorized_committee_period'
+                    ]
                 ],
                 order: null,
                 colors: {
                     'total_individual_contributions_period': '#5e3c99',
                     'transfers_from_other_authorized_committee_period': '#807dba',
                     'other_political_committee_contributions_period': '#e66101',
-                    'political_party_committee_contributions_period': '#fdb863'
+                    'political_party_committee_contributions_period': '#fdb863',
+                    'candidate_contribution_period': '#bbb'
                 }
             },
-            padding: {
-                bottom: 20
-            },
+            // padding: {
+            //     bottom: 20
+            // },
             axis: {
                 x: {
                     type: 'category',
@@ -237,15 +255,18 @@
             data: {
                 json: ytdPieChartData,
                 keys: {
-                    value: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
-                        'transfers_from_other_authorized_committee_ytd', 'candidate_contribution_ytd'
+                    value: ['total_individual_contributions_ytd',
+                    //'political_party_committee_contributions_ytd',
+                    'other_political_committee_contributions_ytd',
+                    //'transfers_from_other_authorized_committee_ytd',
+                    'candidate_contribution_ytd'
                     ]
                 },
                 names: {
                     total_individual_contributions_ytd: 'Individuals',
-                    political_party_committee_contributions_ytd: 'Political party committees',
+                    //political_party_committee_contributions_ytd: 'Political party committees',
                     other_political_committee_contributions_ytd: 'Other political committees (PACs)',
-                    transfers_from_other_authorized_committee_ytd: 'Transfers from other authorized committees',
+                    //transfers_from_other_authorized_committee_ytd: 'Transfers from other authorized committees',
                     candidate_contribution_ytd: 'Candidate contributions'
                 },
                 type: 'pie',
@@ -310,9 +331,9 @@
                             }
                         }
                     },
-                    padding: {
-                        bottom: 15
-                    },
+                    // padding: {
+                    //     bottom: 15
+                    // },
                 })
             },
             simpleSheet: true,
@@ -459,7 +480,7 @@
             }
         });
     });
-    window.addEventListener('DOMContentLoaded', init)
+    window.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
 

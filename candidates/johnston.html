@@ -198,9 +198,9 @@
                     'political_party_committee_contributions_period': '#fdb863'
                 }
             },
-            padding: {
-                bottom: 20
-            },
+            // padding: {
+            //     bottom: 20
+            // },
             axis: {
                 x: {
                     type: 'category',
@@ -236,8 +236,10 @@
             data: {
                 json: ytdPieChartData,
                 keys: {
-                    value: ['total_individual_contributions_ytd', 'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
-                        'transfers_from_other_authorized_committee_ytd'
+                    value: ['total_individual_contributions_ytd',
+                    'political_party_committee_contributions_ytd',
+                    'other_political_committee_contributions_ytd',
+                    'transfers_from_other_authorized_committee_ytd'
                     ]
                 },
                 names: {
