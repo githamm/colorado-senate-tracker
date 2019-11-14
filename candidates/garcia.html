@@ -32,6 +32,13 @@
 
 <body>
     <div class="row">
+        <div class="large-8 large-centered medium-10 medium-centered columns">
+            <h1 class="title">Colorado<br>U.S. Senate Race</h1>
+            <hr>
+            <h2 class="title"><span id="title-year">2020</span></h2>
+        </div>
+    </div>
+    <div class="row page-top">
         <div class="large-11 large-centered columns">
             <hr>
             <nav aria-label="You are here:" role="navigation">
@@ -53,7 +60,8 @@
         <div class="large-11 large-centered columns">
             <div class="callout secondary">
                 <p class="chart-container-title">Fundraising as of <span id="last-quarter-end-date"></span></p>
-                <p>Garcia began the quarter with <span class="highlight">$<span id="candidate-cash-beginning"></span></span> cash on hand and ended it with <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand. She raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> during the quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle. <em>Hover over or click chart for details.</em></p>
+                <p>Garcia began the quarter with <span class="highlight">$<span id="candidate-cash-beginning"></span></span> cash on hand and ended it with <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand. She raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> during the quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle*.</p>
+                <p class="table-instructions">Hover over or click chart for details</p>
                 <div class="large-4 medium-4 columns">
                     <p class="chart-title">Quarterly<br>contributions</p>
                     <div id="donations-quarterly"></div>
@@ -179,7 +187,7 @@
                 json: quarterlyBarChartData,
                 keys: {
                     x: 'report_time',
-                    value: ['total_individual_contributions_period', 'loans_made_by_candidate_period','candidate_contribution_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period',
+                    value: ['total_individual_contributions_period', 'loans_made_by_candidate_period', 'candidate_contribution_period', 'political_party_committee_contributions_period', 'other_political_committee_contributions_period',
                         'transfers_from_other_authorized_committee_period'
                     ]
                 },
@@ -205,9 +213,9 @@
                     'loans_made_by_candidate_period': '#939393'
                 }
             },
-            padding: {
-                bottom: 20
-            },
+            // padding: {
+            //     bottom: 20
+            // },
             axis: {
                 x: {
                     type: 'category',
@@ -243,12 +251,14 @@
             data: {
                 json: ytdPieChartData,
                 keys: {
-                    value: ['total_individual_contributions_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'/*,'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
-                        'transfers_from_other_authorized_committee_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'*/
+                    value: ['total_individual_contributions_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'
+                        /*,'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
+                                                'transfers_from_other_authorized_committee_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'*/
                     ]
                 },
                 names: {
-                    total_individual_contributions_ytd: 'Individuals', candidate_contribution_ytd: 'Candidate contributions',
+                    total_individual_contributions_ytd: 'Individuals',
+                    candidate_contribution_ytd: 'Candidate contributions',
                     loans_made_by_candidate_ytd: 'Candidate loans'
                     //political_party_committee_contributions_ytd: 'Political party committees',
                     //other_political_committee_contributions_ytd: 'Other political committees (PACs)',
@@ -273,6 +283,9 @@
                         return d3.format('$,')(value)
                     }
                 }
+            },
+            padding: {
+                bottom: 15
             }
         })
     });
@@ -347,7 +360,7 @@
                 'dataSrc': ''
             },
             // pageLength: 15,
-            scrollY: '600px',
+            scrollY: '1000px',
             //scrollCollapse: true,
             scrollX: true,
             paging: true,

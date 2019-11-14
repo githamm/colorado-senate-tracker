@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" onload="window.top.scrollTo(0,0);">
+<html lang="en">
 
 <head>
     <title>Trish Zornio: 2020 Senate Race | The Denver Post</title>
@@ -31,13 +31,14 @@
 </head>
 
 <body>
-    <!-- 
-    <script>
-    $(document).ready(function() {
-        $(this).scrollTop(0);
-    });
-    </script> -->
-    <div class="row" id="">
+    <div class="row">
+        <div class="large-8 large-centered medium-10 medium-centered columns">
+            <h1 class="title">Colorado<br>U.S. Senate Race</h1>
+            <hr>
+            <h2 class="title"><span id="title-year">2020</span></h2>
+        </div>
+    </div>
+    <div class="row page-top">
         <div class="large-11 large-centered columns">
             <hr>
             <nav aria-label="You are here:" role="navigation">
@@ -59,7 +60,8 @@
         <div class="large-11 large-centered columns">
             <div class="callout secondary">
                 <p class="chart-container-title">Fundraising as of <span id="last-quarter-end-date"></span></p>
-                <p>Zornio began the quarter with <span class="highlight">$<span id="candidate-cash-beginning"></span></span> cash on hand and ended it with <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand. She raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> during the quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle*. <em>Hover over or click chart for details.</em></p>
+                <p>Zornio began the quarter with <span class="highlight">$<span id="candidate-cash-beginning"></span></span> cash on hand and ended it with <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand. She raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> during the quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle*.</p>
+                <p class="table-instructions">Hover over or click chart for details</p>
                 <div class="large-4 medium-4 columns">
                     <p class="chart-title">Quarterly<br>contributions</p>
                     <div id="donations-quarterly"></div>
@@ -361,7 +363,7 @@
                 'dataSrc': ''
             },
             // pageLength: 15,
-            scrollY: '600px',
+            scrollY: '1000px',
             //scrollCollapse: true,
             scrollX: true,
             paging: true,

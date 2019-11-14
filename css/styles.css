@@ -14,6 +14,10 @@
         margin-top: 1%;
     }
 
+    .page-top {
+        margin-top: 150px;
+    }
+
     .title {
         font-family: Georgia;
         /*font-size: 84px;*/
