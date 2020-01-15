@@ -25,6 +25,8 @@ var y = setInterval(function() {
 /*** MAIN PAGE QUARTERLY FUNDRAISING LINE CHART ***/
 
 var quarterlyRaisedSheet = 'https://docs.google.com/spreadsheets/d/1HZ74qM5x8cEvTU1brpKlcnMFfdk8T5WodswW_9dNFSU/edit#gid=0';
+// SHEET FOR TESTING PURPOSES
+// var quarterlyRaisedSheet = 'https://docs.google.com/spreadsheets/d/1tX1LfWkWM2-D4pfG6GpWk7f7JUvyiKOuf6UebNIt_wc/edit#gid=0';
 
 function init() {
     Tabletop.init({
@@ -48,7 +50,7 @@ function init() {
             var quarterlyMoneyChart = c3.generate({
                 bindto: '#quarterly-money-chart',
                 size: {
-                    height: 400
+                    height: 425
                     //width: 800
                 },
                 data: {
@@ -70,7 +72,7 @@ function init() {
                         spaulding_raised: 'Stephany Rose Spaulding',
                         walsh_raised: 'John Walsh*',
                         warren_raised: 'Michelle Ferrigno Warren',
-                        williams_raised: 'Angela Williams',
+                        williams_raised: 'Angela Williams*',
                         zornio_raised: 'Trish Zornio'
                     },
                     type: 'line',
@@ -79,13 +81,17 @@ function init() {
                     //     'approved': 'black',
                     // },
                 },
+                padding: {
+                            bottom: 25
+                        },
                 axis: {
                     x: {
                         type: 'category',
                         tick: {
                             rotate: 0,
-                            multiline: false
-                        }
+                            multiline: true
+                        },
+                        count: 8
                     },
                     y: {
                         tick: {

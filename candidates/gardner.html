@@ -140,7 +140,6 @@
     </div>
     <script>
     $.getJSON('../data/gardner/gardner_current_charts.json', function(data) {
-
         // Period bar chart data
         var quarterlyBarChartData = data.map(d => {
             return {
@@ -180,7 +179,7 @@
         var ytdPieChartData = [];
         ytdPieChartData.push(ytdPieChartDataObject);
 
-        /*** BAR CHART - QUARTERLY CONTRIBUTIONS***/
+        /*** BAR CHART - QUARTERLY CONTRIBUTIONS ***/
         var donationsQuarterly = c3.generate({
             bindto: '#donations-quarterly',
             data: {
