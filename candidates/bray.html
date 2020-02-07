@@ -86,7 +86,7 @@
         <div class="row">
             <div class="large-11 large-centered columns" style="border-top:5px solid #252525;">
                 <h2 class="table-title">Search Diana Bray&rsquo;s campaign contributions</h2>
-                <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, state or employer, or search by a specific term. <em>Source: <a href="https://www.fec.gov/data/receipts/?two_year_transaction_period=2020&committee_id=C00492454&data_type=processed" target="_blank">FEC 2019-20 receipts</a></em></p>
+                <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, state or employer, or search by a specific term. <em>Source: <a href="https://www.fec.gov/data/receipts/?committee_id=C00700948&two_year_transaction_period=2020&data_type=processed" target="_blank">FEC 2019-20 receipts</a></em></p>
                 <p class="table-instructions">Click column headers to sort &bull; scroll right to see full table</p>
             </div>
         </div>
@@ -189,11 +189,11 @@
                 keys: {
                     x: 'report_time',
                     value: ['total_individual_contributions_period',
-                    'loans_made_by_candidate_period',
-                    'candidate_contribution_period',
-                    'political_party_committee_contributions_period',
-                    'other_political_committee_contributions_period',
-                    'transfers_from_other_authorized_committee_period'
+                        'loans_made_by_candidate_period',
+                        'candidate_contribution_period',
+                        'political_party_committee_contributions_period',
+                        'other_political_committee_contributions_period',
+                        'transfers_from_other_authorized_committee_period'
                     ]
                 },
                 names: {
@@ -207,11 +207,12 @@
                 type: 'bar',
                 groups: [
                     ['total_individual_contributions_period',
-                    'political_party_committee_contributions_period',
-                    'other_political_committee_contributions_period',
-                    'transfers_from_other_authorized_committee_period',
-                    'candidate_contribution_period',
-                    'loans_made_by_candidate_period']
+                        'political_party_committee_contributions_period',
+                        'other_political_committee_contributions_period',
+                        'transfers_from_other_authorized_committee_period',
+                        'candidate_contribution_period',
+                        'loans_made_by_candidate_period'
+                    ]
                 ],
                 order: null,
                 colors: {
@@ -261,12 +262,19 @@
             data: {
                 json: ytdPieChartData,
                 keys: {
-                    value: ['total_individual_contributions_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'/*,'political_party_committee_contributions_ytd', 'other_political_committee_contributions_ytd',
-                        'transfers_from_other_authorized_committee_ytd', 'candidate_contribution_ytd', 'loans_made_by_candidate_ytd'*/
+                    value: ['total_individual_contributions_ytd',
+                        'candidate_contribution_ytd',
+                        'loans_made_by_candidate_ytd'
+                        //'political_party_committee_contributions_ytd',
+                        //'other_political_committee_contributions_ytd',
+                        //'transfers_from_other_authorized_committee_ytd',
+                        //'candidate_contribution_ytd',
+                        //'loans_made_by_candidate_ytd'
                     ]
                 },
                 names: {
-                    total_individual_contributions_ytd: 'Individuals', candidate_contribution_ytd: 'Candidate contributions',
+                    total_individual_contributions_ytd: 'Individuals',
+                    candidate_contribution_ytd: 'Candidate contributions',
                     loans_made_by_candidate_ytd: 'Candidate loans'
                     //political_party_committee_contributions_ytd: 'Political party committees',
                     //other_political_committee_contributions_ytd: 'Other political committees (PACs)',
@@ -310,7 +318,12 @@
                     data: {
                         json: data,
                         keys: {
-                            value: ['bray_under_200', 'bray_under_500', 'bray_under_1000', 'bray_under_2000', 'bray_over_2000']
+                            value: ['bray_under_200',
+                                'bray_under_500',
+                                'bray_under_1000',
+                                'bray_under_2000',
+                                'bray_over_2000'
+                            ]
                         },
                         names: {
                             bray_under_200: 'Less than $200',
@@ -385,7 +398,6 @@
                 [3, 'desc']
             ],
             columns: [
-                //{ data: 'button' },
                 {
                     data: 'committee_name',
                     visible: false

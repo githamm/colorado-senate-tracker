@@ -2,74 +2,6 @@
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
     "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "TOLAND, SANDRA",
-    "contributor_city": "AURORA",
-    "contributor_state": "CO",
-    "contributor_zip": 80014,
-    "contributor_employer": "SELF",
-    "contributor_occupation": "ARTIST/GARDENER",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 10,
-    "contributor_aggregate_ytd": 210,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339164"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "HARDIN, GINA",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 80211,
-    "contributor_employer": "SELF",
-    "contributor_occupation": "HOSPITALITY",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 20,
-    "contributor_aggregate_ytd": 320,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339162"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "HARDIN, GINA",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 80211,
-    "contributor_employer": "SELF",
-    "contributor_occupation": "HOSPITALITY",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 20,
-    "contributor_aggregate_ytd": 340,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339162"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "HARDIN, GINA",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 80211,
-    "contributor_employer": "SELF",
-    "contributor_occupation": "HOSPITALITY",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 20,
-    "contributor_aggregate_ytd": 360,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339162"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
     "report_type": "Q2",
     "entity_type_desc": "INDIVIDUAL",
     "contributor_name": "HARDIN, GINA",
@@ -81,8 +13,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 240,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139305"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -98,8 +29,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 260,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756025"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -115,8 +45,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 280,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756025"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -132,8 +61,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756026"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -149,42 +77,7 @@
     "receipt_type_full": "IN-KIND - SQUARESPACE MONTHLY FEE",
     "contribution_receipt_amount": 26,
     "contributor_aggregate_ytd": 0,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139319"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "EISENBERG, JULIE",
-    "contributor_city": "MILL VALLEY",
-    "contributor_state": "CA",
-    "contributor_zip": 94941,
-    "contributor_employer": "SELF",
-    "contributor_occupation": "DOCUMENTARY PRODUCER",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 27,
-    "contributor_aggregate_ytd": 257,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339160"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "PERESE, LARKIN",
-    "contributor_city": "MINNEAPOLIS",
-    "contributor_state": "MN",
-    "contributor_zip": 55403,
-    "contributor_employer": "SELF",
-    "contributor_occupation": "DOCUMENTARY FILMMAKER",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 27,
-    "contributor_aggregate_ytd": 2139,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339164"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -200,8 +93,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139312"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -217,8 +109,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 230,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756022"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -234,8 +125,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 550,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756026"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -251,8 +141,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 75,
     "contributor_aggregate_ytd": 16240.31,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139322"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -268,59 +157,7 @@
     "receipt_type_full": "IN-KIND - G SUITE",
     "contribution_receipt_amount": 98.7,
     "contributor_aggregate_ytd": 0,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139320"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "BREDAR, MARILYN",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 80210,
-    "contributor_employer": "UNEMPLOYED",
-    "contributor_occupation": "UNEMPLOYED",
-    "receipt_type_full": "FOOD AND DRINK",
-    "contribution_receipt_amount": 100,
-    "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339159"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "DONACHY, BARBARA",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 80205,
-    "contributor_employer": "RETIRED",
-    "contributor_occupation": "RETIRED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 100,
-    "contributor_aggregate_ytd": 212,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339160"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "LAMBERT, STEPHANIE",
-    "contributor_city": "GOLDEN",
-    "contributor_state": "CO",
-    "contributor_zip": 80401,
-    "contributor_employer": "SELF",
-    "contributor_occupation": "CLINICAL PSYCHOLOGIST",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 100,
-    "contributor_aggregate_ytd": 600,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339163"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -336,8 +173,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 350,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139301"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -353,8 +189,7 @@
     "receipt_type_full": "IN-KIND - FOOD AND DRINK",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 350,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139303"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -370,8 +205,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 450,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756021"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -387,8 +221,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 550,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756021"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -404,8 +237,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 212,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756024"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -421,8 +253,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 575,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756025"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -438,8 +269,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 112,
     "contributor_aggregate_ytd": 224,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139301"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -455,8 +285,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 112,
     "contributor_aggregate_ytd": 224,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756026"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -472,8 +301,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 112,
     "contributor_aggregate_ytd": 2112,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756028"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -489,25 +317,7 @@
     "receipt_type_full": "CONTRIBUTION IN-KIND OFFICE SUPPLIES",
     "contribution_receipt_amount": 124.54,
     "contributor_aggregate_ytd": 249.08,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139308"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "ISBILL, JENNIFER",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 80210,
-    "contributor_employer": "UNEMPLOYED",
-    "contributor_occupation": "UNEMPLOYED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 150,
-    "contributor_aggregate_ytd": 700,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339163"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -523,8 +333,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 150,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139301"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -540,42 +349,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 192.15,
     "contributor_aggregate_ytd": 192.15,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756022"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "BECK, ELISA",
-    "contributor_city": "MONROEVILLE",
-    "contributor_state": "PA",
-    "contributor_zip": 15146,
-    "contributor_employer": "SELF",
-    "contributor_occupation": "OPTOMETRIST",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 200,
-    "contributor_aggregate_ytd": 700,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339159"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "MCGRATH, MAEVE",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 80220,
-    "contributor_employer": "UNEMPLOYED",
-    "contributor_occupation": "UNEMPLOYED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 200,
-    "contributor_aggregate_ytd": 700,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339163"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -591,8 +365,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 200,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139303"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -608,8 +381,7 @@
     "receipt_type_full": "IN-KIND - FOOD AND DRINK",
     "contribution_receipt_amount": 200,
     "contributor_aggregate_ytd": 220,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139304"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -625,59 +397,7 @@
     "receipt_type_full": "IN-KIND - DRINKS FOR LUNCH",
     "contribution_receipt_amount": 245.26,
     "contributor_aggregate_ytd": 11645.31,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139321"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "BREDAR, MARILYN",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 80210,
-    "contributor_employer": "UNEMPLOYED",
-    "contributor_occupation": "UNEMPLOYED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 550,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339159"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "FRIEDBERG, RICHARD",
-    "contributor_city": "NEW YORK",
-    "contributor_state": "NY",
-    "contributor_zip": 10027,
-    "contributor_employer": "NOT EMPLOYED",
-    "contributor_occupation": "NOT EMPLOYED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339160"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "SEXTON, DEBRA",
-    "contributor_city": "FORT COLLINS",
-    "contributor_state": "CO",
-    "contributor_zip": 80526,
-    "contributor_employer": "(NOT AVAILABLE)",
-    "contributor_occupation": "(NOT AVAILABLE)",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339164"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -693,8 +413,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139299"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -710,8 +429,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139300"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -727,8 +445,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139302"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -744,8 +461,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139305"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -761,8 +477,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139307"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -778,8 +493,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139309"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -795,8 +509,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139311"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -812,8 +525,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 750,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139312"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -829,8 +541,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139314"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -846,8 +557,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139315"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -863,8 +573,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139316"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -880,8 +589,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756021"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -897,8 +605,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756024"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -914,8 +621,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756024"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -931,8 +637,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756027"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -948,8 +653,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756027"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -965,8 +669,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756027"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -982,8 +685,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756028"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -999,8 +701,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139300"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1016,8 +717,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139310"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1033,8 +733,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139316"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1050,8 +749,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910049163756022"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1067,8 +765,7 @@
     "receipt_type_full": "IN-KIND - PHOTOGRAPHS",
     "contribution_receipt_amount": 375,
     "contributor_aggregate_ytd": 16165.31,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139322"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1084,8 +781,7 @@
     "receipt_type_full": "IN-KIND - GLASSWARE",
     "contribution_receipt_amount": 400,
     "contributor_aggregate_ytd": 1400.05,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139320"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1101,8 +797,7 @@
     "receipt_type_full": "IN-KIND - LAUREN SWAIN CONSULTING",
     "contribution_receipt_amount": 400,
     "contributor_aggregate_ytd": 11400.05,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139321"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1118,8 +813,7 @@
     "receipt_type_full": "IN-KIND - FOOD AND DRINK",
     "contribution_receipt_amount": 475,
     "contributor_aggregate_ytd": 475,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139304"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1135,8 +829,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139299"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1152,8 +845,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139299"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1169,8 +861,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139300"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1186,8 +877,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139302"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1203,8 +893,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139302"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1220,8 +909,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139305"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1237,8 +925,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139306"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1254,8 +941,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139306"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1271,8 +957,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139308"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1288,8 +973,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139308"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1305,8 +989,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139310"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1322,8 +1005,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139310"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1339,8 +1021,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139311"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1356,8 +1037,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139311"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1373,8 +1053,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139312"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1390,8 +1069,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139313"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1407,8 +1085,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139315"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1424,8 +1101,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139316"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1441,8 +1117,7 @@
     "receipt_type_full": "IN-KIND - FOOD FOR LAUNCH",
     "contribution_receipt_amount": 930.05,
     "contributor_aggregate_ytd": 1000.05,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139320"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1458,8 +1133,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139306"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1475,8 +1149,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139309"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1492,8 +1165,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139309"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1509,8 +1181,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139313"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1526,8 +1197,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139315"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1543,8 +1213,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139317"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1560,8 +1229,7 @@
     "receipt_type_full": "IN-KIND - JOHN STONE CONSULTING",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 0,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139319"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1577,8 +1245,7 @@
     "receipt_type_full": "IN-KIND - JOEL DYAR MEDIA PRODUCTION",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 0,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139319"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1594,8 +1261,7 @@
     "receipt_type_full": "IN-KIND - PHOTOSHOOT",
     "contribution_receipt_amount": 1160,
     "contributor_aggregate_ytd": 1160,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139318"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1611,25 +1277,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1320,
     "contributor_aggregate_ytd": 12965.31,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139321"
-  },
-  {
-    "committee_name": "DIANA BRAY FOR COLORADO",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "CANDIDATE",
-    "contributor_name": "BRAY, DIANA GOLDA",
-    "contributor_city": "ENGLEWOOD",
-    "contributor_state": "CO",
-    "contributor_zip": 80151,
-    "contributor_employer": "SELF",
-    "contributor_occupation": "PSYCHOLOGIST",
-    "receipt_type_full": "STAFF SALARIES",
-    "contribution_receipt_amount": 1500,
-    "contributor_aggregate_ytd": 17740.31,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001239167339165"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1645,8 +1293,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2000,
     "contributor_aggregate_ytd": 2000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139313"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1662,8 +1309,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2000,
     "contributor_aggregate_ytd": 2000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139317"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1679,8 +1325,7 @@
     "receipt_type_full": "IN-KIND - PHOTOSHOOT",
     "contribution_receipt_amount": 2105,
     "contributor_aggregate_ytd": 2105,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139307"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1696,8 +1341,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 2500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139317"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1713,8 +1357,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139303"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1730,8 +1373,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139304"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1747,8 +1389,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139307"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1764,8 +1405,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139314"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1781,8 +1421,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139314"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1798,8 +1437,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 3200,
     "contributor_aggregate_ytd": 16165.31,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139322"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "DIANA BRAY FOR COLORADO",
@@ -1815,7 +1453,6 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 10000,
     "contributor_aggregate_ytd": 11400.05,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201909039163139323"
+    "fec_election_type_desc": "PRIMARY"
   }
 ]

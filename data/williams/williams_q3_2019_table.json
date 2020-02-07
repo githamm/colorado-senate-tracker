@@ -13,8 +13,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 5,
     "contributor_aggregate_ytd": 5,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921479"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -30,8 +29,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 5,
     "contributor_aggregate_ytd": 5,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921487"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -47,8 +45,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 25,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921426"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -64,8 +61,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 1805,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921487"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -81,76 +77,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921493"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "EFFERSON, THERESA",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802241540,
-    "contributor_employer": "NOT EMPLOYED",
-    "contributor_occupation": "NOT EMPLOYED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 50,
-    "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680563"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "EFFERSON, THERESA",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802241540,
-    "contributor_employer": "NOT EMPLOYED",
-    "contributor_occupation": "NOT EMPLOYED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 50,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680563"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "METOYER, JUANITA",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802073258,
-    "contributor_employer": "NEW DAY",
-    "contributor_occupation": "LIFE COACH",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 50,
-    "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680567"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "METOYER, JUANITA",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802073258,
-    "contributor_employer": "NEW DAY",
-    "contributor_occupation": "LIFE COACH",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 50,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680568"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -166,8 +93,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 100,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921501"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -183,8 +109,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921501"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -200,59 +125,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921502"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "MCCANN, TOM",
-    "contributor_city": "PARKER",
-    "contributor_state": "CO",
-    "contributor_zip": 801388735,
-    "contributor_employer": "SELF EMPLOYED",
-    "contributor_occupation": "BUSINESS OWNER",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 100,
-    "contributor_aggregate_ytd": 1100,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680567"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "WEST, SHERMITA",
-    "contributor_city": "LAKEWOOD",
-    "contributor_state": "CO",
-    "contributor_zip": 802272469,
-    "contributor_employer": "NOT EMPLOYED",
-    "contributor_occupation": "NOT EMPLOYED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 100,
-    "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680571"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "WEST, SHERMITA",
-    "contributor_city": "LAKEWOOD",
-    "contributor_state": "CO",
-    "contributor_zip": 802272469,
-    "contributor_employer": "NOT EMPLOYED",
-    "contributor_occupation": "NOT EMPLOYED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 100,
-    "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680572"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -268,8 +141,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 125,
     "contributor_aggregate_ytd": 125,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921441"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -285,8 +157,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 125,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921442"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -302,8 +173,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 125,
     "contributor_aggregate_ytd": 375,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921494"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -319,8 +189,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 200,
     "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921493"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -336,8 +205,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921421"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -353,8 +221,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921421"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -370,8 +237,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921423"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -387,8 +253,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921423"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -404,8 +269,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921424"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -421,8 +285,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921428"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -438,8 +301,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921428"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -455,8 +317,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 750,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921430"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -472,8 +333,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921434"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -489,8 +349,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921435"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -506,8 +365,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921438"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -523,8 +381,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921438"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -540,8 +397,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921440"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -557,8 +413,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921443"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -574,8 +429,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921447"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -591,8 +445,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921449"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -608,8 +461,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921450"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -625,8 +477,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921453"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -642,8 +493,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921454"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -659,8 +509,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921455"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -676,8 +525,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921458"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -693,8 +541,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921458"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -710,8 +557,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921460"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -727,8 +573,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921462"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -744,8 +589,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921464"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -761,8 +605,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921464"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -778,8 +621,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921468"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -795,8 +637,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921471"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -812,8 +653,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921474"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -829,8 +669,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921474"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -846,8 +685,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921475"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -863,8 +701,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921476"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -880,8 +717,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921476"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -897,8 +733,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921476"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -914,8 +749,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921477"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -931,8 +765,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921478"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -948,8 +781,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921479"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -965,8 +797,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921480"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -982,8 +813,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921481"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -999,8 +829,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921485"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1016,8 +845,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921489"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1033,8 +861,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921489"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1050,8 +877,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921489"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1067,8 +893,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921490"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1084,8 +909,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921492"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1101,8 +925,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921497"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1118,8 +941,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921497"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1135,8 +957,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921499"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1152,8 +973,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921499"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1169,8 +989,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 750,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921500"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1186,8 +1005,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921505"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1203,8 +1021,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921506"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1220,178 +1037,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921508"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "AIELLO, WENDY",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802032705,
-    "contributor_employer": "AIELLO PR & MARKETING",
-    "contributor_occupation": "PUBLIC RELATIONS CONSULTANT",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680561"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "BUCHANON, CEDRIC",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802383111,
-    "contributor_employer": "5STAR BANK",
-    "contributor_occupation": "BANKER",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 750,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680561"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "CORDERO, MIZRAIM",
-    "contributor_city": "COMMERCE CITY",
-    "contributor_state": "CO",
-    "contributor_zip": 800228833,
-    "contributor_employer": "NOT EMPLOYED",
-    "contributor_occupation": "NOT EMPLOYED",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680562"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "FRAINIER, MICHAEL",
-    "contributor_city": "LITTLETON",
-    "contributor_state": "CO",
-    "contributor_zip": 801237448,
-    "contributor_employer": "WEST METRO",
-    "contributor_occupation": "FIRE FIGHTER",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680564"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "GARCIA, LEROY M",
-    "contributor_city": "PUEBLO",
-    "contributor_state": "CO",
-    "contributor_zip": 81005,
-    "contributor_employer": "COLORADO SENATE",
-    "contributor_occupation": "STATE SENATOR",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680565"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "GONZALES, NITA",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802220463,
-    "contributor_employer": "NUEVO AMANECER",
-    "contributor_occupation": "CONSULTANT",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680565"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "HAYES, CHRIS",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802202432,
-    "contributor_employer": "ATTORNEY",
-    "contributor_occupation": "ATTORNEY",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680566"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "HINTON, REGINA",
-    "contributor_city": "AURORA",
-    "contributor_state": "CO",
-    "contributor_zip": 800141105,
-    "contributor_employer": "CONSTELLATION MUTUAL",
-    "contributor_occupation": "UNDERWRITER",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680566"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "TOWLES, THORB",
-    "contributor_city": "LOVELAND",
-    "contributor_state": "OH",
-    "contributor_zip": 451406141,
-    "contributor_employer": "BANK OF MONTREAL",
-    "contributor_occupation": "BANKER",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680570"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "WARE, ANTHONY",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802382659,
-    "contributor_employer": "LEXMARK",
-    "contributor_occupation": "SALES",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 250,
-    "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680571"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1407,8 +1053,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921465"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1424,8 +1069,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921481"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1441,25 +1085,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921495"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "MONDRAGON, ERNESTINE",
-    "contributor_city": "DENVER",
-    "contributor_state": "CO",
-    "contributor_zip": 802054532,
-    "contributor_employer": "POLICY MATTERS",
-    "contributor_occupation": "LOBBYIST",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 300,
-    "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680569"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1475,8 +1101,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 400,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921422"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1492,8 +1117,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 400,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921466"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1509,8 +1133,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 400,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921466"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1526,8 +1149,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 400,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921466"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1543,8 +1165,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 400,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921490"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1560,8 +1181,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921422"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1577,8 +1197,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921425"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1594,8 +1213,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921425"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1611,8 +1229,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 525,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921426"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1628,8 +1245,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 1025,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921427"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1645,8 +1261,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921429"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1662,8 +1277,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 750,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921431"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1679,8 +1293,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921433"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1696,8 +1309,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921434"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1713,8 +1325,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921439"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1730,8 +1341,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921439"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1747,8 +1357,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921440"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1764,8 +1373,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921442"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1781,8 +1389,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921445"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1798,8 +1405,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921445"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1815,8 +1421,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921446"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1832,8 +1437,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921446"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1849,8 +1453,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921454"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1866,8 +1469,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921455"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1883,8 +1485,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921456"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1900,8 +1501,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921457"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1917,8 +1517,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 3300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921460"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1934,8 +1533,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 3300,
-    "fec_election_type_desc": "GENERAL",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921460"
+    "fec_election_type_desc": "GENERAL"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1951,8 +1549,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 1750,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921462"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1968,8 +1565,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921465"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -1985,8 +1581,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921468"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2002,8 +1597,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921469"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2019,8 +1613,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921470"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2036,8 +1629,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 1500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921471"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2053,8 +1645,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921478"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2070,8 +1661,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921482"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2087,8 +1677,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921482"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2104,8 +1693,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921483"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2121,8 +1709,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921484"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2138,8 +1725,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921484"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2155,8 +1741,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921486"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2172,8 +1757,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921486"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2189,8 +1773,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921496"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2206,8 +1789,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921496"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2223,8 +1805,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921498"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2240,8 +1821,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921503"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2257,8 +1837,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921503"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2274,8 +1853,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 1500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921504"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2291,42 +1869,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921509"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "MITCHELL, SCOTT",
-    "contributor_city": "HIGHLANDS RANCH",
-    "contributor_state": "CO",
-    "contributor_zip": 801265524,
-    "contributor_employer": "MERCURY PRODUCTS",
-    "contributor_occupation": "EXECUTIVE",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 500,
-    "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680569"
-  },
-  {
-    "committee_name": "ANGELA WILLIAMS FOR US SENATE",
-    "report_year": 2019,
-    "report_type": "Q4",
-    "entity_type_desc": "INDIVIDUAL",
-    "contributor_name": "WILLIAMS, MARK",
-    "contributor_city": "CENTENNIAL",
-    "contributor_state": "CO",
-    "contributor_zip": 801223845,
-    "contributor_employer": "APARTMENT ASSOCIATION",
-    "contributor_occupation": "EXEC VP",
-    "receipt_type_full": "",
-    "contribution_receipt_amount": 500,
-    "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166680573"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2342,8 +1885,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 580,
     "contributor_aggregate_ytd": 580,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921435"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2359,8 +1901,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921425"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2376,8 +1917,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921429"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2393,8 +1933,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921432"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2410,8 +1949,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 2580,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921436"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2427,8 +1965,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 2580,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921436"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2444,8 +1981,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921437"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2461,8 +1997,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921443"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2478,8 +2013,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921444"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2495,8 +2029,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921444"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2512,8 +2045,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921447"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2529,8 +2061,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921448"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2546,8 +2077,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921448"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2563,8 +2093,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921451"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2580,8 +2109,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921459"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2597,8 +2125,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921461"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2614,8 +2141,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921463"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2631,8 +2157,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921467"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2648,8 +2173,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921467"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2665,8 +2189,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921469"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2682,8 +2205,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921470"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2699,8 +2221,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921472"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2716,8 +2237,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921472"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2733,8 +2253,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921473"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2750,8 +2269,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921488"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2767,8 +2285,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921495"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2784,8 +2301,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921503"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2801,8 +2317,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921507"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2818,8 +2333,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1250,
     "contributor_aggregate_ytd": 1250,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921452"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2835,8 +2349,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1400,
     "contributor_aggregate_ytd": 1400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921432"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2852,8 +2365,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1400,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921433"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2869,8 +2381,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1400,
     "contributor_aggregate_ytd": 1400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921491"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2886,8 +2397,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1400,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921491"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2903,8 +2413,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1400,
     "contributor_aggregate_ytd": 1400,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921505"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2920,8 +2429,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1400,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921506"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2937,8 +2445,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1500,
     "contributor_aggregate_ytd": 1500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921484"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2954,8 +2461,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1500,
     "contributor_aggregate_ytd": 1500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921507"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2971,8 +2477,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1500,
     "contributor_aggregate_ytd": 1500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921508"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -2988,8 +2493,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1550,
     "contributor_aggregate_ytd": 1550,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921452"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3005,8 +2509,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1750,
     "contributor_aggregate_ytd": 1805,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921488"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3022,8 +2525,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921457"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3039,8 +2541,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921473"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3056,8 +2557,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1800,
     "contributor_aggregate_ytd": 1805,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921479"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3073,8 +2573,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2000,
     "contributor_aggregate_ytd": 2000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921431"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3090,8 +2589,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2000,
     "contributor_aggregate_ytd": 2000,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921446"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3107,8 +2605,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2300,
     "contributor_aggregate_ytd": 3300,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921459"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3124,8 +2621,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 2500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921450"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3141,8 +2637,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 2500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921451"
+    "fec_election_type_desc": "PRIMARY"
   },
   {
     "committee_name": "ANGELA WILLIAMS FOR US SENATE",
@@ -3158,7 +2653,6 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 2500,
-    "fec_election_type_desc": "PRIMARY",
-    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201910159163921486"
+    "fec_election_type_desc": "PRIMARY"
   }
 ]

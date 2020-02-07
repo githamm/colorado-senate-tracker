@@ -175,7 +175,8 @@ function init2() {
                             format: function(d) {
                                 return d3.format('$.1s')(d)
                             },
-                            count: 6
+                            //count: 6,
+                            values: [2000000,4000000,6000000,8000000,10000000]
                         },
                         // label: {
                         //     text: 'Money raised',

@@ -13,7 +13,8 @@
     "receipt_type_full": "IN-KIND - EVENT HOSTING",
     "contribution_receipt_amount": 17.84,
     "contributor_aggregate_ytd": 358.56,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382704"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -29,7 +30,8 @@
     "receipt_type_full": "IN-KIND - EVENT HOSTING",
     "contribution_receipt_amount": 53.52,
     "contributor_aggregate_ytd": 340.72,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382703"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -45,7 +47,25 @@
     "receipt_type_full": "IN-KIND - EVENT HOSTING",
     "contribution_receipt_amount": 67.2,
     "contributor_aggregate_ytd": 287.2,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382703"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MOSMAN, ERNEST",
+    "contributor_city": "AURORA",
+    "contributor_state": "CO",
+    "contributor_zip": 80010,
+    "contributor_employer": "",
+    "contributor_occupation": "",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 300,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190597"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -61,7 +81,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382707"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -77,7 +98,25 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 600,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382708"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "STOLLER-LEE, WILL",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 80907,
+    "contributor_employer": "",
+    "contributor_occupation": "",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 150,
+    "contributor_aggregate_ytd": 300,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190598"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -93,7 +132,110 @@
     "receipt_type_full": "IN KIND EVENT HOSTING COSTS",
     "contribution_receipt_amount": 220,
     "contributor_aggregate_ytd": 220,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382703"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BUHS, LAURA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 80212,
+    "contributor_employer": "",
+    "contributor_occupation": "",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 250,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190592"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "GRAEBER, RICHARD",
+    "contributor_city": "MONROE",
+    "contributor_state": "LA",
+    "contributor_zip": 71203,
+    "contributor_employer": "",
+    "contributor_occupation": "",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 250,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190593"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HAROLD, JOHN",
+    "contributor_city": "OLATHE",
+    "contributor_state": "CO",
+    "contributor_zip": 81425,
+    "contributor_employer": "TUXEDO CORN",
+    "contributor_occupation": "FARMER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 250,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190594"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HAROLD, JOHN",
+    "contributor_city": "OLATHE",
+    "contributor_state": "CO",
+    "contributor_zip": 81425,
+    "contributor_employer": "TUXEDO CORN",
+    "contributor_occupation": "FARMER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 500,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190595"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "QUILES, AGUSTI",
+    "contributor_city": "CLERMONT",
+    "contributor_state": "FL",
+    "contributor_zip": 34711,
+    "contributor_employer": "",
+    "contributor_occupation": "",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 250,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190597"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "WYNN, DENISE",
+    "contributor_city": "LITTLETON",
+    "contributor_state": "CO",
+    "contributor_zip": 80120,
+    "contributor_employer": "WILLIAM CAREY PUBLISHING",
+    "contributor_occupation": "PUBLISHER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 250,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190599"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -109,7 +251,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382706"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -125,7 +268,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382710"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -141,7 +285,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382711"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -157,7 +302,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382712"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -173,7 +319,59 @@
     "receipt_type_full": "IN-KIND - USE OF CONDO",
     "contribution_receipt_amount": 270,
     "contributor_aggregate_ytd": 270,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382704"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MITCHELL, KARYN",
+    "contributor_city": "ARVADA",
+    "contributor_state": "CO",
+    "contributor_zip": 80005,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "BUSINESS OWNER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 300,
+    "contributor_aggregate_ytd": 300,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190596"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MITCHELL, KARYN",
+    "contributor_city": "ARVADA",
+    "contributor_state": "CO",
+    "contributor_zip": 80005,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "BUSINESS OWNER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 300,
+    "contributor_aggregate_ytd": 600,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190596"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MITCHELL, KARYN",
+    "contributor_city": "ARVADA",
+    "contributor_state": "CO",
+    "contributor_zip": 80005,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "BUSINESS OWNER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 300,
+    "contributor_aggregate_ytd": 900,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190597"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -189,7 +387,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382709"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -205,7 +404,25 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 600,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382709"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "COLEMAN, FRAN",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 80219,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "CONSULTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 390,
+    "contributor_aggregate_ytd": 390,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190592"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -221,7 +438,76 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 400,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382707"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "GROGAN, VIRGINIA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 80211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 500,
+    "contributor_aggregate_ytd": 500,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190594"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "GROGAN, VIRGINIA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 80211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 500,
+    "contributor_aggregate_ytd": 1000,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190594"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MITCHELL, BILL",
+    "contributor_city": "LAKEWOOD",
+    "contributor_state": "CO",
+    "contributor_zip": 80227,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "CONSULTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 500,
+    "contributor_aggregate_ytd": 500,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190596"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "WESZELY, BOB",
+    "contributor_city": "EVERGREEN",
+    "contributor_state": "CO",
+    "contributor_zip": 80439,
+    "contributor_employer": "SAT-7 NORTH AMERICA",
+    "contributor_occupation": "NONPROFIT FUNDRAISER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 500,
+    "contributor_aggregate_ytd": 500,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190599"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -237,7 +523,8 @@
     "receipt_type_full": "IN KIND BRANDING, WEBSITE",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382704"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -253,7 +540,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382710"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -269,7 +557,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382710"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -285,7 +574,8 @@
     "receipt_type_full": "IN KIND POSTCARD, STICKERS, BUSINESS CARD",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382711"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -301,7 +591,42 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382712"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "FOOR, CHRISTINA",
+    "contributor_city": "FAYETTEVILLE",
+    "contributor_state": "AR",
+    "contributor_zip": 72701,
+    "contributor_employer": "CCDA",
+    "contributor_occupation": "ASSISTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 1000,
+    "contributor_aggregate_ytd": 1025,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190593"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "ZOLMAN, ROBYN",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 80218,
+    "contributor_employer": "GIBSON DUNN CRUTCHER",
+    "contributor_occupation": "ATTORNEY",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 1000,
+    "contributor_aggregate_ytd": 1000,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190599"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -317,7 +642,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382705"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -333,7 +659,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382706"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -349,7 +676,76 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382707"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MARSDEN, GRAHAM",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 80204,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "CONSULTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 1050,
+    "contributor_aggregate_ytd": 1050,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190595"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "ETTER, MEGAN",
+    "contributor_city": "PARKER",
+    "contributor_state": "CO",
+    "contributor_zip": 80134,
+    "contributor_employer": "OPEN DOOR MINISTRIES",
+    "contributor_occupation": "COORDINATOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 1200,
+    "contributor_aggregate_ytd": 1200,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190593"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "KAIN RIOS, JENNIFER",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 80212,
+    "contributor_employer": "JENNIFER KAIN RIOS ATTORNEY AT LAW",
+    "contributor_occupation": "LAWYER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 1375,
+    "contributor_aggregate_ytd": 1375,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190595"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BEDOYA, MARLENE",
+    "contributor_city": "RANCHO PALOS VERDES",
+    "contributor_state": "CA",
+    "contributor_zip": 90275,
+    "contributor_employer": "ROOSTER CAT",
+    "contributor_occupation": "MEDIA CONSULTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 1500,
+    "contributor_aggregate_ytd": 1500,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190592"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -365,7 +761,25 @@
     "receipt_type_full": "IN KIND LOGO",
     "contribution_receipt_amount": 1500,
     "contributor_aggregate_ytd": 1500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382705"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "VOLPE, TISH",
+    "contributor_city": "LONE TREE",
+    "contributor_state": "CO",
+    "contributor_zip": 80124,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "CONSULTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 2000,
+    "contributor_aggregate_ytd": 2000,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190598"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -381,7 +795,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 2500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382705"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -397,7 +812,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 5000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382706"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -413,7 +829,8 @@
     "receipt_type_full": "IN KIND POLITICAL CONSULTING",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 2634.06,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382709"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -429,7 +846,8 @@
     "receipt_type_full": "IN KIND WEBSITE, FACEBOOK PAGE",
     "contribution_receipt_amount": 2800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382708"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -445,7 +863,8 @@
     "receipt_type_full": "IN KIND ADMINISTRATIVE COMPLIANCE",
     "contribution_receipt_amount": 2800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382708"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -461,7 +880,25 @@
     "receipt_type_full": "IN KIND WEBSITE, VIDEO",
     "contribution_receipt_amount": 2800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382711"
+  },
+  {
+    "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "WARREN, DAVID",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 80219,
+    "contributor_employer": "OPEN DOOR MINISTRIES",
+    "contributor_occupation": "EXEC DIRECTOR OF A NONPROFIT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 3500,
+    "contributor_aggregate_ytd": 3500,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001159167190598"
   },
   {
     "committee_name": "MICHELLE FERRIGNO WARREN FOR US SENATE",
@@ -472,11 +909,12 @@
     "contributor_city": "DENVER",
     "contributor_state": "CO",
     "contributor_zip": 80219,
-    "contributor_employer": "",
-    "contributor_occupation": "",
+    "contributor_employer": "CCDA",
+    "contributor_occupation": "NON-PROFIT EXECUTIVE",
     "receipt_type_full": "",
     "contribution_receipt_amount": 10000,
     "contributor_aggregate_ytd": 10000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001299182382713"
   }
 ]

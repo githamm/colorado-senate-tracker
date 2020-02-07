@@ -2,6 +2,261 @@
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "FELTON, SUSANNE",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802203219,
+    "contributor_employer": "UNIVERSITY OF COLORADO",
+    "contributor_occupation": "RESEARCH ASSISTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 5,
+    "contributor_aggregate_ytd": 190,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068769"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "CANDIDATE",
+    "contributor_name": "SPAULDING, STEPHANY R",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809031301,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 5,
+    "contributor_aggregate_ytd": 11284.12,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068825"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CARR, JULIE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 100,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068753"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CARR, JULIE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 110,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068754"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CARR, JULIE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 161,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068755"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CARR, JULIE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 171,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068756"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CARR, JULIE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 181,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068756"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CARR, JULIE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 191,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068757"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CARR, JULIE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 201,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068758"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CASPERS, JANET",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802203219,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 190,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068758"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CASPERS, JANET",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802203219,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 261,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068761"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "DAY-LUCORE, PAUL",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802306949,
+    "contributor_employer": "N/A",
+    "contributor_occupation": "HOMEMAKER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 221.41,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068766"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HALPERN, IRIS",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802063815,
+    "contributor_employer": "RATHOD MOHAMEDBHAI LLC",
+    "contributor_occupation": "ATTORNEY",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 377,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068777"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "KNAPP, COURTNEY",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 80211,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "CONSULTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 1260,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068783"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "CANDIDATE",
+    "contributor_name": "SPAULDING, STEPHANY R",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809031301,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10,
+    "contributor_aggregate_ytd": 11279.12,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068824"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
     "report_type": "Q2",
     "entity_type_desc": "CAMPAIGN COMMITTEE",
     "contributor_name": "KAMALA HARRIS FOR THE PEOPLE",
@@ -13,7 +268,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 10,
     "contributor_aggregate_ytd": 10,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431493"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -29,7 +285,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 10,
     "contributor_aggregate_ytd": 2690.96,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646560"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -45,7 +302,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 10,
     "contributor_aggregate_ytd": 191.41,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646565"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -61,7 +319,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 10,
     "contributor_aggregate_ytd": 201.41,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646566"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -77,13 +336,14 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 10,
     "contributor_aggregate_ytd": 211.41,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646566"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
     "report_type": "Q2",
-    "entity_type_desc": "INDIVIDUAL",
+    "entity_type_desc": "CANDIDATE",
     "contributor_name": "SPAULDING, STEPHANY R",
     "contributor_city": "COLORADO SPRINGS",
     "contributor_state": "CO",
@@ -93,7 +353,25 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 10.43,
     "contributor_aggregate_ytd": 3106.76,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431496"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q2",
+    "entity_type_desc": "ORGANIZATION",
+    "contributor_name": "CUSTOMINK, LLC",
+    "contributor_city": "FAIRFAX",
+    "contributor_state": "VA",
+    "contributor_zip": 220312282,
+    "contributor_employer": "",
+    "contributor_occupation": "CONDUIT TOTAL LISTED IN AGG. FIELD",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 10.43,
+    "contributor_aggregate_ytd": 753.35,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431496"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -109,7 +387,161 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 11.03,
     "contributor_aggregate_ytd": 245.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431491"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q2",
+    "entity_type_desc": "ORGANIZATION",
+    "contributor_name": "CUSTOMINK, LLC",
+    "contributor_city": "FAIRFAX",
+    "contributor_state": "VA",
+    "contributor_zip": 220312282,
+    "contributor_employer": "",
+    "contributor_occupation": "CONDUIT TOTAL LISTED IN AGG. FIELD",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 11.03,
+    "contributor_aggregate_ytd": 753.35,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431491"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "COWART, VICKI",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802202432,
+    "contributor_employer": "PLANNED PARENTHOOD OF THE ROCKY MOUNTA",
+    "contributor_occupation": "PRES. & CEO",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 15,
+    "contributor_aggregate_ytd": 215,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068762"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "DAY-LUCORE, PAUL",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802306949,
+    "contributor_employer": "N/A",
+    "contributor_occupation": "HOMEMAKER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 15,
+    "contributor_aggregate_ytd": 236.41,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068766"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "DAY-LUCORE, PAUL",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802306949,
+    "contributor_employer": "N/A",
+    "contributor_occupation": "HOMEMAKER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 15,
+    "contributor_aggregate_ytd": 251.41,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068767"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HALPERN, IRIS",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802063815,
+    "contributor_employer": "RATHOD MOHAMEDBHAI LLC",
+    "contributor_occupation": "ATTORNEY",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 15,
+    "contributor_aggregate_ytd": 377,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068778"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "PULHAM, CYNTHIA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809092831,
+    "contributor_employer": "EXIT REALTY PIKES PEAK",
+    "contributor_occupation": "REALTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 15,
+    "contributor_aggregate_ytd": 481,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068795"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "REEVES, LAURA",
+    "contributor_city": "HIGHLANDS RANCH",
+    "contributor_state": "CO",
+    "contributor_zip": 801265662,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 15,
+    "contributor_aggregate_ytd": 185,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068795"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "REEVES, LAURA",
+    "contributor_city": "HIGHLANDS RANCH",
+    "contributor_state": "CO",
+    "contributor_zip": 801265662,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 15,
+    "contributor_aggregate_ytd": 200,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068796"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "REEVES, LAURA",
+    "contributor_city": "HIGHLANDS RANCH",
+    "contributor_state": "CO",
+    "contributor_zip": 801265662,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 15,
+    "contributor_aggregate_ytd": 215,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068797"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -125,7 +557,144 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 15,
     "contributor_aggregate_ytd": 1015,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646578"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BONNER, TONYA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809207124,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20,
+    "contributor_aggregate_ytd": 153,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068749"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CASPERS, JANET",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802203219,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20,
+    "contributor_aggregate_ytd": 251,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068760"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "RUHNOW, ADRIENNE",
+    "contributor_city": "HIGHLANDS RANCH",
+    "contributor_state": "CO",
+    "contributor_zip": 801262420,
+    "contributor_employer": "CHUZE FITNES",
+    "contributor_occupation": "GAP MANAGER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20,
+    "contributor_aggregate_ytd": 180,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068800"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "RUHNOW, ADRIENNE",
+    "contributor_city": "HIGHLANDS RANCH",
+    "contributor_state": "CO",
+    "contributor_zip": 801262420,
+    "contributor_employer": "CHUZE FITNES",
+    "contributor_occupation": "GAP MANAGER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20,
+    "contributor_aggregate_ytd": 200,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068800"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "RUHNOW, ADRIENNE",
+    "contributor_city": "HIGHLANDS RANCH",
+    "contributor_state": "CO",
+    "contributor_zip": 801262420,
+    "contributor_employer": "CHUZE FITNES",
+    "contributor_occupation": "GAP MANAGER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20,
+    "contributor_aggregate_ytd": 220,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068801"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "WILLIAMS, SONYA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809218430,
+    "contributor_employer": "DEPT OF VA",
+    "contributor_occupation": "HR SPECIALIST",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20,
+    "contributor_aggregate_ytd": 450.03,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068821"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "WILLIAMS, SONYA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809218430,
+    "contributor_employer": "DEPT OF VA",
+    "contributor_occupation": "HR SPECIALIST",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20,
+    "contributor_aggregate_ytd": 470.03,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068822"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "WILLIAMS, SONYA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809218430,
+    "contributor_employer": "DEPT OF VA",
+    "contributor_occupation": "HR SPECIALIST",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20,
+    "contributor_aggregate_ytd": 531.03,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068822"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -141,7 +710,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 1547,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431455"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -157,7 +727,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 140,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431488"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -173,7 +744,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 160,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431489"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -189,7 +761,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 234,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431490"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -205,7 +778,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 216.2,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646587"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -221,7 +795,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 72,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646596"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -237,7 +812,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 315.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646615"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -253,7 +829,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 385.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646616"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -269,7 +846,59 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20,
     "contributor_aggregate_ytd": 405.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646617"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MARES, BECKY",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809076329,
+    "contributor_employer": "SHARE OUR STRENGTH",
+    "contributor_occupation": "NONPROFIT MANAGER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20.2,
+    "contributor_aggregate_ytd": 236.4,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068786"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MARES, BECKY",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809076329,
+    "contributor_employer": "SHARE OUR STRENGTH",
+    "contributor_occupation": "NONPROFIT MANAGER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20.2,
+    "contributor_aggregate_ytd": 256.6,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068786"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MARES, BECKY",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809076329,
+    "contributor_employer": "SHARE OUR STRENGTH",
+    "contributor_occupation": "NONPROFIT MANAGER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 20.2,
+    "contributor_aggregate_ytd": 276.8,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068787"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -285,7 +914,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20.2,
     "contributor_aggregate_ytd": 130.8,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646584"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -301,7 +931,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20.2,
     "contributor_aggregate_ytd": 151,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646585"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -317,7 +948,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 20.2,
     "contributor_aggregate_ytd": 171.2,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646586"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -333,7 +965,229 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 21.33,
     "contributor_aggregate_ytd": 521.33,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431484"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q2",
+    "entity_type_desc": "ORGANIZATION",
+    "contributor_name": "CUSTOMINK, LLC",
+    "contributor_city": "FAIRFAX",
+    "contributor_state": "VA",
+    "contributor_zip": 220312282,
+    "contributor_employer": "",
+    "contributor_occupation": "CONDUIT TOTAL LISTED IN AGG. FIELD",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 21.33,
+    "contributor_aggregate_ytd": 753.35,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431484"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "ANDERSON, DORENA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802497586,
+    "contributor_employer": "SALON OWNER",
+    "contributor_occupation": "SELF",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 290,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068743"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "ANDERSON, DORENA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802497586,
+    "contributor_employer": "SALON OWNER",
+    "contributor_occupation": "SELF",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 315,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068743"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "ANDERSON, DORENA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802497586,
+    "contributor_employer": "SALON OWNER",
+    "contributor_occupation": "SELF",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 340,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068744"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BRUNDAGE, MAEGAN",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809051042,
+    "contributor_employer": "CASA OF THE PIKES PEAK REGION",
+    "contributor_occupation": "SOCIAL WORKER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 125,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068750"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BRUNDAGE, MAEGAN",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809051042,
+    "contributor_employer": "CASA OF THE PIKES PEAK REGION",
+    "contributor_occupation": "SOCIAL WORKER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 150,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068751"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BRUNDAGE, MAEGAN",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809051042,
+    "contributor_employer": "CASA OF THE PIKES PEAK REGION",
+    "contributor_occupation": "SOCIAL WORKER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 175,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068752"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HIRSCH, KRISTEN",
+    "contributor_city": "HIGHLANDS RANCH",
+    "contributor_state": "CO",
+    "contributor_zip": 801296458,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 538.03,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068780"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HIRSCH, KRISTEN",
+    "contributor_city": "HIGHLANDS RANCH",
+    "contributor_state": "CO",
+    "contributor_zip": 801296458,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 563.03,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068781"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HIRSCH, KRISTEN",
+    "contributor_city": "HIGHLANDS RANCH",
+    "contributor_state": "CO",
+    "contributor_zip": 801296458,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 588.03,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068782"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "RICHARD, SHAYLA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802394004,
+    "contributor_employer": "ZAYO",
+    "contributor_occupation": "SOFTWARE ENGINEER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 257,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068798"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "RICHARD, SHAYLA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802394004,
+    "contributor_employer": "ZAYO",
+    "contributor_occupation": "SOFTWARE ENGINEER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 282,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068798"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "RICHARD, SHAYLA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802394004,
+    "contributor_employer": "ZAYO",
+    "contributor_occupation": "SOFTWARE ENGINEER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 25,
+    "contributor_aggregate_ytd": 307,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068799"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -349,7 +1203,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 215,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646555"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -365,7 +1220,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 240,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646556"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -381,7 +1237,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 265,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646557"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -397,7 +1254,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 175.59,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646572"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -413,7 +1271,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 325,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646573"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -429,7 +1288,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 436.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646576"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -445,7 +1305,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 461.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646576"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -461,7 +1322,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 513.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646578"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -477,7 +1339,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 196.2,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646586"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -493,7 +1356,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 275,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646594"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -509,7 +1373,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 52,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646595"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -525,7 +1390,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 157,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646597"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -541,7 +1407,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 182,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646598"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -557,7 +1424,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 1425,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646605"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -573,7 +1441,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 889.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646608"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -589,7 +1458,399 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 25,
     "contributor_aggregate_ytd": 430.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646618"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BELLAMY, JOSEPH",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802094042,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 189,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068745"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BELLAMY, JOSEPH",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802094042,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 216,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068746"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BELLAMY, JOSEPH",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802094042,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 243,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068747"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BONNER, TONYA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809207124,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 106,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068747"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BONNER, TONYA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809207124,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 133,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068748"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BONNER, TONYA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809207124,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 180,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068749"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BONNER, TONYA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809207124,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 207,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068750"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "FELTON, SUSANNE",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802203219,
+    "contributor_employer": "UNIVERSITY OF COLORADO",
+    "contributor_occupation": "RESEARCH ASSISTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 467,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068771"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HALPERN, GALIA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802063815,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 229.59,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068776"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HALPERN, GALIA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802063815,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 256.59,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068776"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MARES, BECKY",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809076329,
+    "contributor_employer": "SHARE OUR STRENGTH",
+    "contributor_occupation": "NONPROFIT MANAGER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 303.8,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068788"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SAMUELS, DENA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802181944,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "ASSOC PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 264,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068802"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SAMUELS, DENA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802181944,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "ASSOC PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 291,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068803"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SAMUELS, DENA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802181944,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "ASSOC PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 318,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068804"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "STEWART, JOHN",
+    "contributor_city": "BOSTON",
+    "contributor_state": "MA",
+    "contributor_zip": "021251009",
+    "contributor_employer": "VOTER CHOICE MASSACHUSETTS",
+    "contributor_occupation": "DEPUTY FINANCE DIRECTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 189,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068813"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "STEWART, JOHN",
+    "contributor_city": "BOSTON",
+    "contributor_state": "MA",
+    "contributor_zip": "021251009",
+    "contributor_employer": "VOTER CHOICE MASSACHUSETTS",
+    "contributor_occupation": "DEPUTY FINANCE DIRECTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 216,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068814"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "STEWART, JOHN",
+    "contributor_city": "BOSTON",
+    "contributor_state": "MA",
+    "contributor_zip": "021251009",
+    "contributor_employer": "VOTER CHOICE MASSACHUSETTS",
+    "contributor_occupation": "DEPUTY FINANCE DIRECTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 243,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068814"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "STEWART, SHIRLEY A",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809239215,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 181,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068815"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "STEWART, SHIRLEY A",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809239215,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 208,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068816"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "STEWART, SHIRLEY A",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809239215,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 235,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068816"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "TRAENKLE, DAVID",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041729,
+    "contributor_employer": "SELF-EMPLOYED",
+    "contributor_occupation": "ENTREPRENEUR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 189,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068819"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "TRAENKLE, DAVID",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041729,
+    "contributor_employer": "SELF-EMPLOYED",
+    "contributor_occupation": "ENTREPRENEUR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 216,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068820"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "TRAENKLE, DAVID",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041729,
+    "contributor_employer": "SELF-EMPLOYED",
+    "contributor_occupation": "ENTREPRENEUR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 27,
+    "contributor_aggregate_ytd": 243,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068820"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -605,7 +1866,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 27,
     "contributor_aggregate_ytd": 27,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431453"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -621,7 +1883,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 27,
     "contributor_aggregate_ytd": 150.59,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646571"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -637,7 +1900,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 27,
     "contributor_aggregate_ytd": 202.59,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646573"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -653,7 +1917,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 27,
     "contributor_aggregate_ytd": 352,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646574"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -669,7 +1934,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 27,
     "contributor_aggregate_ytd": 488.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646577"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -685,7 +1951,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 27,
     "contributor_aggregate_ytd": 133,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646600"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -701,7 +1968,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 27,
     "contributor_aggregate_ytd": 160,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646600"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -717,13 +1985,14 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 27,
     "contributor_aggregate_ytd": 187,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646601"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
     "report_type": "Q2",
-    "entity_type_desc": "INDIVIDUAL",
+    "entity_type_desc": "CANDIDATE",
     "contributor_name": "SPAULDING, STEPHANY R",
     "contributor_city": "COLORADO SPRINGS",
     "contributor_state": "CO",
@@ -733,7 +2002,25 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 28.46,
     "contributor_aggregate_ytd": 3096.33,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431495"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q2",
+    "entity_type_desc": "ORGANIZATION",
+    "contributor_name": "CUSTOMINK, LLC",
+    "contributor_city": "FAIRFAX",
+    "contributor_state": "VA",
+    "contributor_zip": 220312282,
+    "contributor_employer": "",
+    "contributor_occupation": "CONDUIT TOTAL LISTED IN AGG. FIELD",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 28.46,
+    "contributor_aggregate_ytd": 753.35,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431495"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -749,13 +2036,99 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 33.39,
     "contributor_aggregate_ytd": 333.39,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431473"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
     "report_type": "Q2",
+    "entity_type_desc": "ORGANIZATION",
+    "contributor_name": "CUSTOMINK, LLC",
+    "contributor_city": "FAIRFAX",
+    "contributor_state": "VA",
+    "contributor_zip": 220312282,
+    "contributor_employer": "",
+    "contributor_occupation": "CONDUIT TOTAL LISTED IN AGG. FIELD",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 33.39,
+    "contributor_aggregate_ytd": 753.35,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431473"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
     "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "GIBERT, STEPHANIE",
+    "contributor_city": "MONTROSE",
+    "contributor_state": "CO",
+    "contributor_zip": 814038604,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 35,
+    "contributor_aggregate_ytd": 285,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068772"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "CANDIDATE",
+    "contributor_name": "SPAULDING, STEPHANY R",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809031301,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 38.83,
+    "contributor_aggregate_ytd": 11230.29,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068824"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "CANDIDATE",
+    "contributor_name": "SPAULDING, STEPHANY R",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809031301,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 38.83,
+    "contributor_aggregate_ytd": 11279.12,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068824"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "CANDIDATE",
+    "contributor_name": "SPAULDING, STEPHANY R",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809031301,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 38.83,
+    "contributor_aggregate_ytd": 14187.4,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068826"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q2",
+    "entity_type_desc": "CANDIDATE",
     "contributor_name": "SPAULDING, STEPHANY R",
     "contributor_city": "COLORADO SPRINGS",
     "contributor_state": "CO",
@@ -765,13 +2138,14 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 38.83,
     "contributor_aggregate_ytd": 2730.08,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431494"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
     "report_type": "Q2",
-    "entity_type_desc": "INDIVIDUAL",
+    "entity_type_desc": "CANDIDATE",
     "contributor_name": "SPAULDING, STEPHANY R",
     "contributor_city": "COLORADO SPRINGS",
     "contributor_state": "CO",
@@ -781,13 +2155,14 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 38.83,
     "contributor_aggregate_ytd": 3067.87,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431495"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
     "report_type": "Q2",
-    "entity_type_desc": "INDIVIDUAL",
+    "entity_type_desc": "CANDIDATE",
     "contributor_name": "SPAULDING, STEPHANY R",
     "contributor_city": "COLORADO SPRINGS",
     "contributor_state": "CO",
@@ -797,7 +2172,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 38.83,
     "contributor_aggregate_ytd": 3641.15,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431497"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -812,8 +2188,9 @@
     "contributor_occupation": "PROFESSOR",
     "receipt_type_full": "",
     "contribution_receipt_amount": 38.83,
-    "contributor_aggregate_ytd": 4712.7,
-    "fec_election_type_desc": "PRIMARY"
+    "contributor_aggregate_ytd": 7403.95,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646619"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -828,8 +2205,9 @@
     "contributor_occupation": "PROFESSOR",
     "receipt_type_full": "",
     "contribution_receipt_amount": 38.83,
-    "contributor_aggregate_ytd": 4751.53,
-    "fec_election_type_desc": "PRIMARY"
+    "contributor_aggregate_ytd": 7442.78,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646619"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -844,8 +2222,94 @@
     "contributor_occupation": "PROFESSOR",
     "receipt_type_full": "",
     "contribution_receipt_amount": 38.83,
-    "contributor_aggregate_ytd": 8500.21,
-    "fec_election_type_desc": "PRIMARY"
+    "contributor_aggregate_ytd": 11191.46,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646620"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CARR, JULIE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809041211,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 41,
+    "contributor_aggregate_ytd": 161,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068754"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CASPERS, JANET",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802203219,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 41,
+    "contributor_aggregate_ytd": 231,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068760"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "DEVORE, GAIL",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802242150,
+    "contributor_employer": "2DEGREES LLC",
+    "contributor_occupation": "IT CONSULTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 41,
+    "contributor_aggregate_ytd": 241,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068768"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "PULHAM, CYNTHIA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809092831,
+    "contributor_employer": "EXIT REALTY PIKES PEAK",
+    "contributor_occupation": "REALTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 41,
+    "contributor_aggregate_ytd": 416,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068793"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "WILLIAMS, SONYA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809218430,
+    "contributor_employer": "DEPT OF VA",
+    "contributor_occupation": "HR SPECIALIST",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 41,
+    "contributor_aggregate_ytd": 531.03,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068823"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -861,7 +2325,25 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 42.98,
     "contributor_aggregate_ytd": 564.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431485"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q2",
+    "entity_type_desc": "ORGANIZATION",
+    "contributor_name": "CUSTOMINK, LLC",
+    "contributor_city": "FAIRFAX",
+    "contributor_state": "VA",
+    "contributor_zip": 220312282,
+    "contributor_employer": "",
+    "contributor_occupation": "CONDUIT TOTAL LISTED IN AGG. FIELD",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 42.98,
+    "contributor_aggregate_ytd": 753.35,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431485"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -877,7 +2359,110 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 49,
     "contributor_aggregate_ytd": 299,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646583"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "FELTON, SUSANNE",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802203219,
+    "contributor_employer": "UNIVERSITY OF COLORADO",
+    "contributor_occupation": "RESEARCH ASSISTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 50,
+    "contributor_aggregate_ytd": 190,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068770"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MANNING, BERNADINE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809221625,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "SALES",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 50,
+    "contributor_aggregate_ytd": 250,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068785"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "PULHAM, CYNTHIA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809092831,
+    "contributor_employer": "EXIT REALTY PIKES PEAK",
+    "contributor_occupation": "REALTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 50,
+    "contributor_aggregate_ytd": 466,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068794"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "TALARICO, MICHELLE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809061023,
+    "contributor_employer": "THE PICNIC BASLET",
+    "contributor_occupation": "SMALL BUSNIESS OWNER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 50,
+    "contributor_aggregate_ytd": 350,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068817"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "TALARICO, MICHELLE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809061023,
+    "contributor_employer": "THE PICNIC BASLET",
+    "contributor_occupation": "SMALL BUSNIESS OWNER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 50,
+    "contributor_aggregate_ytd": 400,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068818"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "TALARICO, MICHELLE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809061023,
+    "contributor_employer": "THE PICNIC BASLET",
+    "contributor_occupation": "SMALL BUSNIESS OWNER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 50,
+    "contributor_aggregate_ytd": 450,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068818"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -893,7 +2478,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 295.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431491"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -909,7 +2495,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 150,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646593"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -925,7 +2512,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 232,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646598"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -941,7 +2529,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 237,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646602"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -957,7 +2546,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646612"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -973,7 +2563,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646613"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -989,7 +2580,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646614"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1005,7 +2597,76 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 50,
     "contributor_aggregate_ytd": 365.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646616"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "ANDERSON, CHERRY-ROSE",
+    "contributor_city": "BOULDER",
+    "contributor_state": "CO",
+    "contributor_zip": 803042259,
+    "contributor_employer": "CHARON DEVELOPMENT",
+    "contributor_occupation": "COMPUTER PROGRAMMER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 54,
+    "contributor_aggregate_ytd": 378,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068741"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "ANDERSON, CHERRY-ROSE",
+    "contributor_city": "BOULDER",
+    "contributor_state": "CO",
+    "contributor_zip": 803042259,
+    "contributor_employer": "CHARON DEVELOPMENT",
+    "contributor_occupation": "COMPUTER PROGRAMMER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 54,
+    "contributor_aggregate_ytd": 432,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068741"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "ANDERSON, CHERRY-ROSE",
+    "contributor_city": "BOULDER",
+    "contributor_state": "CO",
+    "contributor_zip": 803042259,
+    "contributor_employer": "CHARON DEVELOPMENT",
+    "contributor_occupation": "COMPUTER PROGRAMMER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 54,
+    "contributor_aggregate_ytd": 486,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068742"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BRUNDAGE, MAEGAN",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809051042,
+    "contributor_employer": "CASA OF THE PIKES PEAK REGION",
+    "contributor_occupation": "SOCIAL WORKER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 54,
+    "contributor_aggregate_ytd": 229,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068752"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1021,7 +2682,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 54,
     "contributor_aggregate_ytd": 214,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431489"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1037,7 +2699,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 54,
     "contributor_aggregate_ytd": 216,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646553"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1053,7 +2716,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 54,
     "contributor_aggregate_ytd": 270,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646554"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1069,7 +2733,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 54,
     "contributor_aggregate_ytd": 324,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646555"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1085,7 +2750,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 54,
     "contributor_aggregate_ytd": 241,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646575"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1101,7 +2767,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 54,
     "contributor_aggregate_ytd": 387.39,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646599"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1117,7 +2784,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 60,
     "contributor_aggregate_ytd": 310,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646588"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1133,7 +2801,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 60,
     "contributor_aggregate_ytd": 132,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646596"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1149,7 +2818,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 70,
     "contributor_aggregate_ytd": 670,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646571"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1165,7 +2835,501 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 79.45,
     "contributor_aggregate_ytd": 579.45,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431452"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q2",
+    "entity_type_desc": "ORGANIZATION",
+    "contributor_name": "CUSTOMINK, LLC",
+    "contributor_city": "FAIRFAX",
+    "contributor_state": "VA",
+    "contributor_zip": 220312282,
+    "contributor_employer": "",
+    "contributor_occupation": "CONDUIT TOTAL LISTED IN AGG. FIELD",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 79.45,
+    "contributor_aggregate_ytd": 753.35,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431453"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "BELKIN, AARON",
+    "contributor_city": "SAN FRANCISCO",
+    "contributor_state": "CA",
+    "contributor_zip": 941101368,
+    "contributor_employer": "SFSU",
+    "contributor_occupation": "PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 700,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068745"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "CASPERS, JANET",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802203219,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 190,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068759"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "COWART, VICKI",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802202432,
+    "contributor_employer": "PLANNED PARENTHOOD OF THE ROCKY MOUNTA",
+    "contributor_occupation": "PRES. & CEO",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 215,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068762"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "COWART, VICKI",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802202432,
+    "contributor_employer": "PLANNED PARENTHOOD OF THE ROCKY MOUNTA",
+    "contributor_occupation": "PRES. & CEO",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 315,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068763"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "DANNEWITZ, KAREN",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809091806,
+    "contributor_employer": "RETIRED",
+    "contributor_occupation": "RETIRED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 500,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068764"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "DEVORE, GAIL",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802242150,
+    "contributor_employer": "2DEGREES LLC",
+    "contributor_occupation": "IT CONSULTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 341,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068768"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "GOENS, DONALD",
+    "contributor_city": "FLOSSMOOR",
+    "contributor_state": "IL",
+    "contributor_zip": 604222053,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 350,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068773"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "GRIFFIN, DEBORAH",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809205110,
+    "contributor_employer": "DAVITA MEDICAL GROUP",
+    "contributor_occupation": "NURSE PRACTITIONER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 770,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068774"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "GRIFFIN, DEBORAH",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809205110,
+    "contributor_employer": "DAVITA MEDICAL GROUP",
+    "contributor_occupation": "NURSE PRACTITIONER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 870,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068775"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HARROD, VICTORIA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802196501,
+    "contributor_employer": "TRUE LINK FINANCIAL",
+    "contributor_occupation": "SOFTWARE DEVELOPER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 341,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068778"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HENDERSON, REBEKAH",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802382832,
+    "contributor_employer": "DENVER PUBLIC LIBRARY",
+    "contributor_occupation": "LIBRARIAN",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 127,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068779"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HENDERSON, REBEKAH",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802382832,
+    "contributor_employer": "DENVER PUBLIC LIBRARY",
+    "contributor_occupation": "LIBRARIAN",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 377,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068780"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "OWEN, JENNY",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809193585,
+    "contributor_employer": "RETIRED",
+    "contributor_occupation": "RETIRED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 700,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068790"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "OWEN, JENNY",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809193585,
+    "contributor_employer": "RETIRED",
+    "contributor_occupation": "RETIRED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 800,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068790"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "OWEN, JENNY",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809193585,
+    "contributor_employer": "RETIRED",
+    "contributor_occupation": "RETIRED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 900,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068791"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "OWEN, JENNY",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809193585,
+    "contributor_employer": "RETIRED",
+    "contributor_occupation": "RETIRED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 1000,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068792"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "PULHAM, CYNTHIA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809092831,
+    "contributor_employer": "EXIT REALTY PIKES PEAK",
+    "contributor_occupation": "REALTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 416,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068793"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SALAAM, DAWUD",
+    "contributor_city": "FOUNTAIN",
+    "contributor_state": "CO",
+    "contributor_zip": 808174097,
+    "contributor_employer": "GOAL ACADEMY",
+    "contributor_occupation": "SOCIAL WORKER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 487.39,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068802"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SMITH, LINDA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809182450,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "GRAD T.A",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 700,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068805"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SMITH, LINDA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809182450,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "GRAD T.A",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 800,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068805"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SMITH, LINDA",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809182450,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "GRAD T.A",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 900,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068806"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPAULDING, LAWRENCE L.",
+    "contributor_city": "CHICAGO",
+    "contributor_state": "IL",
+    "contributor_zip": 606284952,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 1000,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068806"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPAULDING, LAWRENCE L.",
+    "contributor_city": "CHICAGO",
+    "contributor_state": "IL",
+    "contributor_zip": 606284952,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 2000,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068807"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPAULDING, LAWRENCE L.",
+    "contributor_city": "CHICAGO",
+    "contributor_state": "IL",
+    "contributor_zip": 606284952,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 2100,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068808"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPAULDING, ROSEMARY",
+    "contributor_city": "CHICAGO",
+    "contributor_state": "IL",
+    "contributor_zip": 606284952,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 1489.31,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068809"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPAULDING, ROSEMARY",
+    "contributor_city": "CHICAGO",
+    "contributor_state": "IL",
+    "contributor_zip": 606284952,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 2689.31,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068810"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPAULDING, ROSEMARY",
+    "contributor_city": "CHICAGO",
+    "contributor_state": "IL",
+    "contributor_zip": 606284952,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 2689.31,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068811"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPAULDING, ROSEMARY",
+    "contributor_city": "CHICAGO",
+    "contributor_state": "IL",
+    "contributor_zip": 606284952,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 100,
+    "contributor_aggregate_ytd": 2789.31,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068811"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1181,7 +3345,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431461"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1197,7 +3362,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 350,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431464"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1213,7 +3379,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 100,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431468"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1229,7 +3396,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431468"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1245,7 +3413,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431469"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1261,7 +3430,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431472"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1277,7 +3447,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 100,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431475"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1293,7 +3464,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431476"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1309,7 +3481,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431476"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1325,7 +3498,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 100,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431477"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1341,7 +3515,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 100,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431478"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1357,7 +3532,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431479"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1373,7 +3549,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 600,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431480"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1389,7 +3566,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 100,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431481"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1405,7 +3583,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431481"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1421,7 +3600,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431482"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1437,7 +3617,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431483"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1453,7 +3634,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431483"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1469,7 +3651,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 764.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431485"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1485,7 +3668,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 764.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431486"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1501,7 +3685,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 600,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646558"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1517,7 +3702,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646558"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1533,7 +3719,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646561"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1549,7 +3736,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646562"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1565,7 +3753,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646562"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1581,7 +3770,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646563"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1597,7 +3787,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646564"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1613,7 +3804,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646564"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1629,7 +3821,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646568"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1645,7 +3838,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646569"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1661,7 +3855,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646569"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1677,7 +3872,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 600,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646570"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1693,7 +3889,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 150,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646580"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1709,7 +3906,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646590"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1725,7 +3923,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646591"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1741,7 +3940,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 600,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646591"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1757,7 +3957,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 275,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646593"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1773,7 +3974,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646603"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1789,7 +3991,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646604"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1805,7 +4008,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 600,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646604"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1821,7 +4025,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 700,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646606"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1837,7 +4042,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 800,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646606"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1853,7 +4059,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 900,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646607"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1869,7 +4076,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 864.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646608"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1885,7 +4093,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 1089.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646609"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1901,7 +4110,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 1089.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646610"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1917,7 +4127,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 1189.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646610"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1933,7 +4144,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 1289.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646611"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1949,7 +4161,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 1389.31,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646612"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1965,7 +4178,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 100,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646614"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1981,7 +4195,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 120,
     "contributor_aggregate_ytd": 140,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431487"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -1997,7 +4212,42 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 125,
     "contributor_aggregate_ytd": 704.45,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646559"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MARYAM, AUSET",
+    "contributor_city": "AURORA",
+    "contributor_state": "CO",
+    "contributor_zip": 800125209,
+    "contributor_employer": "VPAC",
+    "contributor_occupation": "FOUNDER EXECUTIVE DIRECTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 135,
+    "contributor_aggregate_ytd": 385,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068788"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HENDERSON, REBEKAH",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802382832,
+    "contributor_employer": "DENVER PUBLIC LIBRARY",
+    "contributor_occupation": "LIBRARIAN",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 150,
+    "contributor_aggregate_ytd": 277,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068779"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2013,7 +4263,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 170,
     "contributor_aggregate_ytd": 670,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431456"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2029,7 +4280,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 200,
     "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431460"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2045,7 +4297,93 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 200,
     "contributor_aggregate_ytd": 200,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431471"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "DAVID, CALEB",
+    "contributor_city": "MONUMENT",
+    "contributor_state": "CO",
+    "contributor_zip": 801320909,
+    "contributor_employer": "DAVID REAL ESTATE GROUP",
+    "contributor_occupation": "REAL ESTATE",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 750,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068765"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "FELTON, SUSANNE",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802203219,
+    "contributor_employer": "UNIVERSITY OF COLORADO",
+    "contributor_occupation": "RESEARCH ASSISTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 440,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068770"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "GIBERT, STEPHANIE",
+    "contributor_city": "MONTROSE",
+    "contributor_state": "CO",
+    "contributor_zip": 814038604,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 250,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068772"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "LANE, SARA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802201502,
+    "contributor_employer": "MOTIVEAI",
+    "contributor_occupation": "VP OF CONTENT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 250,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068784"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPEER, REBECCA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802044552,
+    "contributor_employer": "UNIVERSITY OF COLORADO",
+    "contributor_occupation": "RESEARCH TRAINING PROGRAM MANAGER",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 250,
+    "contributor_aggregate_ytd": 250,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068812"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2061,7 +4399,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431449"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2077,7 +4416,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431451"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2093,7 +4433,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431452"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2109,7 +4450,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431463"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2125,7 +4467,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431465"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2141,7 +4484,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431465"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2157,7 +4501,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431466"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2173,7 +4518,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431467"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2189,7 +4535,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431471"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2205,7 +4552,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431474"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2221,7 +4569,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431492"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2237,7 +4586,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646560"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2253,7 +4603,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646567"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2269,7 +4620,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 400,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646580"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2285,13 +4637,14 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 250,
     "contributor_aggregate_ytd": 304,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646584"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
     "report_type": "Q2",
-    "entity_type_desc": "INDIVIDUAL",
+    "entity_type_desc": "CANDIDATE",
     "contributor_name": "SPAULDING, STEPHANY R",
     "contributor_city": "COLORADO SPRINGS",
     "contributor_state": "CO",
@@ -2301,7 +4654,42 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 298.96,
     "contributor_aggregate_ytd": 3029.04,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431494"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "COZART, THOMETTA",
+    "contributor_city": "TUSCALOOSA",
+    "contributor_state": "AL",
+    "contributor_zip": 354063243,
+    "contributor_employer": "SELF",
+    "contributor_occupation": "CONSULTANT",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 300,
+    "contributor_aggregate_ytd": 300,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068764"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "REINHARDT, FLORENCE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809197953,
+    "contributor_employer": "",
+    "contributor_occupation": "",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 300,
+    "contributor_aggregate_ytd": 800,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068797"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2317,7 +4705,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431459"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2333,7 +4722,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431461"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2349,7 +4739,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431467"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2365,7 +4756,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 300,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431470"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2381,7 +4773,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431479"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2397,7 +4790,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 300,
     "contributor_aggregate_ytd": 411.03,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646575"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2413,7 +4807,42 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 383.96,
     "contributor_aggregate_ytd": 2680.96,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431455"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "PAGITT, DOUG",
+    "contributor_city": "MINNEAPOLIS",
+    "contributor_state": "MN",
+    "contributor_zip": 554241929,
+    "contributor_employer": "VOTE COMMON GOOD",
+    "contributor_occupation": "EXECUTIVE DIRECTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 384.6,
+    "contributor_aggregate_ytd": 384.6,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068792"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SIMAS, RITA",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802226108,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 410,
+    "contributor_aggregate_ytd": 410,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068804"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2429,13 +4858,14 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 495.32,
     "contributor_aggregate_ytd": 495.32,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431453"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
     "report_type": "Q2",
-    "entity_type_desc": "INDIVIDUAL",
+    "entity_type_desc": "CANDIDATE",
     "contributor_name": "SPAULDING, STEPHANY R",
     "contributor_city": "COLORADO SPRINGS",
     "contributor_state": "CO",
@@ -2445,7 +4875,59 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 495.56,
     "contributor_aggregate_ytd": 3602.32,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431496"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "HOLSTON, JB",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802094908,
+    "contributor_employer": "UNIVERSITY OF DENVER",
+    "contributor_occupation": "DEAN",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 500,
+    "contributor_aggregate_ytd": 500,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068782"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "MURDAUGH, ANNE",
+    "contributor_city": "DENVER",
+    "contributor_state": "CO",
+    "contributor_zip": 802094908,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 500,
+    "contributor_aggregate_ytd": 2560,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068789"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "STEDL, JOHN",
+    "contributor_city": "ANTIOCH",
+    "contributor_state": "IL",
+    "contributor_zip": 600029555,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 500,
+    "contributor_aggregate_ytd": 600,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068812"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2461,7 +4943,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431449"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2477,7 +4960,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431456"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2493,7 +4977,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431457"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2509,7 +4994,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431460"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2525,7 +5011,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431470"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2541,7 +5028,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431473"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2557,7 +5045,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431474"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2573,7 +5062,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431487"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2589,7 +5079,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646581"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2605,7 +5096,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646582"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2621,7 +5113,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646582"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2637,7 +5130,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 810,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646588"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2653,7 +5147,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 2060,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646589"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2669,7 +5164,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 700,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646592"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2685,7 +5181,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646595"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2701,7 +5198,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 500,
     "contributor_aggregate_ytd": 500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646602"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2717,7 +5215,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 625,
     "contributor_aggregate_ytd": 625,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431463"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2733,7 +5232,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 625,
     "contributor_aggregate_ytd": 1250,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431463"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2749,7 +5249,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 750,
     "contributor_aggregate_ytd": 777,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431454"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2765,7 +5266,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 750,
     "contributor_aggregate_ytd": 1527,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431454"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2781,7 +5283,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 750,
     "contributor_aggregate_ytd": 2680.96,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431455"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2797,7 +5300,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 750,
     "contributor_aggregate_ytd": 750,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431487"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2813,7 +5317,59 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 750,
     "contributor_aggregate_ytd": 1560,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646589"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPAULDING, LAWRENCE L.",
+    "contributor_city": "CHICAGO",
+    "contributor_state": "IL",
+    "contributor_zip": 606284952,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 900,
+    "contributor_aggregate_ytd": 2000,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068808"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "LEE, PROMISE",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809103620,
+    "contributor_employer": "GOD",
+    "contributor_occupation": "PASTOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 1000,
+    "contributor_aggregate_ytd": 1200,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068784"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "SPAULDING, ROSEMARY",
+    "contributor_city": "CHICAGO",
+    "contributor_state": "IL",
+    "contributor_zip": 606284952,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 1000,
+    "contributor_aggregate_ytd": 2489.31,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068810"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2829,7 +5385,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431450"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2845,7 +5402,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431458"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2861,7 +5419,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431459"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2877,7 +5436,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431499"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2893,7 +5453,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646553"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2909,7 +5470,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1000,
     "contributor_aggregate_ytd": 1015,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646579"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2925,7 +5487,25 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 1300,
     "contributor_aggregate_ytd": 1400,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431478"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "INDIVIDUAL",
+    "contributor_name": "GREIWE, ANDREW",
+    "contributor_city": "CHARLOTTE",
+    "contributor_state": "NC",
+    "contributor_zip": 282114272,
+    "contributor_employer": "NOT EMPLOYED",
+    "contributor_occupation": "NOT EMPLOYED",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 2000,
+    "contributor_aggregate_ytd": 2000,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068774"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2941,7 +5521,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2000,
     "contributor_aggregate_ytd": 2000,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431450"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2957,7 +5538,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2100,
     "contributor_aggregate_ytd": 2770,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431457"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2973,7 +5555,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2250,
     "contributor_aggregate_ytd": 2500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431466"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -2989,7 +5572,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2400,
     "contributor_aggregate_ytd": 2400,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646590"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -3005,7 +5589,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 2500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646557"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -3021,7 +5606,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 2500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646567"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -3037,13 +5623,14 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2500,
     "contributor_aggregate_ytd": 2500,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646595"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
     "report_type": "Q2",
-    "entity_type_desc": "INDIVIDUAL",
+    "entity_type_desc": "CANDIDATE",
     "contributor_name": "SPAULDING, STEPHANY R",
     "contributor_city": "COLORADO SPRINGS",
     "contributor_state": "CO",
@@ -3053,7 +5640,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2691.25,
     "contributor_aggregate_ytd": 2691.25,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431494"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -3069,7 +5657,25 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 2800,
     "contributor_aggregate_ytd": 2800,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431462"
+  },
+  {
+    "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
+    "report_year": 2019,
+    "report_type": "Q4",
+    "entity_type_desc": "CANDIDATE",
+    "contributor_name": "SPAULDING, STEPHANY R",
+    "contributor_city": "COLORADO SPRINGS",
+    "contributor_state": "CO",
+    "contributor_zip": 809031301,
+    "contributor_employer": "UCCS",
+    "contributor_occupation": "PROFESSOR",
+    "receipt_type_full": "",
+    "contribution_receipt_amount": 2864.45,
+    "contributor_aggregate_ytd": 14148.57,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?202001319184068825"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -3084,14 +5690,15 @@
     "contributor_occupation": "PROFESSOR",
     "receipt_type_full": "",
     "contribution_receipt_amount": 3709.85,
-    "contributor_aggregate_ytd": 8500.21,
-    "fec_election_type_desc": "PRIMARY"
+    "contributor_aggregate_ytd": 11191.46,
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912209166646619"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
     "report_year": 2019,
     "report_type": "Q2",
-    "entity_type_desc": "INDIVIDUAL",
+    "entity_type_desc": "CANDIDATE",
     "contributor_name": "SPAULDING, STEPHANY R",
     "contributor_city": "COLORADO SPRINGS",
     "contributor_state": "CO",
@@ -3101,7 +5708,8 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 3723.97,
     "contributor_aggregate_ytd": 7365.12,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431497"
   },
   {
     "committee_name": "COMMITTEE TO ELECT STEPHANY ROSE SPAULDING",
@@ -3117,6 +5725,7 @@
     "receipt_type_full": "",
     "contribution_receipt_amount": 37612.45,
     "contributor_aggregate_ytd": 37612.45,
-    "fec_election_type_desc": "PRIMARY"
+    "fec_election_type_desc": "PRIMARY",
+    "pdf_url": "http://docquery.fec.gov/cgi-bin/fecimg/?201912199166431499"
   }
 ]
