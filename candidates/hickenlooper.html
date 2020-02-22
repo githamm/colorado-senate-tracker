@@ -407,7 +407,12 @@
                 },
                 {
                     data: 'report_type',
-                    visible: true
+                    visible: true,
+                    render: function(data, type, row) {
+                        if (data === 'YE') {
+                            return 'Q4'
+                        } else return data
+                    }
                 },
                 {
                     data: 'report_year',
